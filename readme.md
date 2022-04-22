@@ -16,8 +16,10 @@ https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
     
 ## 规则使用方法
 
-方法一：用 Safari 或 ShadowRocket 扫描二维码即可。  
+方法一：用 Safari 或 ShadowRocket 扫描二维码即可。
+
 ![二维码](https://raw.githubusercontent.com/huijingfei/shadowrocket/main/QR%20Code/shadowrocket.png)
+
 方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则文件地址粘贴到 url 处，点击“下载”即可。
 
 ## 规则更新频率
