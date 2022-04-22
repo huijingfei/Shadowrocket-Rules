@@ -4,6 +4,8 @@ fork自 Johnshall 的白名单规则，适量精简，加入部分app广告屏�
 
 白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
 
+------------------------------------------------------
+
 https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
 
 ------------------------------------------------------
@@ -11,6 +13,7 @@ https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
     直连：top500 网站中可直连的境外网站、中国网站
     
     代理：默认代理其余的所有境外网站
+    
 ## 规则使用方法
 
 方法一：用 Safari 或 ShadowRocket 扫描二维码即可。  
