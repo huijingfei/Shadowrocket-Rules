@@ -23,7 +23,14 @@ https://raw.githubusercontent.com/huijingfei/shadowrocket/main/sr_app_ad.conf
     直连：top500 网站中可直连的境外网站、中国网站
     
     代理：默认代理其余的所有境外网站
-    
+
+
+------------------------------------------------------
+
+GeoLite2数据库：https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
+
+------------------------------------------------------
+
 ## 规则使用方法
 
 方法一：用 ShadowRocket 扫描二维码即可。
