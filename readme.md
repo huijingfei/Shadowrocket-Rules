@@ -8,7 +8,7 @@ Johnshall白名单规则:
 
 ------------------------------------------------------
 
-https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
+    https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
 
 ------------------------------------------------------
 
@@ -27,7 +27,9 @@ https://raw.githubusercontent.com/huijingfei/shadowrocket/main/sr_app_ad.conf
 
 ------------------------------------------------------
 
-GeoLite2数据库：https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
+GeoLite2数据库：
+
+    https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
 
 ------------------------------------------------------
 
