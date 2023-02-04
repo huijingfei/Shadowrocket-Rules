@@ -1,0 +1,90 @@
+﻿[
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn",
+      "geoip:private"
+    ],
+    "domain": [
+      "domain:5idhl.com",
+      "domain:96558.com",
+      "domain:amazon.com",
+      "domain:amazontrust.com",
+      "domain:bankofshanghai.com",
+      "domain:bankqh.com",
+      "domain:bigcloud.cyou",
+      "domain:bing.com",
+      "domain:bing.net",
+      "domain:cbhb.com.cn",
+      "domain:checker.in",
+      "domain:cndhl.com",
+      "domain:comodo.com",
+      "domain:deepl.com",
+      "domain:digicert.com",
+      "domain:ggpht.com",
+      "domain:github.io",
+      "domain:gitlab.com",
+      "domain:gitlab.net",
+      "domain:gitlab.io",
+      "domain:googleusercontent.com",
+      "domain:hkbchina.com",
+      "domain:jx-bank.com",
+      "domain:lencr.org",
+      "domain:licdn.com",
+      "domain:live.com",
+      "domain:media-amazon.com",
+      "domain:meixi-mgo.com",
+      "domain:messi-mgo.com",
+      "domain:microsoft.com",
+      "domain:mozilla.com",
+      "domain:msn.com",
+      "domain:mysiluzan.com",
+      "domain:olemovienews.com",
+      "domain:onetrust.com",
+      "domain:opensuse.org",
+      "domain:qdccb.com",
+      "domain:qq.com",
+      "domain:sharepoint.com",
+      "domain:siege-amazon.com",
+      "domain:siluzan.com",
+      "domain:ssl-images-amazon.com",
+      "domain:sxccb.com",
+      "domain:taobao.com",
+      "domain:xtbank.com",
+      "geosite:cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "block",
+    "domain": [
+      "domain:doppiocdn.com",
+      "domain:doppiocdn.org",
+      "domain:preroll.cc",
+      "domain:tjtj.cc"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:github.com",
+      "domain:gnu.org",
+      "domain:linkedin.com",
+      "domain:voachinese.com"
+    ],
+    "enabled": true
+  }
+]
