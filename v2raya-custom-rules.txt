@@ -4,7 +4,7 @@ default: proxy
 domain(geosite:google)->Youtube
 # proxy
 domain(domain:addons.mozilla.org, domain:linkedin.com)->proxy
-domain(domain:github.com, domain:githubusercontent.com)->proxy
+domain(geosite:github)->proxy
 domain(domain:googleapis.com)->proxy
 domain(domain:gstatic.com)->proxy
 domain(domain:v2raya.org, domain:steamcommunity.com)->proxy
