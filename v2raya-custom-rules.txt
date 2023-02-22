@@ -1,0 +1,63 @@
+default: proxy
+# write your own rules below
+
+domain(geosite:google)->Youtube
+# proxy
+domain(domain:addons.mozilla.org, domain:linkedin.com)->proxy
+domain(domain:github.com, domain:githubusercontent.com)->proxy
+domain(domain:googleapis.com)->proxy
+domain(domain:gstatic.com)->proxy
+domain(domain:v2raya.org, domain:steamcommunity.com)->proxy
+
+# block
+domain(geosite:category-ads)->block
+domain(domain:doppiocdn.com)->block
+domain(domain:nimhuemark.com)->block
+domain(domain:preroll.cc)->block
+domain(domain:strpst.com)->block
+domain(domain:tjtj.cc)->block
+domain(domain:xlviirdr.com)->block
+
+# direct
+ip(geoip:private, geoip:cn)->direct
+ip(47.88.12.192)->direct
+domain(geosite:cn)->direct
+domain(geosite:adobe)->direct
+domain(geosite:alibaba, geosite:bytedance)->direct
+domain(geosite:apple, geosite:microsoft, geosite:mozilla)->direct
+domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecommerce)->direct
+domain(geosite:category-dev)->direct
+domain(geosite:cloudflare, geosite:cloudinary)->direct
+domain(domain:2ppt.com, domain:5idhl.com)->direct
+domain(domain:aws.dev, domain:awswaf.com)->direct
+domain(domain:a2z.com, domain:akamaized.net, domain:aolcdn.com)->direct
+domain(domain:apkpure.net, domain:app.link, domain:apsense.com)->direct
+domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.cyou, domain:branch.io)->direct
+domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
+domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org)->direct
+domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com)->direct
+domain(domain:edu.kg)->direct
+domain(domain:fontshare.com)->direct
+domain(domain:github.io, domain:geotrust.com)->direct
+domain(domain:hkbchina.com)->direct
+domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net)->direct
+domain(domain:mysiluzan.com, domain:mstdn.plus, domain:meixi-mgo.com, domain:messi-mgo.com)->direct
+domain(domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com)->direct
+domain(domain:phncdn.com, domain:pling.com)->direct
+domain(domain:quoracdn.net)->direct
+domain(domain:sascdn.com, domain:sectigo.com, domain:sentry.io, domain:sentry-cdn.com)->direct
+domain(domain:shopify.com, domain:shopifysvc.com, domain:substackcdn.com)->direct
+domain(domain:siluzan.com, domain:similarcdn.com, domain:smartadserver.com)->direct
+domain(domain:tebangtech.com, domain:thawte.com, domain:tiqcdn.com)->direct
+domain(domain:wix.com, domain:wixmp.com, domain:wixpress.com, domain:wixstatic.com)->direct
+domain(domain:wordpress.org, domain:wordpress.com, domain:wp.com, domain:webflow.com)->direct
+domain(domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
+domain(domain:yoast.com)->direct
+
+# proxy
+domain(geosite:geolocation-!cn)->proxy
+ip(geoip:hk,geoip:mo)->proxy
+
+# scholar sites
+domain(geosite:google-scholar)->proxy
+domain(geosite:category-scholar-!cn, geosite:category-scholar-cn)->direct
