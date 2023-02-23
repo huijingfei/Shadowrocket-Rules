@@ -42,7 +42,7 @@ domain(domain:github.io, domain:geotrust.com)->direct
 domain(domain:hkbchina.com)->direct
 domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:meixi-mgo.com, domain:messi-mgo.com)->direct
-domain(domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com)->direct
+domain(domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com, domain:operachina.com)->direct
 domain(domain:phncdn.com, domain:pling.com)->direct
 domain(domain:quoracdn.net)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sentry.io, domain:sentry-cdn.com)->direct
