@@ -4,7 +4,7 @@ default: proxy
 # proxy
 domain(domain:addons.mozilla.org)->proxy
 domain(domain:googleapis.com)->proxy
-domain(domain:gstatic.com, domain:matrix.org)->proxy
+domain(domain:gstatic.com, domain:matrix.org, domain:opensuse.org)->proxy
 domain(domain:v2raya.org, domain:steamcommunity.com)->proxy
 domain(geosite:github, geosite:linkedin)->proxy
 domain(geosite:tiktok)->proxy
@@ -28,7 +28,7 @@ domain(geosite:alibaba, geosite:bytedance)->direct
 domain(geosite:apple, geosite:microsoft, geosite:mozilla)->direct
 domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecommerce)->direct
 domain(geosite:category-dev)->direct
-domain(geosite:cloudflare, geosite:cloudinary)->direct
+domain(geosite:cloudflare, geosite:cloudinary, geosite:tencent)->direct
 domain(domain:26img.com, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
 domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
 domain(domain:aibaaiba.xyz, domain:aws.dev, domain:awswaf.com, domain:astiango.com)->direct
