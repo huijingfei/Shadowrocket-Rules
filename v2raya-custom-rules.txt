@@ -2,9 +2,9 @@ default: proxy
 # write your own rules below
 
 # proxy
-domain(domain:addons.mozilla.org)->proxy
+domain(domain:addons.mozilla.org, domain:security.debian.org)->proxy
 domain(domain:googleapis.com)->proxy
-domain(domain:gstatic.com, domain:matrix.org, domain:opensuse.org)->proxy
+domain(domain:gstatic.com, domain:matrix.org, domain:download.opensuse.org)->proxy
 domain(domain:v2raya.org, domain:steamcommunity.com)->proxy
 domain(geosite:github, geosite:linkedin)->proxy
 domain(geosite:tiktok)->proxy
@@ -51,9 +51,9 @@ domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pl
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
 domain(domain:shopify.com, domain:shopifysvc.com, domain:siteground.com, domain:substackcdn.com)->direct
-domain(domain:siluzan.com, domain:similarcdn.com, domain:smartadserver.com)->direct
-domain(domain:tebangtech.com, domain:thawte.com, domain:tibetmag.com, domain:tiqcdn.com, domain:neilpatel.com, domain:vis.ee)->direct
-domain(domain:wordpress.org, domain:webflow.com)->direct
+domain(domain:siluzan.com, domain:similarcdn.com, domain:smartadserver.com, domain:tebangtech.com)->direct
+domain(domain:thawte.com, domain:tibetmag.com, domain:tiqcdn.com, domain:neilpatel.com, domain:vis.ee)->direct
+domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net)->direct
 domain(domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
 domain(domain:yoast.com)->direct
 
