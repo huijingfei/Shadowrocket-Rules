@@ -30,7 +30,7 @@
 
 ------------------------------------------------------
 
-    https://raw.githubusercontent.com/huijingfei/shadowrocket/main/sr_app_ad.conf
+    https://github.com/huijingfei/Shadowrocket-Rules/raw/main/sr_app_ad.conf
 
 ------------------------------------------------------
     
@@ -73,11 +73,18 @@
 
 将相关域名加入跳过代理，建行生活有效，其他未测试。网络环境变化需开关代理一次（例如从WIFI换成数据网络），否则仍将提示无法使用代理访问。
 
- www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
- yunbusiness.ccb.com：建行生活
- wxh.wo.cn：沃小号
- gate.lagou.com：拉勾招聘
- www.abchina.com.cn：中国农业银行
- www.shanbay.com 扇贝单词消息中心
- www.google.com 成都公积金
- login-service.mobile-bank.psbc.com,mobile-bank.psbc.com：中国邮政储蓄银行
+ www.baidu.com： 网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
+ 
+ yunbusiness.ccb.com： 建行生活
+ 
+ wxh.wo.cn： 沃小号
+ 
+ gate.lagou.com： 拉勾招聘
+ 
+ www.abchina.com.cn： 中国农业银行
+ 
+ www.shanbay.com  扇贝单词消息中心
+ 
+ www.google.com  成都公积金
+ 
+ login-service.mobile-bank.psbc.com,mobile-bank.psbc.com： 中国邮政储蓄银行
