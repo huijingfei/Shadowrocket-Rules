@@ -1,6 +1,6 @@
 # 自用iOS Shadowrocket规则
 
-🛑 fork自 Johnshall 的白名单规则。
+初期fork自 Johnshall 的白名单规则，经过长时间的更新，现在与Johnshall 的白名单规则已有很大差别。本白名单规则手动更新，时间不固定，
 
 🛑 精简部分不常访问的小语种网站。
 
@@ -57,9 +57,6 @@
 
 方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则文件地址粘贴到 url 处，点击“下载”即可。
 
-## 规则更新频率
-
-根据日常使用不定时更新
 
 ## 自用V2rayN自定义规则
 
@@ -73,18 +70,18 @@
 
 将相关域名加入跳过代理，建行生活有效，其他未测试。网络环境变化需开关代理一次（例如从WIFI换成数据网络），否则仍将提示无法使用代理访问。
 
- www.baidu.com： 网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
+🛑 www.baidu.com： 网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
  
- yunbusiness.ccb.com： 建行生活
+🛑 yunbusiness.ccb.com： 建行生活
  
- wxh.wo.cn： 沃小号
+🛑 wxh.wo.cn： 沃小号
  
- gate.lagou.com： 拉勾招聘
+🛑 gate.lagou.com： 拉勾招聘
  
- www.abchina.com.cn： 中国农业银行
+🛑 www.abchina.com.cn： 中国农业银行
  
- www.shanbay.com  扇贝单词消息中心
+🛑 www.shanbay.com  扇贝单词消息中心
  
- www.google.com  成都公积金
+🛑 www.google.com  成都公积金
  
- login-service.mobile-bank.psbc.com,mobile-bank.psbc.com： 中国邮政储蓄银行
+🛑 login-service.mobile-bank.psbc.com,mobile-bank.psbc.com： 中国邮政储蓄银行
