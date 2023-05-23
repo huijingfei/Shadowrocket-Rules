@@ -3,17 +3,10 @@ default: proxy
 
 # proxy
 domain(domain:addons.mozilla.org, domain:ampproject.org, domain:security.debian.org)->proxy
-domain(domain:googleapis.com, domain:gravatar.com)->proxy
-domain(domain:gstatic.com, domain:jsdelivr.net, domain:matrix.org)->proxy
+domain(domain:mozilla.net, domain:googleapis.com, domain:gravatar.com)->proxy
+domain(domain:gstatic.com, domain:jsdelivr.net, domain:matrix.org, domain:pki.goog)->proxy
 domain(domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org)->proxy
-domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
-
-# block
-domain(geosite:category-ads, geosite:qihoo360)->block
-domain(domain:9169a.com, domain:51688.cc)->block
-domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
-domain(domain:pi22y.cc, domain:nimhuemark.com)->block
-domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
+domain(geosite:github, geosite:linkedin)->proxy
 
 # direct
 ip(geoip:private, geoip:cn)->direct
@@ -30,12 +23,12 @@ domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagex
 domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com)->direct
-domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.cyou, domain:branch.io)->direct
+domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.cyou, domain:branch.io, domain:bytedapm.com)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:edu.kg, domain:entrust.net)->direct
-domain(domain:falkon.org, domain:fontshare.com)->direct
+domain(domain:falkon.org, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:groupon.com, domain:grouponcdn.com)->direct
 domain(domain:hbtebang.com, domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com, domain:imgik.com)->direct
@@ -49,13 +42,20 @@ domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pl
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
-domain(domain:shopify.com, domain:shopifysvc.com, domain:siteground.com, domain:sgsocket.com)->direct
-domain(domain:siluzan.com, domain:similarcdn.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
-domain(domain:thawte.com, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
+domain(domain:shopify.com, domain:shopifysvc.com, domain:siteground.com, domain:sgsocket.com, domain:statically.io)->direct
+domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com, domain:tebangtech.com)->direct
+domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
 domain(domain:vis.ee)->direct
 domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
 domain(domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
-domain(domain:yoast.com)->direct
+domain(domain:yoast.com, domain:yhgfb-cn-static.com)->direct
+
+# block
+domain(geosite:category-ads, geosite:qihoo360)->block
+domain(domain:9169a.com, domain:51688.cc)->block
+domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
+domain(domain:pi22y.cc, domain:nimhuemark.com)->block
+domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
 
 
 # proxy
