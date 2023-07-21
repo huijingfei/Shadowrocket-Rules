@@ -29,20 +29,20 @@ domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagex
 domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com)->direct
-domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.cyou, domain:branch.io, domain:bytedapm.com)->direct
+domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:edu.kg, domain:entrust.net)->direct
-domain(domain:falkon.org, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
+domain(domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:groupon.com, domain:grouponcdn.com)->direct
-domain(domain:hbtebang.com, domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
+domain(domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgpile.com, domain:jsdelivr.net)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz)->direct
 domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com)->direct
-domain(domain:mysiluzan.com, domain:mstdn.plus, domain:meixi-mgo.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
+domain(domain:mysiluzan.com, domain:mstdn.plus, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
 domain(domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com)->direct
 domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
