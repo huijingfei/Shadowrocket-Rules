@@ -28,7 +28,7 @@ domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, doma
 domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
 domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamaized.net, domain:aolcdn.com)->direct
-domain(domain:apkpure.net, domain:app.link, domain:apsense.com)->direct
+domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:avast.com, domain:avcdn.net)->direct
 domain(domain:bankqh.com, domain:bootstrapcdn.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
