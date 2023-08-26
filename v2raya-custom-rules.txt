@@ -2,7 +2,7 @@ default: proxy
 # write your own rules below
 
 # block
-domain(geosite:category-ads, geosite:qihoo360)->block
+domain(geosite:category-ads, geosite:win-spy, geosite:win-extra)->block
 domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
 domain(domain:pi22y.cc, domain:nimhuemark.com)->block
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
