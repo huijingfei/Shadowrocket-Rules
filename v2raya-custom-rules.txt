@@ -1,18 +1,18 @@
 default: proxy
 # write your own rules below
 
+# proxy
+domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org)->proxy
+domain(domain:googleapis.com, domain:gravatar.com, domain:gstatic.com, domain:matrix.org, domain:pki.goog)->proxy
+domain(domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
+domain(geosite:github, geosite:linkedin)->proxy
+domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)->proxy
+
 # block
 domain(geosite:category-ads, geosite:qihoo360)->block
 domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
 domain(domain:pi22y.cc, domain:nimhuemark.com)->block
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
-
-# proxy
-domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:security.debian.org)->proxy
-domain(domain:googleapis.com, domain:gravatar.com)->proxy
-domain(domain:gstatic.com, domain:matrix.org, domain:pki.goog)->proxy
-domain(domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
-domain(geosite:github, geosite:linkedin)->proxy
 
 # direct
 ip(geoip:private, geoip:cn)->direct
