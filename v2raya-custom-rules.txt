@@ -46,7 +46,7 @@ domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:mozgcp
 domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com)->direct
 domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
-domain(domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
+domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
 domain(domain:shopify.com, domain:shopifysvc.com, domain:sgsocket.com, domain:statically.io)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
