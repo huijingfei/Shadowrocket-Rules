@@ -43,11 +43,9 @@
 
 ### GeoLite2 数据库：
 
-------------------------------------------------------
+[https://git.io/GeoLite2-Country.mmdb](https://git.io/GeoLite2-Country.mmdb) 数据比较全，文件较大。
 
-    https://github.com/Loyalsoldier/geoip/releases
-
-------------------------------------------------------
+[Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb) 文件较小，只包含 GEOIP,CN 和 GEOIP,PRIVATE。
 
 ### 规则使用方法
 
@@ -65,13 +63,6 @@
 ### V2Ray 路由规则文件
 
 [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)可代替 V2Ray 官方 geoip.dat 和 geosite.dat。
-
-### GeoLite2 数据库
-
-[https://git.io/GeoLite2-Country.mmdb](https://git.io/GeoLite2-Country.mmdb) 数据比较全，文件较大。
-
-[Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb) 文件较小，只包含 GEOIP,CN 和 GEOIP,PRIVATE。
-
 
 ### 部分 APP 无法使用代理访问解决方法
 
