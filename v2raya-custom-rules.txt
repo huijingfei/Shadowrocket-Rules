@@ -13,6 +13,7 @@ domain(geosite:category-ads, geosite:qihoo360)->block
 domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
 domain(domain:pi22y.cc, domain:nimhuemark.com)->block
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
+domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
 
 # direct
 ip(geoip:private, geoip:cn)->direct
@@ -27,7 +28,7 @@ domain(geosite:sina, geosite:sf-express, geosite:tencent)->direct
 domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
 domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
 domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
-domain(domain:a2z.com, domain:ahrefs.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
+domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
 domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
@@ -51,7 +52,7 @@ domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:se
 domain(domain:shopify.com, domain:shopifysvc.com, domain:sgsocket.com, domain:statically.io)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
-domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net)->direct
+domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
 domain(domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
 domain(domain:yoast.com, domain:yhgfb-cn-static.com)->direct
