@@ -11,7 +11,7 @@ domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)-
 # block
 domain(geosite:category-ads, geosite:qihoo360)->block
 domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
-domain(domain:pi22y.cc, domain:nimhuemark.com)->block
+domain(domain:pi22y.cc, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
 domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
 
@@ -30,7 +30,7 @@ domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagex
 domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
-domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com)->direct
+domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com, domain:cccdn.xyz)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
