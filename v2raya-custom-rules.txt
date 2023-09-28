@@ -10,9 +10,9 @@ domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)-
 
 # block
 domain(geosite:category-ads, geosite:qihoo360)->block
-domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz)->block
+domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
-domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com)->block
+domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com)->block
 domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
 
 # direct
@@ -34,12 +34,12 @@ domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:byteda
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
-domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:edu.kg, domain:entrust.net)->direct
-domain(domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
+domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
+domain(domain:fanboy.co.nz, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
 domain(domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
-domain(domain:imgik.com, domain:imgpile.com, domain:jsdelivr.net)->direct
+domain(domain:imgik.com, domain:imgpile.com, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz)->direct
 domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com)->direct
@@ -55,7 +55,7 @@ domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilo
 domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
 domain(domain:xvideos-cdn.com, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
-domain(domain:yoast.com, domain:yhgfb-cn-static.com)->direct
+domain(domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
 
 
 # proxy
