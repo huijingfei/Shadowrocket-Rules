@@ -54,7 +54,7 @@ domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:
 domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
 domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
-domain(domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
+domain(domain:xvideos-cdn.com, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
 domain(domain:yoast.com, domain:yhgfb-cn-static.com)->direct
 
 
