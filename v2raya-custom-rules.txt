@@ -1,6 +1,9 @@
 default: proxy
 # write your own rules below
 
+# douyin
+domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
+
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:gstatic.com, domain:matrix.org, domain:pki.goog)->proxy
@@ -9,11 +12,13 @@ domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)->proxy
 
 # block
-domain(geosite:category-ads, geosite:qihoo360)->block
+domain(geosite:category-ads)->block
 domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
-domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com)->block
+domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com, domain:pptstatic.iyf.tv)->block
+domain(domain:maxus011.top, domain:u1022.com, domain:999zz333zz.com, domain:maxus011.top, domain:555zz555zz.com, domain:yuanpinghengkangfuyouxiangongsi.top, domain:9a6cds03.com, domain:jstatic.xyz, domain:xiod.xyz, domain:kvhee.com)->block
 domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
+
 
 # direct
 ip(geoip:private, geoip:cn)->direct
@@ -33,18 +38,18 @@ domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com
 domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com, domain:cccdn.xyz)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
-domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
+domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
 domain(domain:fanboy.co.nz, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
 domain(domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgpile.com, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com)->direct
-domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz)->direct
+domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud)->direct
 domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
-domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:onetrust.com)->direct
+domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
 domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
