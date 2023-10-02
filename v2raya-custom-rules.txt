@@ -1,8 +1,39 @@
 default: proxy
 # write your own rules below
 
-# douyin
+# direct
+domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
+domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
+domain(domain:ahcdn.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
+domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
+domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
+domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com, domain:cccdn.xyz)->direct
+domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
+domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
+domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
+domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
+domain(domain:fanboy.co.nz, domain:fontawesome.com, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
+domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
+domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
+domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
+domain(domain:imgik.com, domain:imgpile.com, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
+domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud)->direct
+domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
+domain(domain:madcapcentral.com)->direct
+domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
+domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
+domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io)->direct
+domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
+domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
+domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
+domain(domain:shopify.com, domain:shopifysvc.com, domain:sgsocket.com, domain:statically.io)->direct
+domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
+domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
+domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
+domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
+domain(domain:xvideos-cdn.com, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
+domain(domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org)->proxy
@@ -30,37 +61,6 @@ domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecomm
 domain(geosite:cloudinary, geosite:cloudflare)->direct
 domain(geosite:microsoft, geosite:mozilla)->direct
 domain(geosite:sina, geosite:sf-express, geosite:tencent)->direct
-domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
-domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
-domain(domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
-domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
-domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
-domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com, domain:cccdn.xyz)->direct
-domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
-domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:ctobsnssdk.com, domain:dahaomedical.com)->direct
-domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
-domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
-domain(domain:fanboy.co.nz, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
-domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
-domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
-domain(domain:hkbchina.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
-domain(domain:imgik.com, domain:imgpile.com, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com)->direct
-domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud)->direct
-domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
-domain(domain:madcapcentral.com)->direct
-domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
-domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
-domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com)->direct
-domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
-domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
-domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
-domain(domain:shopify.com, domain:shopifysvc.com, domain:sgsocket.com, domain:statically.io)->direct
-domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
-domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
-domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
-domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
-domain(domain:xvideos-cdn.com, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
-domain(domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
 
 
 # proxy
