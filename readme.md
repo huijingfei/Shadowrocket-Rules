@@ -50,7 +50,7 @@
 
 方法一：用 ShadowRocket 扫描二维码即可。
 
-![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/Shadowrocket%20rules%20QR%20code.webp?raw=true)
+![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/shadowrocket.png?raw=true)
 
 方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则文件地址粘贴到 url 处，点击“下载”即可。
 
