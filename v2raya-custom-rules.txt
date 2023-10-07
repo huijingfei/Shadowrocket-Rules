@@ -4,12 +4,12 @@ default: proxy
 # direct
 domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
 domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
-domain(domain:ahcdn.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
+domain(domain:ahcdn.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
-domain(domain:bankqh.com, domain:bigcloud.click, domain:branch.io, domain:bytedapm.com, domain:cccdn.xyz)->direct
+domain(domain:baisiweiting.com, domain:bankqh.com, domain:bigcloud.click, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:bytedapm.com, domain:cccdn.xyz)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
-domain(domain:cdnpk.net, domain:checker.in, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
+domain(domain:cdnpk.net, domain:checker.in, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
@@ -17,7 +17,7 @@ domain(domain:fanboy.co.nz, domain:fontawesome.com, domain:fontshare.com, domain
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
-domain(domain:imgik.com, domain:imgpile.com, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
+domain(domain:imgik.com, domain:imgpile.com, domain:iook.link, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud)->direct
 domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com)->direct
@@ -27,13 +27,14 @@ domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pl
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
-domain(domain:shopify.com, domain:shopifysvc.com, domain:sgsocket.com, domain:statically.io)->direct
+domain(domain:shopify.com, domain:shopifysvc.com, domain:shields.io, domain:slbfsl.com, domain:sgsocket.com, domain:statically.io)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
-domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
-domain(domain:vector.im, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
-domain(domain:wordpress.org, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
+domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
+domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
+domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:wp.com)->direct
 domain(domain:xvideos-cdn.com, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
 domain(domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
+domain(domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoho.eu)->direct
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org)->proxy
@@ -44,16 +45,17 @@ domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)-
 
 # block
 domain(geosite:category-ads)->block
-domain(domain:doppiocdn.com, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
-domain(domain:pi22y.cc, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
-domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com, domain:pptstatic.iyf.tv)->block
+domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
+domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
+domain(domain:cedexis.com, domain:swizxs.com, domain:fsadcx3.com)->block
+domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com, domain:pptstatic.iyf.tv, domain:jads.co, domain:ktkjmp.com, domain:bbrdbr.com)->block
 domain(domain:maxus011.top, domain:u1022.com, domain:999zz333zz.com, domain:maxus011.top, domain:555zz555zz.com, domain:yuanpinghengkangfuyouxiangongsi.top, domain:9a6cds03.com, domain:jstatic.xyz, domain:xiod.xyz, domain:kvhee.com)->block
 domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
 
 
 # direct
 ip(geoip:private, geoip:cn)->direct
-ip(47.88.12.192)->direct
+ip(47.88.12.192, 192.200.96.77)->direct
 domain(geosite:cn)->direct
 domain(geosite:adobe, geosite:alibaba, geosite:amazon, geosite:apple)->direct
 domain(geosite:bytedance, geosite:baidu)->direct
