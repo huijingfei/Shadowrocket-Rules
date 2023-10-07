@@ -30,7 +30,7 @@
 
 ------------------------------------------------------
 
-    [https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf](https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf)
+    https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf
 
     
 直连：top500 网站中可直连的境外网站、中国网站
