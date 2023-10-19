@@ -9,7 +9,7 @@ domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, dom
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:bigcloud.click, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:bytedapm.com, domain:cccdn.xyz)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
-domain(domain:cdnpk.net, domain:checker.in, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
+domain(domain:cdnpk.net, domain:cdnhuo.com, domain:checker.in, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
@@ -23,7 +23,7 @@ domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperso
 domain(domain:madcapcentral.com)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
 domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
-domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io)->direct
+domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io, domain:pki.goog)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
@@ -38,8 +38,8 @@ domain(domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoh
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org)->proxy
-domain(domain:googleapis.com, domain:gravatar.com, domain:gstatic.com, domain:matrix.org, domain:pki.goog)->proxy
-domain(domain:analytics.pinterest.com, domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
+domain(domain:googleapis.com, domain:gravatar.com, domain:gstatic.com, domain:matrix.org)->proxy
+domain(domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)->proxy
 
@@ -47,7 +47,10 @@ domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)-
 domain(geosite:category-ads)->block
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
-domain(domain:cedexis.com, domain:swizxs.com, domain:fsadcx3.com)->block
+domain(domain:cedexis.com, domain:swizxs.com, domain:fsadcx3.com, domain:cdn.bcebos.com)->block
+domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn)->block
+domain(domain:fl.reg.163.com, domain:g.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net)->block
+domain(domain:i.go.sohu.com, domain:js.sohu.com, domain:pv.sohu.com, domain:qpb1.sohu.com, domain:s.go.sohu.com, domain:track.sohu.com, domain:txt.go.sohu.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:xlviirdr.com, domain:wzty152.com, domain:pptstatic.iyf.tv, domain:jads.co, domain:ktkjmp.com, domain:bbrdbr.com)->block
 domain(domain:maxus011.top, domain:u1022.com, domain:999zz333zz.com, domain:maxus011.top, domain:555zz555zz.com, domain:yuanpinghengkangfuyouxiangongsi.top, domain:9a6cds03.com, domain:jstatic.xyz, domain:xiod.xyz, domain:kvhee.com)->block
 domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:222cc888cc.com, domain:jiongnet.cn)->block
@@ -59,8 +62,7 @@ ip(47.88.12.192, 192.200.96.77)->direct
 domain(geosite:cn)->direct
 domain(geosite:adobe, geosite:alibaba, geosite:amazon, geosite:apple)->direct
 domain(geosite:bytedance, geosite:baidu)->direct
-domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecommerce)->direct
-domain(geosite:cloudinary, geosite:cloudflare)->direct
+domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecommerce, geosite:cloudinary)->direct
 domain(geosite:microsoft, geosite:mozilla)->direct
 domain(geosite:sina, geosite:sf-express, geosite:tencent)->direct
 
