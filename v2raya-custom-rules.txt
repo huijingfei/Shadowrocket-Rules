@@ -9,7 +9,7 @@ domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, dom
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:bigcloud.click, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:bytedapm.com, domain:cccdn.xyz)->direct
 domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
-domain(domain:cdnpk.net, domain:cdnhuo.com, domain:checker.in, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
+domain(domain:cdnpk.net, domain:cdnhuo.com, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
@@ -19,7 +19,7 @@ domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgpile.com, domain:iook.link, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud)->direct
-domain(domain:lencr.org, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
+domain(domain:lencr.org, domain:licdn.com, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com, domain:mmstat.com)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
 domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
@@ -27,7 +27,7 @@ domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pl
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
-domain(domain:shopify.com, domain:shopifysvc.com, domain:shields.io, domain:slbfsl.com, domain:sgsocket.com, domain:statically.io)->direct
+domain(domain:shopify.com, domain:shopifysvc.com, domain:shields.io, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:thawte.com, domain:tigress.cc, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:typekit.net)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vis.ee, domain:vivaldi.net, domain:slbfsl.com, domain:vodvip888.com)->direct
@@ -39,7 +39,7 @@ domain(domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoh
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:facebook.net)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:gstatic.com, domain:matrix.org)->proxy
-domain(domain:v2raya.org, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
+domain(domain:v2raya.org, domain:checker.in, domain:steamcommunity.com, domain:telegram.org, domain:skype.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(ads.tiktok.com, domain:analytics.google.com, domain:security.debian.org)->proxy
 
