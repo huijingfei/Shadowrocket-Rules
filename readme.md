@@ -1,4 +1,4 @@
-## 手动维护的 iOS Shadowrocket规则 / V2rayN规则 / V2rayaA规则 (白名单规则) 
+## 手动维护的 iOS Shadowrocket规则 / V2rayN规则 / V2rayA规则 (白名单规则) 
 
 初期 fork 自 Johnshall 的白名单规则，经过长时间的更新，现在与 Johnshall 的白名单规则已有很大差别。本白名单规则手动更新，时间不固定，
 
