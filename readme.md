@@ -1,6 +1,6 @@
-## 手动维护的 iOS Shadowrocket 规则 / V2rayN 规则 / V2rayA 规则 (白名单规则) 
+## 手动维护的 iOS 小火箭 Shadowrocket 规则 / V2rayN 规则 / V2rayA 规则 (白名单规则) 
 
-初期 fork 自 Johnshall 的白名单规则，经过长时间的更新，现在与 Johnshall 的白名单规则已有很大差别。本白名单规则手动更新，时间不固定，
+初期 fork 自 Johnshall 的白名单规则，经过长时间的更新，现在与 Johnshall 的白名单规则已有很大差别。本白名单规则手动更新，时间不固定，专注于改善 APP 体验的小火箭规则。
 
 ###### 注意：目前小火箭有bug，更新配置后需要关闭代理再重新打开，否则会导致无法正常使用配置。
 
