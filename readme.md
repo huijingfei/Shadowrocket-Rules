@@ -58,6 +58,7 @@
 
 方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则[文件地址](https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf)粘贴到 url 处，点击“下载”即可。
 
+![手动维护的 iOS 小火箭 Shadowrocket 规则](https://github.com/huijingfei/Blog_Gitalk/raw/main/Images/Shadowrocket%20rules.webp)
 
 ### 自用V2rayN自定义规则
 
