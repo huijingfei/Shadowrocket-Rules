@@ -1,6 +1,6 @@
 ## 手动维护的 iOS 小火箭 Shadowrocket 规则 / V2rayN 规则 / V2rayA 规则 (白名单规则) 
 
-初期 fork 自 Johnshall 的白名单规则，经过长时间的更新，现在与 Johnshall 的白名单规则已有很大差别。本白名单规则手动更新，时间不固定，专注于改善 APP 体验的小火箭规则。
+初期 fork 自 Johnshall 的白名单规则，经过长时间的更新，现在与 Johnshall 的小火箭规则已有很大差别。本白名单规则手动更新，时间不固定，专注于改善 APP 体验的小火箭规则。
 
 ###### 注意：目前小火箭有bug，更新配置后需要关闭代理再重新打开，否则会导致无法正常使用配置。
 
@@ -14,13 +14,13 @@
 
 🛑 完善部分手机 APP 的分流规则。
 
-🛑 更改默认 DNS 为支持 DOH,DOT 的国际大厂 DNS。
+🛑 更改默认 DNS 为支持 DOH/DOT 的国际大厂 DNS。
 
 🛑 添加常用 SSL 证书域名。
 
 部分广告规则需要开启 https 解密，不同于网上其他的教程，需要生成新的 CA 证书，使用本规则直接安装证书即可。其中 iOS 系统设置中信任 Shadowrocket 证书的几个步骤不可省略。
 
-### Johnshall 白名单规则:
+### Johnshall 小火箭规则:
 
 ------------------------------------------------------
 
@@ -28,7 +28,7 @@
 
 ------------------------------------------------------
 
-### 自用规则：
+### 自用小火箭规则：
 
 ------------------------------------------------------
 
@@ -48,13 +48,15 @@
 
 [Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb) 文件较小，只包含 GEOIP,CN 和 GEOIP,PRIVATE。
 
+如果没有特殊需求，使用 [Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb) 即可。
+
 ### 规则使用方法
 
 方法一：用 ShadowRocket 扫描二维码即可。
 
 ![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/shadowrocket.png?raw=true)
 
-方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则文件地址粘贴到 url 处，点击“下载”即可。
+方法二：在 ShadowRocket 应用中，进入 [配置] 页面，点击右上角加号，将规则[文件地址](https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf)粘贴到 url 处，点击“下载”即可。
 
 
 ### 自用V2rayN自定义规则
