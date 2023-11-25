@@ -8,23 +8,23 @@ domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagex
 domain(domain:ahcdn.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov, domain:astiango.com)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:archlinux.org, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
-domain(domain:baisiweiting.com, domain:bankqh.com, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:bytedapm.com, domain:cccdn.xyz)->direct
-domain(domain:cdnpure.com, domain:cdn.minds.com, domain:cdn.bigcloud.click, domain:cloudfront.net, domain:cndhl.com)->direct
+domain(domain:baisiweiting.com, domain:bankqh.com, domain:bigcloud.click, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:bytedapm.com)->direct
+domain(domain:cdnpure.com, domain:cccdn.xyz, domain:ccpiteco.net, domain:cdn.minds.com, domain:cloudfront.net, domain:cndhl.com)->direct
 domain(domain:cdnpk.net, domain:cdnhuo.com, domain:clarity.ms, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net, domain:dahaomedical.com)->direct
 domain(domain:deepl.com, domain:disquscdn.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:bytetos.com, domain:bytescm.com, domain:bytegoofy.com, domain:ctobsnssdk.com, domain:zijieapi.com)->direct
 domain(domain:driftt.com, domain:dwolla.com, domain:dynadot.com, domain:dzen.ru, domain:dzeninfra.ru, domain:easylist.to, domain:edu.kg, domain:entrust.net)->direct
-domain(domain:fanboy.co.nz, domain:fontawesome.com, domain:fontshare.com, domain:fwupd.org, domain:geekzu.org)->direct
+domain(domain:fanboy.co.nz, domain:fontawesome.com, domain:fontshare.com, domain:freedif.org, domain:fwupd.org, domain:geekzu.org)->direct
 domain(domain:fonts.googleapis.com, domain:fonts.gstatic.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:groupon.com, domain:grouponcdn.com, domain:hcfy.app)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgpile.com, domain:iook.link, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
-domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud, domain:larkoffice.com)->direct
+domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud, domain:kxcdn.com, domain:larkoffice.com)->direct
 domain(domain:lencr.org, domain:licdn.com, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
-domain(domain:madcapcentral.com, domain:mail.ru, domain:mmstat.com)->direct
+domain(domain:madcapcentral.com, domain:mail.ru, domain:mathjax.org, domain:mmstat.com)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
-domain(domain:nortonlifelock.com, domain:oath.com, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
+domain(domain:nortonlifelock.com, domain:oath.com, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
 domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io, domain:pki.goog)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:safebrowsing.googleapis.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
@@ -50,9 +50,10 @@ domain(geosite:category-ads)->block
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
 domain(domain:cedexis.com, domain:swizxs.com, domain:fsadcx3.com, domain:cdn.bcebos.com, domain:mmjs.adutp.com)->block
-domain(domain:1113dns.com, domain:juxin8888.com)->block
+domain(domain:1113dns.com, domain:juxin8888.com, domain:i.sso.sina.com.cn)->block
+domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn)->block
-domain(domain:fl.reg.163.com, domain:g.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net)->block
+domain(domain:fl.reg.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net)->block
 domain(domain:imasdk.googleapis.com, domain:poweredby.jads.co, domain:a.magsrv.com, domain:hubt.pornhub.com, domain:media.trafficjunky.com, domain:static.trafficjunky.com, domain:media.trafficjunky.net)->block
 domain(domain:etahub.com, domain:rpc-php.trafficfactory.biz, domain:s.orbsrv.com, domain:a.orbsrv.com, domain:static.cloudflareinsights.com)->block
 domain(domain:i.go.sohu.com, domain:js.sohu.com, domain:pv.sohu.com, domain:qpb1.sohu.com, domain:s.go.sohu.com, domain:track.sohu.com, domain:txt.go.sohu.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
