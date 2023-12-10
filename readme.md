@@ -16,7 +16,7 @@
 
 🛑 添加常用 SSL 证书域名。
 
-部分广告规则需要开启 https 解密，点击使用的配置文件后的感叹号 i → HTTPS解密 → 开启HTTPS解密 → 点击证书授权，并点击允许 → 前往手机的设置，不是Shadowrocket的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
+部分广告规则需要开启 https 解密，点击使用的配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密 → 点击证书授权，并点击允许 → 前往手机的设置，不是 Shadowrocket 的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
 
 ### Johnshall 小火箭规则:
 
@@ -78,10 +78,14 @@
  
     login-service.mobile-bank.psbc.com,mobile-bank.psbc.com： 中国邮政储蓄银行
 
-### 自用V2rayN自定义规则
+### 自用 V2rayN 自定义规则
 
 直接下载[V2rayN-Rule-Whitelist.json](https://github.com/huijingfei/Shadowrocket-Rules/releases)，V2rayN路由设置中从文件导入即可，或者直接复制txt文件中的规则，然后在V2rayN路由设置中从剪切板导入。
 
 ### V2Ray 路由规则文件
 
 [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)可代替 V2Ray 官方 geoip.dat 和 geosite.dat。
+
+### APP 开屏广告
+
+![APP开屏广告示例](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/APP%20AD.webp)
