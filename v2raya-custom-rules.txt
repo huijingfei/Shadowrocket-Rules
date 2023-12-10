@@ -5,7 +5,7 @@ default: proxy
 source(192.168.0.12/24, 192.168.31.15/24) -> direct
 domain(domain:26img.com, domain:263.net, domain:2ppt.com, domain:24img.com, domain:5idhl.com)->direct
 domain(domain:25img.com, domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
-domain(domain:ahcdn.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
+domain(domain:abowman.com, domain:ahcdn.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:archlinux.org, domain:auth0.com, domain:avast.com, domain:avcdn.net)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:bigcloud.click, domain:biqule.top, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:bytedapm.com)->direct
@@ -18,13 +18,13 @@ domain(domain:fanboy.co.nz, domain:fontawesome.com, domain:fontshare.com, domain
 domain(domain:fonts.googleapis.com, domain:fonts.gstatic.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz)->direct
 domain(domain:gifyu.com, domain:gitcdn.xyz, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:hcfy.app)->direct
-domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
+domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hukeji.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgpile.com, domain:iook.link, domain:ip-api.com, domain:jsdelivr.net, domain:jsdelivr2.com, domain:jwpcdn.com)->direct
-domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:ob-baidu.xyz, domain:jiuse.cloud, domain:kxcdn.com, domain:larkoffice.com)->direct
-domain(domain:lencr.org, domain:licdn.com, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
+domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:jiuse.cloud, domain:kxcdn.com, domain:larkoffice.com)->direct
+domain(domain:lencr.org, domain:licdn.com, domain:linuxadictos.com, domain:linux-console.net, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:madcapcentral.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:mmstat.com)->direct
 domain(domain:mysiluzan.com, domain:mstdn.plus, domain:modular.im, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:neilpatel.com)->direct
-domain(domain:nortonlifelock.com, domain:oath.com, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
+domain(domain:nortonlifelock.com, domain:oath.com, domain:ob-baidu.xyz, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com)->direct
 domain(domain:payoneer.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io, domain:pki.goog)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:quoracdn.net, domain:qweather.net)->direct
 domain(domain:rapidssl.com, domain:safebrowsing.googleapis.com, domain:salesforceliveagent.com, domain:sfdcstatic.com)->direct
@@ -39,7 +39,7 @@ domain(domain:yastatic.net, domain:yoast.com, domain:yhgfb-cn-static.com, domain
 domain(domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoho.eu)->direct
 
 # proxy
-domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:dqzboy.com)->proxy
+domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
 domain(domain:googleapis.com, domain:gravatar.com)->proxy
 domain(domain:steamcommunity.com, domain:skype.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
