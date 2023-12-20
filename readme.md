@@ -82,7 +82,7 @@
 
 ![APP开屏广告示例](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/APP%20AD.webp)
 
-### 自用 v2rayN 自定义规则
+### v2rayN 自定义规则
 
 直接下载[v2rayN-Rule-Whitelist.json](https://github.com/huijingfei/Shadowrocket-Rules/releases)，V2rayN路由设置中从文件导入即可，或者直接复制txt文件中的规则，然后在V2rayN路由设置中从剪切板导入。
 
@@ -92,7 +92,7 @@
 
 ### v2rayA 防止 DNS 污染 ➡️ 自定义高级设置
 
-https://dns.alidns.com:443/dns-query->direct
-https://doh.pub:443/dns-query->direct
-https://doh.opendns.com:443/dns-query->direct
-https://rubyfish.cn:443/dns-query->direct
+    https://dns.alidns.com:443/dns-query->direct
+    https://doh.pub:443/dns-query->direct
+    https://doh.opendns.com:443/dns-query->direct
+    https://rubyfish.cn:443/dns-query->direct
