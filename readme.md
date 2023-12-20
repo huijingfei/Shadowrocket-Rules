@@ -1,4 +1,4 @@
-## 手动维护的 iOS 小火箭 Shadowrocket 规则 / V2rayN 规则 / V2rayA 规则 (白名单规则) 
+## 手动维护的 iOS 小火箭 Shadowrocket 规则 / v2rayN 规则 / v2rayA 规则 (白名单规则) 
 
 小火箭配置文件指的是访问网站需要直连还是代理的分流规则，例如访问腾讯阿里抖音等网站直连，访问谷歌脸书等走代理。网上一些自动生成的规则具有局限性，例如一些图片视频链接不在规则内，导致一些国内网站或者 APP 访问速度慢，错误的走了代理，在代理线路不好的时候尤其明显，所以才有了这个手动更新的规则。本白名单规则手动更新，时间不固定，专注于改善 APP 体验的小火箭规则。
 
@@ -78,14 +78,21 @@
  
     login-service.mobile-bank.psbc.com,mobile-bank.psbc.com： 中国邮政储蓄银行
 
-### 自用 V2rayN 自定义规则
-
-直接下载[V2rayN-Rule-Whitelist.json](https://github.com/huijingfei/Shadowrocket-Rules/releases)，V2rayN路由设置中从文件导入即可，或者直接复制txt文件中的规则，然后在V2rayN路由设置中从剪切板导入。
-
-### V2Ray 路由规则文件
-
-[v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)可代替 V2Ray 官方 geoip.dat 和 geosite.dat。
-
 ### APP 开屏广告
 
 ![APP开屏广告示例](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/APP%20AD.webp)
+
+### 自用 v2rayN 自定义规则
+
+直接下载[v2rayN-Rule-Whitelist.json](https://github.com/huijingfei/Shadowrocket-Rules/releases)，V2rayN路由设置中从文件导入即可，或者直接复制txt文件中的规则，然后在V2rayN路由设置中从剪切板导入。
+
+### v2ray 路由规则文件
+
+[v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)可代替 V2Ray 官方 geoip.dat 和 geosite.dat。
+
+### v2rayA 防止 DNS 污染 ➡️ 自定义高级设置
+
+https://dns.alidns.com:443/dns-query->direct
+https://doh.pub:443/dns-query->direct
+https://doh.opendns.com:443/dns-query->direct
+https://rubyfish.cn:443/dns-query->direct
