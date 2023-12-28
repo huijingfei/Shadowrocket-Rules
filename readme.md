@@ -86,6 +86,8 @@
 
 ![APP开屏视频广告](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/APP%20VIDEO%20AD.webp)
 
+![CLOUD VIDEO AD](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/CLOUD%20VIDEO%20AD.webp)
+
 ### v2rayN 自定义规则
 
 直接下载[v2rayN-Rule-Whitelist.json](https://github.com/huijingfei/Shadowrocket-Rules/releases)，V2rayN路由设置中从文件导入即可，或者直接复制txt文件中的规则，然后在V2rayN路由设置中从剪切板导入。
