@@ -16,14 +16,6 @@
 
 🛑 添加常用 SSL 证书域名。
 
-部分广告规则需要开启 Shadowrocket https 解密，点击使用的配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密 → 点击证书授权，并点击允许 → 前往手机的设置，不是 Shadowrocket 的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
-
-### Johnshall 小火箭规则:
-
-------------------------------------------------------
-
-    https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
-
 ------------------------------------------------------
 
 ### 自用小火箭规则：
@@ -87,6 +79,18 @@
 ![APP开屏视频广告](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/APP%20VIDEO%20AD.webp)
 
 ![CLOUD VIDEO AD](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/CLOUD%20VIDEO%20AD.webp)
+
+### 开启 https 解密
+
+部分广告规则需要开启 Shadowrocket https 解密，点击使用的配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密 → 点击允许 → 前往手机的设置，不是 Shadowrocket 的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
+
+有几点关键步骤，首先去小火箭点击安装证书，会提示下载描述文件。
+
+然后到手机设置里安装描述文件。
+
+再去关于手机证书信任设置。
+
+最后回到小火箭开启。
 
 ### v2rayN 自定义规则
 
