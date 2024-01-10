@@ -20,7 +20,6 @@
 
 ### 自用小火箭规则：
 
-------------------------------------------------------
 
     https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf
 
@@ -84,13 +83,19 @@
 
 部分广告规则需要开启 Shadowrocket https 解密，点击使用的配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密 → 点击允许 → 前往手机的设置，不是 Shadowrocket 的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
 
-有几点关键步骤，首先去小火箭点击安装证书，会提示下载描述文件。
+1️⃣去小火箭点击配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密安装证书，会提示下载描述文件。
 
-然后到手机设置里安装描述文件。
+![Install Certificate](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/Install%20Certificate.webp)
 
-再去关于手机证书信任设置。
+2️⃣前往手机的设置安装描述文件。
 
-最后回到小火箭开启。
+![VPN Device](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/VPN%20Device.webp)
+
+3️⃣再去关于手机，点击证书信任设置。
+
+![Trust setting](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/Trust%20setting.webp)
+
+4️⃣最后回到小火箭开启。
 
 ### v2rayN 自定义规则
 
