@@ -28,7 +28,12 @@
     
 代理：默认代理其余的所有境外网站
 
+### 去广告规则模块：
 
+本规则专注于去除 APP 开屏广告，如需去除网页广告，可搭配使用模块使用屏蔽列表。
+
+    https://raw.githubusercontent.com/GMOogway/shadowrocket-rules/master/sr_reject_list.module
+    
 ------------------------------------------------------
 
 ### ShadowRocket GeoLite2 数据库：
