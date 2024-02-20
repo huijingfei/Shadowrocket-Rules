@@ -86,6 +86,8 @@
 
 ![CLOUD VIDEO AD](https://raw.githubusercontent.com/huijingfei/Blog_Gitalk/main/Images/CLOUD%20VIDEO%20AD.webp)
 
+<iframe width="622" height="1280" src="https://youtube.com/shorts/s0n1DC52FsE?si=IzlHoNzUnnLglG4K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### 开启 https 解密
 
 部分广告规则需要开启 Shadowrocket https 解密，点击使用的配置文件后的感叹号 i → HTTPS 解密 → 开启 HTTPS 解密 → 点击允许 → 前往手机的设置，不是 Shadowrocket 的 → 看到已下载描述文件 → 安装 → 输入手机的解锁密码 → 安装 → 安装 → 前往手机的设置 → 通用 → 关于本机 → 证书信任设置 → 找到 Shadowrocket 点绿它以信任该根证书 → 继续
