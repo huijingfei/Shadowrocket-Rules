@@ -37,7 +37,7 @@ domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:se
 domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:ssl.gstatic.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:poly.me, domain:polywork.com, domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com)->direct
-domain(domain:thawte.com, domain:thcdn.com, domain:tigress.cc, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
+domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:weibo.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
 domain(domain:xdaimages.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xvideos-cdn.com, domain:ya.ru, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
@@ -46,7 +46,7 @@ domain(domain:ziffstatic.com, domain:zoho.com, domain:zohocdn.com, domain:zohowe
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
-domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com)->proxy
+domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org)->proxy
 domain(domain:steamcommunity.com, domain:skype.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(domain:ads.tiktok.com, domain:analytics.google.com)->proxy
@@ -57,7 +57,7 @@ ip(59.82.113.39, 203.119.206.64, 59.82.113.10, 203.119.211.219, 59.82.113.219)->
 domain(domain:ad.10010.com, domain:ads.cup.com.cn, domain:boot.biz.weibo.com, domain:bootpreload.uve.weibo.com, domain:bootrealtime.uve.weibo.com, domain:brandvideo.biz.weibo.com)->block
 domain(domain:iyes.youku.com, domain:pangolin-sdk-toutiao.com, domain:pangolin-sdk-toutiao-b.com, domain:pangolin-sdk-toutiao1.com, domain:pglstatp-toutiao.com, domain:popup3.jd.com)->block
 domain(domain:down-cdn.dingtalk.com, domain:smartad.10010.com, domain:tbexpand.alicdn.com, domain:tianshu.gtimg.cn, domain:toblog.ctobsnssdk.com)->block
-domain(domain:p3-ad-sign.byteimg.com, domain:p3-sign.douyinpic.com, domain:chengzijianzhan.com, domain:kadmimage.biz.weibo.com, domain:mm1.365dmp.com, domain:mm3365dmp.com)->block
+domain(domain:p3-ad-sign.byteimg.com, domain:chengzijianzhan.cc, domain:chengzijianzhan.com, domain:kadmimage.biz.weibo.com, domain:mm1.365dmp.com, domain:mm3.365dmp.com)->block
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one)->block
 domain(domain:cedexis.com, domain:swizxs.com, domain:fsadcx3.com, domain:cdn.bcebos.com, domain:mmjs.adutp.com, domain:mediav.com)->block
