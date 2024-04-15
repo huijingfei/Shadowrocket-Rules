@@ -37,7 +37,7 @@ domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:se
 domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io, domain:start.me)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:smartadserver.com, domain:ssl.gstatic.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:poly.me, domain:polywork.com, domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com)->direct
-domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
+domain(domain:thawte.com, domain:thcdn.com, domain:tigress.cc, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:weibo.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
 domain(domain:xdaimages.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xsbiquge.la, domain:xvideos-cdn.com, domain:ya.ru, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
@@ -47,7 +47,7 @@ domain(domain:ziffstatic.com, domain:zoho.com, domain:zohocdn.com, domain:zohowe
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org)->proxy
-domain(domain:steamcommunity.com, domain:jsdelivr.net)->proxy
+domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(domain:ads.tiktok.com, domain:analytics.google.com, domain:googleadservices.com)->proxy
 
