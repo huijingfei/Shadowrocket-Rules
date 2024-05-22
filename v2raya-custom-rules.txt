@@ -18,7 +18,7 @@ domain(domain:snssdk.com, domain:ctobsnssdk.com)->direct
 domain(domain:driftt.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:dwolla.com, domain:dynadot.com, domain:dzen.ru, domain:dzeninfra.ru)->direct
 domain(domain:easylist.to, domain:entrust.net)->direct
 domain(domain:fanboy.co.nz, domain:figma.com, domain:fileforum.com, domain:five9.com, domain:fluidplayer.com, domain:fontawesome.com, domain:fontshare.com)->direct
-domain(domain:fonts.googleapis.com, domain:fonts.gstatic.com, domain:fosshub.com, domain:freedif.org, domain:fwupd.org)->direct
+domain(domain:fosshub.com, domain:freedif.org, domain:fwupd.org)->direct
 domain(domain:geekzu.org, domain:gifyu.com, domain:gitcdn.xyz, domain:github.io, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:hcfy.app)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hsappstatic.net, domain:hubspot.com, domain:hubspotusercontent-na1.net, domain:hubspotusercontent40.net)->direct
@@ -49,7 +49,7 @@ domain(domain:zencdn.net, domain:ziffstatic.com, domain:zoho.com, domain:zohocdn
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org, domain:twimg.com)->proxy
-domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org)->proxy
+domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:www.gstatic.com, domain:fonts.gstatic.com, domain:google.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(domain:ads.tiktok.com, domain:analytics.google.com, domain:googleadservices.com)->proxy
 
@@ -63,8 +63,8 @@ domain(domain:p3-ad-sign.byteimg.com, domain:chengzijianzhan.cc, domain:chengzij
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one, domain:5uxmusq.cn)->block
 domain(domain:swizxs.com, domain:fsadcx3.com, domain:cdn.bcebos.com, domain:mmjs.adutp.com, domain:mediav.com, domain:negxkj5ca.com, domain:cdn.bncloudfl.com, domain:histats.com)->block
-domain(domain:1113dns.com, domain:juxin8888.com, domain:i.sso.sina.com.cn, domain:888xx555kk.com, domain:cdn.sekio.top, domain:999xx333kk.com, domain:bba9603w.com)->block
-domain(domain:ad.zijieapi.com, domain:analytics.oceanengine.com, domain:clue.oceanengine.com, domain:mcs.snssdk.com, domain:mcs.zijieapi.com, domain:mon.zijieapi.com)->block
+domain(domain:1113dns.com, domain:juxin8888.com, domain:888xx555kk.com, domain:cdn.sekio.top, domain:999xx333kk.com, domain:bba9603w.com)->block
+domain(domain:ad.zijieapi.com, domain:analytics.oceanengine.com, domain:clue.oceanengine.com)->block
 domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn)->block
 domain(domain:fl.reg.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net)->block
