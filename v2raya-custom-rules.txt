@@ -13,7 +13,7 @@ domain(domain:biqule.top, domain:bootcampcdn.com, domain:branch.io, domain:bttbo
 domain(domain:cdnpure.com, domain:cccdn.xyz, domain:ccpiteco.net, domain:cdnhuo.com, domain:cdnjs.com, domain:cdn.minds.com, domain:cdn2.jiuse2.cloud, domain:chukouplus.com, domain:cloudfront.net, domain:cndhl.com, domain:cnet.com, domain:cnetstatic.com)->direct
 domain(domain:cdnpk.net, domain:clarity.ms, domain:codelife.cc, domain:comodoca.com, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net)->direct
 domain(domain:danniao.com, domain:dahaomedical.com)->direct
-domain(domain:deb.opera.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:disquscdn.com, domain:discourse-cdn.com, domain:deb-multimedia.org)->direct
+domain(domain:deepl.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:disquscdn.com, domain:discourse-cdn.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:ctobsnssdk.com)->direct
 domain(domain:driftt.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:dwolla.com, domain:dynadot.com, domain:dzen.ru, domain:dzeninfra.ru)->direct
 domain(domain:easylist.to, domain:entrust.net)->direct
@@ -27,7 +27,7 @@ domain(domain:imgik.com, domain:imgix.net, domain:imgpile.com, domain:intercomcd
 domain(domain:jinnanyq.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz, domain:jsdelivr2.com, domain:juxw.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:jiuse.cloud, domain:kwcdn.com, domain:kxcdn.com, domain:larkoffice.com)->direct
 domain(domain:lencr.org, domain:linuxadictos.com, domain:linux-console.net, domain:licdn.com, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
-domain(domain:ltwebstatic.com, domain:madcapcentral.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:mmstat.com)->direct
+domain(domain:ltwebstatic.com, domain:madcapcentral.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:mintos.org, domain:mmstat.com)->direct
 domain(domain:mstdn.plus, domain:modular.im, domain:monsterinsights.com, domain:movieshd99.com, domain:mozgcp.net, domain:met.no, domain:mtalk.google.com)->direct
 domain(domain:oath.com, domain:ob-baidu.xyz, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com, domain:openweathermap.org)->direct
 domain(domain:nortonlifelock.com, domain:neilpatel.com, domain:nuodepet.com, domain:nvidia.com)->direct
@@ -35,7 +35,7 @@ domain(domain:payoneer.com, domain:pcmag.com, domain:phncdn.com, domain:pictured
 domain(domain:qpic.ws, domain:pixhost.to, domain:pseudoyu.com, domain:quoracdn.net, domain:qweather.net, domain:pgdt.gtimg.cn)->direct
 domain(domain:rapidssl.com, domain:safebrowsing.googleapis.com, domain:salesforceliveagent.com, domain:sanity.io, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
-domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io, domain:start.me)->direct
+domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:skysangel.cfd, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io, domain:start.me)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com)->direct
 domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
@@ -48,8 +48,8 @@ domain(domain:zencdn.net, domain:ziffstatic.com, domain:zoho.com, domain:zohocdn
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
-domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org, domain:twimg.com)->proxy
-domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:www.gstatic.com, domain:fonts.gstatic.com, domain:google.com)->proxy
+domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org, domain:twimg.com, domain:gvt2.com)->proxy
+domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:gstatic.com, domain:onedrive.live.com)->proxy
 domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
 domain(domain:ads.tiktok.com, domain:analytics.google.com, domain:googleadservices.com)->proxy
 
@@ -68,7 +68,7 @@ domain(domain:ad.zijieapi.com, domain:analytics.oceanengine.com, domain:clue.oce
 domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn)->block
 domain(domain:fl.reg.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net)->block
-domain(domain:dtscdn.com, domain:dtscout.com, domain:pixel.onaudience.com, domain:px.ads.linkedin.com, domain:yt-adp.ws.126.net, domain:s.w.org)->block
+domain(domain:dtscdn.com, domain:dtscout.com, domain:pixel.onaudience.com, domain:px.ads.linkedin.com, domain:yt-adp.ws.126.net, domain:s.w.orgt, domain:ajscdn.com)->block
 domain(domain:match.adsrvr.org, domain:tags.crwdcntrl.net, domain:px.ads.linkedin.com, domain:get.s-onetag.com, domain:bcp.crwdcntrl.net, domain:um.simpli.fi, domain:lijit.com, domain:ps.eyeota.net)->block
 domain(domain:imasdk.googleapis.com, domain:poweredby.jads.co, domain:a.magsrv.com, domain:hubt.pornhub.com, domain:media.trafficjunky.com, domain:static.trafficjunky.com, domain:media.trafficjunky.net)->block
 domain(domain:etahub.com, domain:rpc-php.trafficfactory.biz, domain:s.orbsrv.com, domain:a.orbsrv.com, domain:static.cloudflareinsights.com, domain:84gs08xe1.com, domain:mnaspm.com)->block
