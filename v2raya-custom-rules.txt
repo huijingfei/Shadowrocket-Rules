@@ -5,15 +5,15 @@ default: proxy
 ip(192.168.0.12/24, 192.168.31.15/24, 192.168.1.15/24) -> direct
 domain(domain:26img.com, domain:25img.com, domain:24img.com)->direct
 domain(domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
-domain(domain:abowman.com, domain:ahcdn.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
+domain(domain:abowman.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
 domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:autodesk.com, domain:autodesk.net, domain:avast.com, domain:avcdn.net, domain:avira.com)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:betanews.com, domain:bigcloud.click, domain:bilibili.com)->direct
 domain(domain:biqule.top, domain:bootcampcdn.com, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:bytedapm.com)->direct
 domain(domain:cdnpure.com, domain:cccdn.xyz, domain:ccpiteco.net, domain:cdnhuo.com, domain:cdnjs.com, domain:cdn.minds.com, domain:cdn2.jiuse2.cloud, domain:chukouplus.com, domain:cloudfront.net, domain:cndhl.com, domain:cnet.com, domain:cnetstatic.com)->direct
-domain(domain:cdnpk.net, domain:clarity.ms, domain:codelife.cc, domain:comodoca.com, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net)->direct
+domain(domain:cdnpk.net, domain:cdn.cybassets.com, domain:clarity.ms, domain:cloudokyo.cloud, domain:codelife.cc, domain:comodoca.com, domain:comtucdncom.com, domain:cookielaw.org, domain:ctfassets.net)->direct
 domain(domain:danniao.com, domain:dahaomedical.com)->direct
-domain(domain:deepl.com, domain:digicert.com, domain:digitalcertvalidation.com, domain:disquscdn.com, domain:discourse-cdn.com, domain:deb-multimedia.org)->direct
+domain(domain:digicert.com, domain:digitalcertvalidation.com, domain:disquscdn.com, domain:discourse-cdn.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:ctobsnssdk.com)->direct
 domain(domain:driftt.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:dwolla.com, domain:dynadot.com, domain:dzen.ru, domain:dzeninfra.ru)->direct
 domain(domain:easylist.to, domain:entrust.net)->direct
@@ -23,15 +23,15 @@ domain(domain:geekzu.org, domain:gifyu.com, domain:gitcdn.xyz, domain:github.io,
 domain(domain:go-mpulse.net, domain:hcfy.app)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hsappstatic.net, domain:hubspot.com, domain:hubspotusercontent-na1.net, domain:hubspotusercontent40.net)->direct
 domain(domain:hukeji.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
-domain(domain:imgik.com, domain:imgix.net, domain:imgpile.com, domain:intercomcdn.com, domain:intercom.io, domain:int.ucloud49.xyz, domain:int.qiniuyun10.xyz, domain:int.mwbbiz.com, domain:iook.link, domain:ip-api.com, domain:itab.link)->direct
-domain(domain:jinnanyq.com, domain:jquery.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz, domain:jsdelivr2.com, domain:juxw.com, domain:jwpcdn.com)->direct
+domain(domain:imgik.com, domain:imgix.net, domain:imgpile.com, domain:int.ucloud49.xyz, domain:int.qiniuyun10.xyz, domain:int.mwbbiz.com, domain:intercomcdn.com, domain:intercom.io, domain:iook.link, domain:ip-api.com, domain:itab.link)->direct
+domain(domain:jinnanyq.com, domain:jquery.com, domain:jisuts.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz, domain:jsdelivr2.com, domain:juxw.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:jiuse.cloud, domain:kwcdn.com, domain:kxcdn.com, domain:larkoffice.com)->direct
 domain(domain:lencr.org, domain:linuxadictos.com, domain:linux-console.net, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
 domain(domain:ltwebstatic.com, domain:madcapcentral.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:mintos.org, domain:mmstat.com)->direct
 domain(domain:mstdn.plus, domain:modular.im, domain:monsterinsights.com, domain:movieshd99.com, domain:mozgcp.net, domain:met.no)->direct
 domain(domain:oath.com, domain:ob-baidu.xyz, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com, domain:openweathermap.org)->direct
 domain(domain:nortonlifelock.com, domain:neilpatel.com, domain:nsimg.net, domain:nuodepet.com, domain:nvidia.com)->direct
-domain(domain:pages.dev, domain:payoneer.com, domain:pcmag.com, domain:phncdn.com, domain:pki.goog, domain:picturedata.org, domain:pling.com, domain:plyr.io, domain:oschina.net)->direct
+domain(domain:pages.dev, domain:payoneer.com, domain:pcmag.com, domain:phncdn.com, domain:picturedata.org, domain:pki.goog, domain:pling.com, domain:plyr.io, domain:oschina.net)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:pseudoyu.com, domain:quoracdn.net, domain:qweather.net, domain:pgdt.gtimg.cn)->direct
 domain(domain:rapidssl.com, domain:salesforceliveagent.com, domain:sanity.io, domain:sfdcstatic.com)->direct
 domain(domain:sascdn.com, domain:sb-cd.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
@@ -39,19 +39,20 @@ domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:skysangel.cfd, domai
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com)->direct
 domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
+domain(domain:usertrust.com)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
 domain(domain:xdaimages.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xsbiquge.la, domain:xvideos-cdn.com)->direct
 domain(domain:ya.ru, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
-domain(domain:yandex.com, domain:yandex.net, domain:yandex-ad.cn, domain:yandex.ru, domain:yastatic.net, domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
+domain(domain:yandex.com, domain:yandex.net, domain:yandex-ad.cn, domain:yandex.ru, domain:yastatic.net, domain:yddsha2.com, domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
 domain(domain:zencdn.net, domain:ziffstatic.com, domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoho.eu)->direct
 
 # proxy
 domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:downloadcontentcdn.opensuse.org, domain:twimg.com, domain:gvt2.com)->proxy
-domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:gstatic.com, domain:onedrive.live.com)->proxy
-domain(domain:ads.tiktok.com, domain:googleadservices.com, domain:analytics.google.com, domain:dl.google.com, domain:recaptcha.net)->proxy
-domain(geosite:github, geosite:linkedin, geosite:tiktok)->proxy
+domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:gstatic.com, domain:onedrive.live.com, domain:security.debian.org)->proxy
+domain(domain:ads.tiktok.com, domain:googleadservices.com, domain:analytics.google.com, domain:dl.google.com, domain:recaptcha.net, domain:chatgpt.com)->proxy
+domain(geosite:github, geosite:linkedin, geosite:tiktok, geosite:facebook)->proxy
 
 # block
 domain(geosite:category-ads)->block
@@ -68,7 +69,7 @@ domain(domain:ad.zijieapi.com, domain:analytics.oceanengine.com, domain:clue.oce
 domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn)->block
 domain(domain:fl.reg.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net, domain:qccommunity.qcloudimg.com)->block
-domain(domain:flirtify.com, domain:k9gj.site, domain:vrmedia-nss.xhcdn.com)->block
+domain(domain:flirtify.com, domain:k9gj.site, domain:vrmedia-nss.xhcdn.com, domain:vcmdiawe.com, domain:xcdn.vip)->block
 domain(domain:dtscdn.com, domain:dtscout.com, domain:pixel.onaudience.com, domain:px.ads.linkedin.com, domain:yt-adp.ws.126.net, domain:s.w.orgt, domain:ajscdn.com)->block
 domain(domain:match.adsrvr.org, domain:tags.crwdcntrl.net, domain:px.ads.linkedin.com, domain:get.s-onetag.com, domain:bcp.crwdcntrl.net, domain:um.simpli.fi, domain:lijit.com, domain:ps.eyeota.net)->block
 domain(domain:imasdk.googleapis.com, domain:poweredby.jads.co, domain:a.magsrv.com, domain:hubt.pornhub.com, domain:media.trafficjunky.com, domain:static.trafficjunky.com, domain:media.trafficjunky.net)->block
@@ -83,7 +84,7 @@ domain(domain:animezilla.com, domain:iwanttodeliver.com, domain:orbsrv.com, doma
 # direct
 ip(geoip:private, geoip:cn)->direct
 ip(47.88.12.192, 192.200.96.77, 8.219.1.15)->direct
-domain(geosite:cn, domain:xhcdn.com)->direct
+domain(geosite:cn)->direct
 domain(geosite:adobe, geosite:alibaba, geosite:amazon, geosite:apple)->direct
 domain(geosite:bytedance, geosite:baidu, geosite:category-dev)->direct
 domain(geosite:category-games@cn, geosite:category-games, geosite:category-ecommerce, geosite:cloudinary)->direct
