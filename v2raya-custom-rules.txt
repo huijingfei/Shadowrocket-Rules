@@ -6,7 +6,7 @@ ip(192.168.0.12/24, 192.168.31.15/24, 192.168.1.15/24) -> direct
 domain(domain:26img.com, domain:25img.com, domain:24img.com)->direct
 domain(domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
 domain(domain:abowman.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
-domain(domain:a2z.com, domain:ahrefs.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
+domain(domain:a2z.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:autodesk.com, domain:autodesk.net, domain:avast.com, domain:avcdn.net, domain:avira.com)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:betanews.com, domain:bigcloud.click, domain:bilibili.com)->direct
 domain(domain:biqule.top, domain:bootcampcdn.com, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:bytedapm.com)->direct
@@ -16,11 +16,11 @@ domain(domain:danniao.com, domain:dahaomedical.com)->direct
 domain(domain:digicert.com, domain:digitalcertvalidation.com, domain:disquscdn.com, domain:discourse-cdn.com, domain:deb-multimedia.org)->direct
 domain(domain:snssdk.com, domain:ctobsnssdk.com)->direct
 domain(domain:driftt.com, domain:dnvodcdn.me, domain:dynamicyield.com, domain:dwolla.com, domain:dynadot.com, domain:dzen.ru, domain:dzeninfra.ru)->direct
-domain(domain:easylist.to, domain:entrust.net)->direct
+domain(domain:easylist.to, domain:entrust.net, domain:cdn2020.com)->direct
 domain(domain:fanboy.co.nz, domain:figma.com, domain:fileforum.com, domain:five9.com, domain:fluidplayer.com, domain:fontawesome.com, domain:fontshare.com)->direct
-domain(domain:fosshub.com, domain:freedif.org, domain:fsdn.com, domain:fwupd.org)->direct
+domain(domain:fosshub.com, domain:freedif.org, domain:fsdn.com, domain:fwupd.org, domain:swcdn99.com)->direct
 domain(domain:geekzu.org, domain:gifyu.com, domain:gitcdn.xyz, domain:github.io, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
-domain(domain:go-mpulse.net, domain:hcfy.app)->direct
+domain(domain:go-mpulse.net, domain:hcfy.app, domain:xycdn.com, domain:hgm4u9.com)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hsappstatic.net, domain:hubspot.com, domain:hubspotusercontent-na1.net, domain:hubspotusercontent40.net)->direct
 domain(domain:hukeji.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgix.net, domain:imgpile.com, domain:int.ucloud49.xyz, domain:int.qiniuyun10.xyz, domain:int.mwbbiz.com, domain:intercomcdn.com, domain:intercom.io, domain:iook.link, domain:ip-api.com, domain:itab.link)->direct
@@ -39,7 +39,7 @@ domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:skysangel.cfd, domai
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com)->direct
 domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
-domain(domain:usertrust.com)->direct
+domain(domain:usertrust.com, domain:huangguazyw.com, domain:fedbf.com, domain:03hao.top, domain:askzycdn.com, domain:cl9987.com, domain:kaltura.com)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
 domain(domain:xdaimages.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xsbiquge.la, domain:xvideos-cdn.com)->direct
