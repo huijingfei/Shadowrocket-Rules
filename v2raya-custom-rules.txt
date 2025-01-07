@@ -6,7 +6,7 @@ ip(192.168.0.12/24, 192.168.31.15/24, 192.168.1.15/24) -> direct
 domain(domain:26img.com, domain:25img.com, domain:24img.com)->direct
 domain(domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com)->direct
 domain(domain:abowman.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:amazonaws.com, domain:aviationweather.gov)->direct
-domain(domain:a2z.com, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com, domain:appinn.com)->direct
+domain(domain:a2z.com, domain:adtidy.org, domain:akamai-content-network.com, domain:akamaihd.net, domain:akamaized.net, domain:aolcdn.com, domain:appinn.com)->direct
 domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:autodesk.com, domain:autodesk.net, domain:avast.com, domain:avcdn.net, domain:avira.com)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:betanews.com, domain:bigcloud.click, domain:bilibili.com)->direct
 domain(domain:biqule.top, domain:bootcampcdn.com, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:bytedapm.com)->direct
@@ -20,21 +20,21 @@ domain(domain:easylist.to, domain:entrust.net, domain:cdn2020.com)->direct
 domain(domain:fanboy.co.nz, domain:figma.com, domain:fileforum.com, domain:five9.com, domain:fluidplayer.com, domain:fontawesome.com, domain:fontshare.com)->direct
 domain(domain:freedif.org, domain:fsdn.com, domain:fwupd.org, domain:swcdn99.com)->direct
 domain(domain:geekzu.org, domain:gifyu.com, domain:gitcdn.xyz, domain:github.io, domain:geotrust.com, domain:globalsign.com, domain:gnome-look.org)->direct
-domain(domain:go-mpulse.net, domain:hcfy.app, domain:xycdn.com, domain:hgm4u9.com)->direct
+domain(domain:go-mpulse.net, domain:hcfy.ai, domain:hcfy.app, domain:xycdn.com, domain:hgm4u9.com)->direct
 domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hsappstatic.net, domain:hubspot.com, domain:hubspotusercontent-na1.net, domain:hubspotusercontent40.net)->direct
 domain(domain:hukeji.com, domain:identrust.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imagehaha.com)->direct
 domain(domain:imgik.com, domain:imgix.net, domain:imgpile.com, domain:int.ucloud49.xyz, domain:int.qiniuyun10.xyz, domain:int.mwbbiz.com, domain:intercomcdn.com, domain:intercom.io, domain:iook.link, domain:ip-api.com, domain:itab.link)->direct
 domain(domain:jinnanyq.com, domain:jquery.com, domain:jisuts.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz, domain:jsdelivr2.com, domain:juxw.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:jiuse.cloud, domain:kwcdn.com, domain:kxcdn.com, domain:larkoffice.com)->direct
 domain(domain:lencr.org, domain:linuxadictos.com, domain:linux-console.net, domain:list.ly, domain:liveperson.com, domain:liveperson.net, domain:lpsnmedia.net)->direct
-domain(domain:ltwebstatic.com, domain:madcapcentral.com, domain:made-in-china.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:mintos.org, domain:mmstat.com)->direct
+domain(domain:ltwebstatic.com, domain:madcapcentral.com, domain:made-in-china.com, domain:mail.ru, domain:mathjax.org, domain:mattersprotocol.io, domain:micstatic.com, domain:mintos.org, domain:mmstat.com)->direct
 domain(domain:mstdn.plus, domain:modular.im, domain:monsterinsights.com, domain:movieshd99.com, domain:mozgcp.net, domain:met.no)->direct
 domain(domain:oath.com, domain:ob-baidu.xyz, domain:oceansaver.in, domain:ocsp-certum.com, domain:olemovienews.com, domain:onetrust.com, domain:openweathermap.org)->direct
 domain(domain:nortonlifelock.com, domain:neilpatel.com, domain:nsimg.net, domain:nuodepet.com, domain:nvidia.com)->direct
 domain(domain:pages.dev, domain:payoneer.com, domain:pcmag.com, domain:phncdn.com, domain:picturedata.org, domain:pling.com, domain:plyr.io, domain:oschina.net)->direct
 domain(domain:qpic.ws, domain:pixhost.to, domain:pseudoyu.com, domain:quoracdn.net, domain:qweather.net, domain:pgdt.gtimg.cn)->direct
 domain(domain:rapidssl.com, domain:safebrowsing.googleapis.com, domain:salesforceliveagent.com, domain:sanity.io, domain:sfdcstatic.com)->direct
-domain(domain:sascdn.com, domain:sb-cd.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com)->direct
+domain(domain:sascdn.com, domain:sb-cd.com, domain:sectigo.com, domain:sectigochina.com, domain:semrush.com, domain:sentry.io, domain:sentry-cdn.com, domain:sharethis.com)->direct
 domain(domain:shopifycdn.net, domain:shopifysvc.com, domain:skysangel.cfd, domain:slbfsl.com, domain:sgsocket.com, domain:sftcdn.net, domain:statically.io, domain:start.me)->direct
 domain(domain:siluzan.com, domain:similarcdn.com, domain:similarpng.com, domain:symantec.com, domain:syxxyy.com)->direct
 domain(domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.com, domain:tigress.cc)->direct
@@ -42,13 +42,13 @@ domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com
 domain(domain:usertrust.com, domain:huangguazyw.com, domain:fedbf.com, domain:03hao.top, domain:askzycdn.com, domain:cl9987.com, domain:kaltura.com)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
 domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com, domain:webvdd.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
-domain(domain:xdaimages.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xsbiquge.la, domain:xvideos-cdn.com)->direct
+domain(domain:xhcdn.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xsbiquge.la, domain:xnxx-cdn.com)->direct
 domain(domain:ya.ru, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
 domain(domain:yandex.com, domain:yandex.net, domain:yandex-ad.cn, domain:yandex.ru, domain:yastatic.net, domain:yddsha2.com, domain:yoast.com, domain:yhgfb-cn-static.com, domain:yudou66.com, domain:yudou66.top)->direct
 domain(domain:zencdn.net, domain:ziffstatic.com, domain:zoho.com, domain:zohocdn.com, domain:zohowebstatic.com, domain:zoho.eu)->direct
 
 # proxy
-domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net)->proxy
+domain(domain:addons.mozilla.org, domain:adobe.com, domain:ampproject.org, domain:cloudflare-dns.com, domain:dqzboy.com, domain:eu.org, domain:facebook.net, domain:googlesyndication.com)->proxy
 domain(domain:googleapis.com, domain:gravatar.com, domain:bootstrapcdn.com, domain:twimg.com, domain:gvt2.com, domain:opensuse.org)->proxy
 domain(domain:steamcommunity.com, domain:jsdelivr.net, domain:ftp.mozilla.org, domain:aur.archlinux.org, domain:gstatic.com, domain:onedrive.live.com, domain:security.debian.org)->proxy
 domain(domain:ads.tiktok.com, domain:googleadservices.com, domain:analytics.google.com, domain:dl.google.com, domain:recaptcha.net, domain:chatgpt.com)->proxy
@@ -56,20 +56,21 @@ domain(geosite:github, geosite:linkedin, geosite:tiktok, geosite:facebook)->prox
 
 # block
 domain(geosite:category-ads)->block
+domain(regexp: ^\d{3}[a-z]{2}\d{3}[a-z]{2}\.com$, regexp: ^\d{3}[a-z]{3}\d{3}[a-z]{3}\.com$) -> block
 ip(59.82.113.39, 203.119.206.64, 59.82.113.10, 203.119.211.219, 59.82.113.219, 59.82.14.161)->block
 domain(domain:ad.10010.com, domain:ads.cup.com.cn, domain:boot.biz.weibo.com, domain:bootpreload.uve.weibo.com, domain:bootrealtime.uve.weibo.com, domain:brandvideo.biz.weibo.com)->block
 domain(domain:iyes.youku.com, domain:pangolin-sdk-toutiao.com, domain:pangolin-sdk-toutiao-b.com, domain:pangolin-sdk-toutiao1.com, domain:pglstatp-toutiao.com, domain:popup3.jd.com)->block
-domain(domain:down-cdn.dingtalk.com, domain:smartad.10010.com, domain:tbexpand.alicdn.com, domain:tianshu.gtimg.cn, domain:toblog.ctobsnssdk.com, domain:mssdk3-normal-lf.zijieapi.com)->block
+domain(domain:smartad.10010.com, domain:tbexpand.alicdn.com, domain:tianshu.gtimg.cn, domain:toblog.ctobsnssdk.com, domain:mssdk3-normal-lf.zijieapi.com)->block
 domain(domain:p3-ad-sign.byteimg.com, domain:chengzijianzhan.cc, domain:chengzijianzhan.com, domain:kadmimage.biz.weibo.com, domain:mm1.365dmp.com, domain:mm3.365dmp.com)->block
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:qingse.one, domain:5uxmusq.cn)->block
-domain(domain:swizxs.com, domain:fsadcx3.com, domain:cdn.bcebos.com, domain:mmjs.adutp.com, domain:mediav.com, domain:negxkj5ca.com, domain:cdn.bncloudfl.com, domain:histats.com)->block
+domain(domain:swizxs.com, domain:fsadcx3.com, domain:mmjs.adutp.com, domain:mediav.com, domain:negxkj5ca.com, domain:cdn.bncloudfl.com, domain:histats.com)->block
 domain(domain:1113dns.com, domain:juxin8888.com, domain:888xx555kk.com, domain:cdn.sekio.top, domain:999xx333kk.com, domain:bba9603w.com)->block
 domain(domain:ad.zijieapi.com, domain:analytics.oceanengine.com, domain:clue.oceanengine.com, domain:xhvideo.sacdnssedge.com, domain:xxxviijmp.com)->block
 domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn, domain:ogads-pa.clients6.google.com)->block
 domain(domain:fl.reg.163.com, domain:h5.analytics.126.net, domain:nex.163.com, domain:vmonitor.ws.netease.com, domain:yt-adp.ws.126.net, domain:qccommunity.qcloudimg.com)->block
-domain(domain:flirtify.com, domain:k9gj.site, domain:vrmedia-nss.xhcdn.com, domain:vcmdiawe.com, domain:xcdn.vip, domain:tpstelemetry.tencent.com)->block
+domain(domain:flirtify.com, domain:k9gj.site, domain:vrmedia-nss.xhcdn.com, domain:vcmdiawe.com, domain:xcdn.vip, domain:tpstelemetry.tencent.com, domain:pic.kjnolq.cn)->block
 domain(domain:dtscdn.com, domain:dtscout.com, domain:pixel.onaudience.com, domain:px.ads.linkedin.com, domain:yt-adp.ws.126.net, domain:s.w.orgt, domain:ajscdn.com)->block
 domain(domain:match.adsrvr.org, domain:tags.crwdcntrl.net, domain:px.ads.linkedin.com, domain:get.s-onetag.com, domain:bcp.crwdcntrl.net, domain:um.simpli.fi, domain:lijit.com, domain:ps.eyeota.net)->block
 domain(domain:imasdk.googleapis.com, domain:poweredby.jads.co, domain:a.magsrv.com, domain:hubt.pornhub.com, domain:media.trafficjunky.com, domain:static.trafficjunky.com, domain:media.trafficjunky.net)->block
