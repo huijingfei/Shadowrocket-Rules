@@ -2,6 +2,6 @@
 
 使用方法查看此博文：<a href="https://tigress.cc/2024/03/31/shadowrocket-rules/" target="blank">手动维护的 iOS 小火箭 Shadowrocket Rules 分流规则 / v2rayN 规则 / v2rayA 规则 (白名单规则</a>
 
-如果是老司机，直接扫描二维码即可。
+[![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/shadowrocket.png?raw=true)](https://tigress.cc/2024/03/31/shadowrocket-rules/)
 
-![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/shadowrocket.png?raw=true)
+[❗](https://feegle.me/)：如果是老司机，直接扫描二维码即可。
