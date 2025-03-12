@@ -5,10 +5,9 @@ source(192.168.0.12/24, 192.168.31.15/24, 192.168.1.15/24) -> direct
 domain(contains: hubspot) -> direct
 domain(contains: yandex) -> direct
 domain(domain:26img.com, domain:25img.com, domain:24img.com)->direct
-domain(domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com, domain:clubsim.com.hk)->direct
 domain(domain:abowman.com, domain:ak21727.com, domain:aibaaiba.xyz, domain:aviationweather.gov)->direct
 domain(domain:a2z.com, domain:adtidy.org, domain:aolcdn.com, domain:appinn.com)->direct
-domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:auth0.com, domain:autodesk.com, domain:autodesk.net, domain:avast.com, domain:avcdn.net, domain:avira.com)->direct
+domain(domain:apkpure.net, domain:app.link, domain:apsense.com, domain:asus.com, domain:auth0.com, domain:autodesk.com, domain:autodesk.net, domain:avast.com, domain:avcdn.net, domain:avira.com)->direct
 domain(domain:baisiweiting.com, domain:bankqh.com, domain:betanews.com, domain:bigcloud.click)->direct
 domain(domain:biqule.top, domain:bootcampcdn.com, domain:branch.io, domain:bttbo.com, domain:buypass.com, domain:cdnpure.com, domain:cccdn.xyz, domain:ccpiteco.net)->direct
 domain(domain:cdn.18zy2024719.com, domain:cdnhuo.com, domain:cdnjs.com, domain:minds.com, domain:cdn2.jiuse2.cloud, domain:chukouplus.com, domain:cloudfront.net, domain:cndhl.com)->direct
@@ -22,8 +21,9 @@ domain(domain:fanboy.co.nz, domain:figma.com, domain:fileforum.com, domain:five9
 domain(domain:freedif.org, domain:fsdn.com, domain:fwupd.org, domain:swcdn99.com, domain:generalcdn.com)->direct
 domain(domain:geekzu.org, domain:gifyu.com, domain:gitcdn.xyz, domain:github.io, domain:geotrust.com, domain:gnome-look.org)->direct
 domain(domain:go-mpulse.net, domain:hcfy.ai, domain:hcfy.app, domain:xycdn.com, domain:hgm4u9.com)->direct
-domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hsappstatic.net)->direct
-domain(domain:hukeji.com, domain:icoa.vip, domain:identrust.com, domain:iflix.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imgik.com, domain:imgix.net, domain:imagehaha.com)->direct
+domain(domain:hkbchina.com, domain:hlsdelivery.net, domain:hostinger.com, domain:hukeji.com, domain:hsappstatic.net)->direct
+domain(domain:imgbox.com, domain:imagetwist.com, domain:imagexport.com, domain:clubsim.com.hk)->direct
+domain(domain:icoa.vip, domain:identrust.com, domain:iflix.com, domain:imgbox.xyz, domain:imagegoto.com, domain:imgik.com, domain:imgix.net, domain:imagehaha.com)->direct
 domain(domain:imgpile.com, domain:int.ucloud49.xyz, domain:int.qiniuyun10.xyz, domain:int.mwbbiz.com, domain:intercomcdn.com, domain:intercom.io, domain:iook.link, domain:ip-api.com, domain:itab.link)->direct
 domain(domain:jinnanyq.com, domain:jingkepharma.com, domain:jivox.com, domain:jquery.com, domain:jisuts.com, domain:jiuse.cloud, domain:jscdn.91cloud.xyz, domain:jsdelivr2.com, domain:juxw.com, domain:jwpcdn.com)->direct
 domain(domain:blr844.com, domain:nagre.site, domain:innologica.com, domain:jiuse.cloud, domain:kwcdn.com, domain:kxcdn.com, domain:larkoffice.com)->direct
@@ -43,7 +43,7 @@ domain(domain:softpedia.com, domain:spot.im, domain:tchspt.com, domain:techspot.
 domain(domain:thawte.com, domain:thcdn.com, domain:tiqcdn.com, domain:tkcdns.com, domain:trustpilot.com, domain:trustpilot.net, domain:twinkstar.com, domain:typekit.net)->direct
 domain(domain:usertrust.com, domain:huangguazyw.com, domain:fedbf.com, domain:03hao.top, domain:askzycdn.com, domain:cl9987.com, domain:kaltura.com)->direct
 domain(domain:vector.im, domain:videoabc.click, domain:videoys88.cfd, domain:vidyard.com, domain:vis.ee, domain:vivaldi.net, domain:vk.com, domain:slbfsl.com, domain:vodvip888.com)->direct
-domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:websitedemos.net, domain:website-files.com)->direct
+domain(domain:wordpress.org, domain:weatherextension.com, domain:webflow.com, domain:weibo.com, domain:websitedemos.net, domain:website-files.com)->direct
 domain(domain:webvdd.com, domain:weserv.nl, domain:whhnkj.com, domain:wsimg.com, domain:wistia.com, domain:wp.com)->direct
 domain(domain:xhcdn.com, domain:xianqihaotianmi.org, domain:xianyuks.com, domain:xlgmedia.com, domain:xsbiquge.la, domain:xnxx-cdn.com)->direct
 domain(domain:ya.ru, domain:yahoo.net, domain:yahoodns.net, domain:yahoosandbox.com)->direct
@@ -61,7 +61,7 @@ domain(geosite:github, geosite:tiktok, geosite:facebook, geosite:linkedin)->prox
 domain(geosite:category-ads)->block
 domain(regexp: ^\d{3}[a-z]{2}\d{3}[a-z]{2}\.com$, regexp: ^\d{3}[a-z]{3}\d{3}[a-z]{3}\.com$) -> block
 ip(59.82.113.39, 203.119.206.64, 59.82.113.10, 203.119.211.219, 59.82.113.219, 59.82.14.161, 59.82.113.252, 59.82.34.255, 59.82.34.148, 47.246.103.9, 47.246.103.10)->block
-domain(domain:ad.10010.com, domain:ads.cup.com.cn, domain:ad.us.sinaimg.cn, domain:boot.biz.weibo.com, domain:bootpreload.uve.weibo.com, domain:bootrealtime.uve.weibo.com, domain:brandvideo.biz.weibo.com)->block
+domain(domain:ad.10010.com, domain:ads.cup.com.cn, domain:ad.us.sinaimg.cn, domain:brandvideo.biz.weibo.com)->block
 domain(domain:iyes.youku.com, domain:pangolin-sdk-toutiao.com, domain:pangolin-sdk-toutiao-b.com, domain:pangolin-sdk-toutiao1.com, domain:pglstatp-toutiao.com, domain:popup3.jd.com)->block
 domain(domain:smartad.10010.com, domain:tianshu.gtimg.cn, domain:mssdk3-normal-lf.zijieapi.com, domain:155unshwi6buiko.com, domain:amdc.m.taobao.com, domain:kadmimage.biz.weibo.com)->block
 domain(domain:p3-ad-sign.byteimg.com, domain:ad.zijieapi.com, domain:mcs.zijieapi.com, domain:mon.zijieapi.com, domain:mm1.365dmp.com, domain:mm3.365dmp.com)->block
