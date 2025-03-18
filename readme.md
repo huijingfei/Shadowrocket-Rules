@@ -5,3 +5,5 @@
 [![二维码](https://github.com/huijingfei/Shadowrocket-Rules/blob/main/QR%20Code/shadowrocket.png?raw=true)](https://tigress.cc/2024/03/31/shadowrocket-rules/)
 
 [❗](https://feegle.me/)：如果是老司机，直接扫描二维码即可。
+
+v2ray 规则文件 [Loyalsoldier v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
