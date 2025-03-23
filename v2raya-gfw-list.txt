@@ -1,9 +1,14 @@
 # GFWList模式
 default: direct
+# 自定义域名
+domain(domain:hcaptcha.com, domain:geotrust.com, domain:lencr.org, domain:ocsp-certum.com, domain:rapidssl.com)->direct
+domain(geosite:amazon, domain:opensuse.org)->direct
+domain(contains:safebrowsing)->direct
+domain(domain:9xbuddy.in, domain:deepl.com, domain:chinesefeminism.org, domain:github.com, domain:githubusercontent.com, domain:greasyfork.org, domain:madeinchinajournal.com)->proxy
+domain(domain:tebangtech.com, domain:tibetmag.com, domain:feegle.me, domain:drfur.com, domain:relay.firefox.com, domain:v2raya.org)->proxy
 # 学术网站
-domain(geosite:google-scholar)->proxy
-domain(geosite:category-scholar-!cn, geosite:category-scholar-cn)->direct
-# domain(ext:"LoyalsoldierSite.dat:gfw", ext:"LoyalsoldierSite.dat:greatfire")->proxy
+domain(geosite:google-scholar, geosite:tiktok)->proxy
+domain(geosite:category-scholar-!cn, geosite:category-scholar-cn, geosite:mozilla, geosite:microsoft)->direct
 domain(geosite:geolocation-!cn)->proxy
 # Telegram
 domain(geosite:telegram)->proxy
