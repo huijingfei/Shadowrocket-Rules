@@ -1,19 +1,18 @@
 # GFWList模式
 default: direct
-
 # 自定义域名
-domain(domain:hcaptcha.com, domain:geotrust.com, domain:lencr.org, domain:ocsp-certum.com, domain:rapidssl.com)->direct
-domain(geosite:akamai, geosite:amazon, domain:b-cdn.net, domain:opensuse.org)->direct
 domain(contains:safebrowsing)->direct
-domain(geosite:github, domain:analytics.google.com)->proxy
-domain(domain:9xbuddy.in, domain:deepl.com, domain:chinesefeminism.org, domain:addons.mozilla.org, domain:greasyfork.org, domain:hbr1.com, domain:madeinchinajournal.com)->proxy
-domain(domain:tebangtech.com, domain:tibetmag.com, domain:feegle.me, domain:drfur.com, domain:relay.firefox.com, domain:v2raya.org, domain:xn--vuqr2hh88bion.xn--io0a7i)->proxy
+domain(domain:hcaptcha.com, domain:flathub.org, domain:geotrust.com, domain:lencr.org, domain:licdn.com, domain:ocsp-certum.com, domain:rapidssl.com)->direct
+domain(geosite:akamai, geosite:amazon, domain:b-cdn.net, domain:opensuse.org, domain:qzkj.tech)->direct
+domain(geosite:github, domain:analytics.google.com, domain:googleadservices.com, domain:pdst.fm, domain:qichiyu.com, domain:surfcloud.shop, domain:v2rayssr.com)->proxy
+domain(domain:9xbuddy.in, domain:deepl.com, domain:chinesefeminism.org, domain:addons.mozilla.org, domain:greasyfork.org, domain:hbr1.com, domain:librewolf.net, domain:madeinchinajournal.com)->proxy
+domain(domain:tebangtech.com, domain:tibetmag.com, domain:feegle.me, domain:drfur.com, domain:relay.firefox.com, domain:v2raya.org)->proxy
 
 # block
 domain(geosite:category-ads)->block
 domain(regexp: ^\d{3}[a-z]{2}\d{3}[a-z]{2}\.com$, regexp: ^\d{3}[a-z]{3}\d{3}[a-z]{3}\.com$) -> block
 ip(59.82.113.39, 203.119.206.64, 59.82.113.10, 203.119.211.219, 59.82.113.219, 59.82.14.161, 59.82.113.252, 59.82.34.255, 59.82.34.148, 47.246.103.9, 47.246.103.10)->block
-domain(domain:ad.10010.com, domain:ads.cup.com.cn, domain:ad.us.sinaimg.cn, domain:brandvideo.biz.weibo.com)->block
+domain(domain:abjectionirresponsibility.com, domain:ad.10010.com, domain:ads.cup.com.cn, domain:ad.us.sinaimg.cn, domain:brandvideo.biz.weibo.com)->block
 domain(domain:iyes.youku.com, domain:pangolin-sdk-toutiao.com, domain:pangolin-sdk-toutiao-b.com, domain:pangolin-sdk-toutiao1.com, domain:pglstatp-toutiao.com, domain:popup3.jd.com)->block
 domain(domain:smartad.10010.com, domain:tianshu.gtimg.cn, domain:mssdk3-normal-lf.zijieapi.com, domain:155unshwi6buiko.com, domain:amdc.m.taobao.com, domain:kadmimage.biz.weibo.com)->block
 domain(domain:p3-ad-sign.byteimg.com, domain:ad.zijieapi.com, domain:mcs.zijieapi.com, domain:mon.zijieapi.com, domain:mm1.365dmp.com, domain:mm3.365dmp.com)->block
@@ -34,14 +33,11 @@ domain(domain:i.go.sohu.com, domain:js.sohu.com, domain:pv.sohu.com, domain:qpb1
 domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:wpadmngr.com, domain:wzty152.com, domain:pptstatic.iyf.tv, domain:jads.co, domain:ktkjmp.com, domain:bbrdbr.com)->block
 domain(domain:maxus011.top, domain:u1022.com, domain:maxus011.top, domain:mmo2350.top, domain:int.jstatic.xyz, domain:66308888.com)->block
 domain(domain:yuanpinghengkangfuyouxiangongsi.top, domain:9a6cds03.com, domain:jstatic.xyz, domain:xiod.xyz, domain:kvhee.com, domain:m28458.top, domain:mmn811.top)->block
-domain(domain:animezilla.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:jianhuo111.com, domain:jiongnet.cn, domain:vidabcsp1.shop, domain:xlviirdr.com)->block
-
+domain(domain:animezilla.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:jianhuo111.com, domain:jiongnet.cn, domain:vidabcsp1.shop, domain:www.statcounter.com, domain:xlviirdr.com)->block
 # 学术网站
 domain(geosite:google-scholar, geosite:tiktok)->proxy
 domain(geosite:category-scholar-!cn, geosite:category-scholar-cn, geosite:mozilla, geosite:microsoft)->direct
 domain(geosite:geolocation-!cn)->proxy
-
 # Telegram
-
 domain(geosite:telegram)->proxy
 ip("91.105.192.0/23","91.108.4.0/22","91.108.8.0/21","91.108.16.0/21","91.108.56.0/22","95.161.64.0/20","149.154.160.0/20","185.76.151.0/24","2001:67c:4e8::/48","2001:b28:f23c::/47","2001:b28:f23f::/48","2a0a:f280:203::/48")->proxy
