@@ -2,11 +2,11 @@
 default: direct
 # 自定义域名
 domain(contains:safebrowsing)->direct
-domain(domain:hcaptcha.com, domain:flathub.org, domain:geotrust.com, domain:lencr.org, domain:licdn.com, domain:ocsp-certum.com, domain:rapidssl.com)->direct
-domain(geosite:akamai, geosite:amazon, domain:b-cdn.net, domain:opensuse.org, domain:qzkj.tech)->direct
-domain(geosite:github, domain:analytics.google.com, domain:googleadservices.com, domain:pdst.fm, domain:qichiyu.com, domain:surfcloud.shop, domain:v2rayssr.com)->proxy
-domain(domain:9xbuddy.in, domain:deepl.com, domain:chinesefeminism.org, domain:addons.mozilla.org, domain:greasyfork.org, domain:hbr1.com, domain:librewolf.net, domain:madeinchinajournal.com)->proxy
-domain(domain:tebangtech.com, domain:tibetmag.com, domain:feegle.me, domain:drfur.com, domain:relay.firefox.com, domain:v2raya.org)->proxy
+domain(domain:digicert.com, domain:hcaptcha.com, domain:flathub.org, domain:geotrust.com, domain:lencr.org, domain:ocsp-certum.com, domain:rapidssl.com, domain:shopify.com)->direct
+domain(geosite:akamai, geosite:amazon, geosite:apple, geosite:category-games, domain:b-cdn.net, domain:opensuse.org, domain:pki.goog, domain:qzkj.tech, domain:stripe.network)->direct
+domain(geosite:github, domain:aijichang.com, domain:analytics.google.com, domain:googleadservices.com, domain:kekehub.com, domain:pdst.fm, domain:qichiyu.com, domain:steamcommunity.com, domain:surfcloud.shop, domain:v2rayssr.com)->proxy
+domain(domain:9xbuddy.in, domain:deepl.com, domain:chinesefeminism.org, domain:addons.mozilla.org, domain:greasyfork.org, domain:hbr1.com, domain:librewolf.net, domain:madeinchinajournal.com, domain:openwrt.org)->proxy
+domain(domain:tebangtech.com, domain:tibetmag.com, domain:feegle.me, domain:drfur.com, domain:githubusercontent.com, domain:immortalwrt.org, domain:ssrsub.com, domain:threads.com, domain:v2raya.org, domain:udemy.com)->proxy
 
 # block
 domain(geosite:category-ads)->block
@@ -19,7 +19,7 @@ domain(domain:p3-ad-sign.byteimg.com, domain:ad.zijieapi.com, domain:mcs.zijieap
 domain(domain:doppiocdn.com, domain:doppiocdn.net, domain:fri4esianewheywr90itrage.com, domain:kcoach.xyz, domain:dvbnmikxh.xyz, domain:dakawm.cc, domain:vhqweree.xyz, domain:vipwm.cc)->block
 domain(domain:pi22y.cc, domain:pg-ad-b1.ws.126.net, domain:nimhuemark.com, domain:magsrv.com, domain:afcdn.net, domain:aucdn.net, domain:5uxmusq.cn)->block
 domain(domain:swizxs.com, domain:fsadcx3.com, domain:mmjs.adutp.com, domain:mediav.com, domain:negxkj5ca.com, domain:cdn.bncloudfl.com, domain:histats.com)->block
-domain(domain:1113dns.com, domain:juxin8888.com, domain:cdn.sekio.top, domain:bba9603w.com, domain:cnzz.trafficmanager.net, domain:pub.network)->block
+domain(domain:1113dns.com, domain:juxin8888.com, domain:cdn.sekio.top, domain:bba9603w.com, domain:cnzz.trafficmanager.net, domain:os986y.live, domain:pub.network)->block
 domain(domain:analytics.oceanengine.com, domain:clue.oceanengine.com, domain:chengzijianzhan.cc, domain:chengzijianzhan.com, domain:xhvideo.sacdnssedge.com, domain:xxxviijmp.com)->block
 domain(domain:9fum.ifeng.com, domain:bm7c.ifeng.com, domain:stadig.ifeng.com, domain:uww6.ifeng.com, domain:w.irs03.com, domain:zhanzhang.toutiao.com, domain:zz.bdstatic.com)->block
 domain(domain:d0.sina.com.cn, domain:d1.sina.com.cn, domain:d2.sina.com.cn, domain:d6.sina.com.cn, domain:sbeacon.sina.com.cn, domain:saxn.sina.com.cn, domain:ogads-pa.clients6.google.com)->block
@@ -34,6 +34,7 @@ domain(domain:preroll.cc, domain:strpst.com, domain:tjtj.cc, domain:wpadmngr.com
 domain(domain:maxus011.top, domain:u1022.com, domain:maxus011.top, domain:mmo2350.top, domain:int.jstatic.xyz, domain:66308888.com)->block
 domain(domain:yuanpinghengkangfuyouxiangongsi.top, domain:9a6cds03.com, domain:jstatic.xyz, domain:xiod.xyz, domain:kvhee.com, domain:m28458.top, domain:mmn811.top)->block
 domain(domain:animezilla.com, domain:orbsrv.com, domain:opoxv.com, domain:b2pk.com, domain:jianhuo111.com, domain:jiongnet.cn, domain:vidabcsp1.shop, domain:www.statcounter.com, domain:xlviirdr.com)->block
+
 # 学术网站
 domain(geosite:google-scholar, geosite:tiktok)->proxy
 domain(geosite:category-scholar-!cn, geosite:category-scholar-cn, geosite:mozilla, geosite:microsoft)->direct
