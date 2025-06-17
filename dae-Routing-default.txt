@@ -1,0 +1,11 @@
+pname(NetworkManager, systemd-resolved, dnsmasq) -> must_direct
+domain(suffix: ocsp-certum.com, suffix: digicert.com, suffix: onetrust.com, suffix: geotrust.com, suffix: identrust.com, keyword: trustpilot) -> direct
+domain(suffix: made-in-china.com, suffix: micstatic.com, suffix: edu.kg) -> direct
+domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com, suffix: github.com) -> proxy
+domain(suffix: addons.mozilla.org, suffix: adobe.com, suffix: ads.tiktok.com, suffix: microsoftedge.microsoft.com, suffix: steamcommunity.com) -> proxy
+dip(geoip:private) -> direct
+dip(geoip:cn) -> direct
+domain(geosite:cn) -> direct
+domain(geosite:microsoft, geosite:mozilla, geosite:category-dev) -> direct
+domain(geosite:category-ads) -> block
+fallback: proxy
