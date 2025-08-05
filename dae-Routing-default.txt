@@ -1,12 +1,14 @@
 pname(NetworkManager, systemd-resolved, dnsmasq) -> must_direct
 domain(suffix: digicert.com, suffix: geotrust.com, suffix: globalsign.com, suffix: identrust.com, suffix: lencr.org) -> direct
-domain(suffix: ocsp-certum.com, suffix: onetrust.com, suffix: pki.goog, suffix: sectigo.com, keyword: trustpilot, keyword: trust-provider.cn) -> direct
-domain(suffix: alibaba.com, suffix: edu.kg, suffix: made-in-china.com, suffix: micstatic.com, suffix: openweathermap.org) -> direct
-domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com, suffix: github.com) -> proxy
-domain(suffix: addons.mozilla.org, suffix: adobe.com, suffix: cloudflare.com, suffix: ads.tiktok.com, suffix: microsoftedge.microsoft.com, suffix: steamcommunity.com) -> proxy
+domain(suffix: ocsp-certum.com, suffix: onetrust.com, suffix: pki.goog, suffix: sectigo.com, keyword: trustpilot, keyword: trust-provider.cn, keyword: xda-developers.com) -> direct
+domain(suffix: archlinux.org, suffix: cobalt.tools, suffix: edu.kg, suffix: made-in-china.com, suffix: micstatic.com, suffix: openweathermap.org, suffix: sourceforge.net) -> direct
+domain(suffix: fuckcloudnative.io, suffix: licdn.com, suffix: oceansaver.in, suffix: tigress.cc) -> direct
+domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: github.com, suffix: cloudflare-dns.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com) -> proxy
+domain(suffix: addons.mozilla.org, suffix: adobe.com, suffix: ads.tiktok.com, suffix: microsoftedge.microsoft.com, suffix: primevideo.com, suffix: steamcommunity.com) -> proxy
+domain(suffix: download.opensuse.org, suffix: downloadcontentcdn.opensuse.org) -> proxy
+domain(geosite:category-ads) -> block
 dip(geoip:private) -> direct
 dip(geoip:cn) -> direct
-domain(geosite:cn) -> direct
-domain(geosite:microsoft, geosite:mozilla, geosite:category-dev) -> direct
-domain(geosite:category-ads) -> block
+domain(geosite:cn, geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:cloudflare) -> direct
+domain(geosite:amazon, geosite:microsoft, geosite:mozilla, geosite:category-dev, geosite:category-games) -> direct
 fallback: proxy
