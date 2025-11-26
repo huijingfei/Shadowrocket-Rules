@@ -1,0 +1,11 @@
+upstream {
+  cnnicdns: 'udp://1.2.4.8:53'
+  cloudflaredns: 'tcp+udp://1.1.1.1:53'
+}
+routing {
+  request {
+    qname(geosite:linkedin) -> cloudflaredns
+    qname(geosite:cn) -> cnnicdns
+    fallback: cloudflaredns
+  }
+}
