@@ -4,11 +4,12 @@ domain(suffix: ocsp-certum.com, suffix: onetrust.com, suffix: pki.goog, suffix: 
 domain(suffix: archlinux.org, suffix: cobalt.tools, suffix: edu.kg, suffix: made-in-china.com, suffix: micstatic.com, suffix: openweathermap.org, suffix: sourceforge.net) -> direct
 domain(suffix: dmcdn.net, suffix: edu.kg, suffix: fuckcloudnative.io, suffix: licdn.com, suffix: oceansaver.in, suffix: openweathermap.org, suffix: tigress.cc) -> direct
 domain(suffix: 91lol.im, suffix: gnome.org, suffix: gwdg.de, suffix: larksuite.com, suffix: larksuitecdn.com, suffix: sogoucdn.com, suffix: sysgeek.cn, suffix: trademessenger.com) -> direct
-domain(suffix: debian.org, suffix: hdcdn.online, suffix: okcdn.ru, suffix: qweather.com, suffix: vk-portal.net, suffix: weatherapi.com, suffix: userapi.com) -> direct
+domain(suffix: hdcdn.online, suffix: okcdn.ru, suffix: paypal.com, suffix: qweather.com, suffix: vk-portal.net, suffix: weatherapi.com, suffix: userapi.com, suffix: xzmgo.com) -> direct
 domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: github.com, suffix: cloudflare-dns.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com) -> proxy
 domain(suffix: addons.mozilla.org, suffix: adobe.com, suffix: ads.tiktok.com, suffix: microsoftedge.microsoft.com, suffix: primevideo.com, suffix: steamcommunity.com) -> proxy
-domain(suffix: opensuse.org, suffix: githubusercontent.com, suffix: linkedin.com) -> proxy
+domain(suffix: blogger.com, suffix: debian.org, suffix: ml0987.com, suffix: opensuse.org, suffix: githubusercontent.com, suffix: linkedin.com, suffix: tpc.googlesyndication.com) -> proxy
 domain(geosite:category-ads) -> block
+dip(8.219.1.15, 47.245.124.74) -> direct
 dip(geoip:private) -> direct
 dip(geoip:cn) -> direct
 domain(geosite:tiktok) -> proxy
