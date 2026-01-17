@@ -1,0 +1,8 @@
+Domain Query Servers
+1.8.8.8 -> direct
+https://doh.onedns.net:443/dns-query->direct
+https://doh.360.cn:443->direct
+
+External Domain Query Servers
+https://dns.google:443/dns-query->proxy
+https://1.1.1.1:443/dns-query->proxy
