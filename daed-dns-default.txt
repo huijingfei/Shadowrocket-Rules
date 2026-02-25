@@ -1,15 +1,16 @@
 upstream {
-  cnnicdns: 'tcp+udp://1.8.8.8:53'
-  securedns: 'https://doh.360.cn'
-  onedns: 'tls://dot-pure.onedns.net'
-  cloudflare-dns: 'https://1.1.1.1/dns-query'
   googledns: 'tls://dns.google'
+  cnnicdns: 'tcp+udp://1.8.8.8:53'
+  securedns: 'https://doh.360.cn/dns-query'
+  onedns: 'tls://dot.onedns.net'
+  cloudflare-dns: 'https://1.1.1.1/dns-query'
 }
+
 routing {
   request {
-    qname(geosite:linkedin, geosite:meta, geosite:google, geosite:github) -> cloudflare-dns
-    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:netease, geosite:sina, geosite:tencent, geosite:yy) -> securedns
-    qname(geosite:adguard, geosite:adobe, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:microsoft, geosite:mozilla) -> onedns
+    qname(geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:twitter) -> cloudflare-dns
+    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> securedns
+    qname(geosite:adguard, geosite:adobe, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:fastly, geosite:microsoft, geosite:mozilla) -> onedns
     qname(geosite:cn) -> cnnicdns
     fallback: googledns
   }
