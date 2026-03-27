@@ -10,8 +10,8 @@ upstream {
 routing {
   request {
     qname(geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:twitter) -> cloudflare-dns
-    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> securedns
-    qname(geosite:adguard, geosite:adobe, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:fastly, geosite:microsoft, geosite:mozilla) -> opendns
+    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:doubao, geosite:douyin, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> securedns
+    qname(geosite:adguard, geosite:adobe, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:fastly, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> opendns
     qname(geosite:cn) -> cnnicdns
     fallback: googledns
   }
