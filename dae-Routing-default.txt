@@ -1,7 +1,7 @@
 pname(NetworkManager, systemd-resolved, dnsmasq, gnome-weather) -> must_direct
 domain(suffix: digicert.com, suffix: geotrust.com, suffix: globalsign.com, suffix: identrust.com, suffix: lencr.org) -> direct
 domain(suffix: cfysoft.cc, suffix: cndhl.com, suffix: hk01.com, suffix: huohua.icu, suffix: jisuimage.com, suffix: mmstat.com, suffix: mytvapp.cc, suffix: scdn.co, suffix: taobao.com, suffix: xmfyy.com) -> direct
-domain(suffix: ocsp-certum.com, suffix: onetrust.com, suffix: pki.goog, suffix: sectigo.com, keyword: trustpilot, keyword: trust-provider.cn) -> direct
+domain(suffix: ocsp-certum.com, suffix: onetrust.com, suffix: sectigo.com, keyword: trustpilot, suffix: trust-provider.cn) -> direct
 domain(suffix: bytetcc.com, suffix: bytedance.com, suffix: bytelb.net, suffix: cdnbuild.net, suffix: cdngslb.com, suffix: doubao.com, suffix: ibytedapm.com, suffix: zijieapi.com) -> direct
 domain(suffix: archlinux.org, suffix: cobalt.tools, suffix:dynadot.com, suffix: edu.kg, suffix: ip.sb, suffix: made-in-china.com, suffix: micstatic.com, suffix: open-meteo.com, suffix: sourceforge.net, suffix: whatismybrowser.com) -> direct
 domain(suffix: beacondb.net, suffix: dmcdn.net, suffix: edu.kg, suffix: flathub.org, suffix: fuckcloudnative.io, suffix: licdn.com, suffix: oceansaver.in, suffix: openweathermap.org, suffix: skk.moe, suffix: tigress.cc) -> direct
@@ -9,7 +9,7 @@ domain(suffix: 91lol.im, suffix: aviationweather.gov, suffix: gnome.org, suffix:
 domain(suffix: hdcdn.online, suffix: met.no, suffix: okcdn.ru, suffix: paypal.com, suffix: paypalobjects.com, suffix: qweather.com, suffix: vk-portal.net, suffix: weatherapi.com, suffix: userapi.com, suffix: xzmgo.com) -> direct
 domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: cloudflare-dns.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com) -> proxy
 domain(suffix: addons.mozilla.org, suffix: ads.tiktok.com, suffix: primevideo.com, suffix: steamcommunity.com) -> proxy
-domain(suffix: blogger.com, suffix: ml0987.com, suffix: opensuse.org, suffix: tpc.googlesyndication.com) -> proxy
+domain(suffix: blogger.com, suffix: ml0987.com, suffix: opensuse.org) -> proxy
 domain(geosite:category-ads) -> block
 dip(geoip:cn, geoip:hk, geoip:private, 8.219.1.15, 47.245.124.74) -> direct
 domain(geosite:adobe, geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:tiktok) -> proxy
