@@ -12,7 +12,7 @@ domain(suffix: addons.mozilla.org, suffix: ads.tiktok.com, suffix: primevideo.co
 domain(suffix: blogger.com, suffix: ml0987.com, suffix: opensuse.org) -> proxy
 domain(geosite:category-ads) -> block
 dip(geoip:cn, geoip:hk, geoip:private, 8.219.1.15, 47.245.124.74) -> direct
-domain(geosite:adobe, geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:tiktok) -> proxy
-domain(geosite:cn, geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:vk, geosite:yandex) -> direct
+domain(geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:tiktok) -> proxy
+domain(geosite:cn, geosite:adobe, geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:vk, geosite:yandex) -> direct
 domain(geosite:adguard, geosite:akamai, geosite:amazon, geosite:apple, geosite:cloudflare, geosite:fastly, geosite:jsdelivr, geosite:microsoft, geosite:mozilla, geosite:category-games) -> direct
 fallback: proxy
