@@ -1,17 +1,17 @@
 upstream {
   cnnicdns: 'tcp+udp://1.8.8.8:53'
   hebeiunicom: 'tcp+udp://202.99.160.68:53'
-  googledns: 'https://dns.google/dns-query'
+  googledns: 'https://8.8.8.8/dns-query'
   securedns: 'https://doh.360.cn/dns-query'
   cloudflare-dns: 'https://1.1.1.1/dns-query'
-  opendns: 'https://doh.opendns.com/dns-query'
+  opendns: 'https://208.67.222.222/dns-query'
 }
 
 routing {
   request {
-    qname(geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:twitter) -> cloudflare-dns
-    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:doubao, geosite:douyin, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> securedns
-    qname(geosite:adguard, geosite:adobe, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:debian, geosite:fastly, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> opendns
+    qname(geosite:adobe, geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:twitter) -> cloudflare-dns
+    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:debian, geosite:doubao, geosite:douyin, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> hebeiunicom
+    qname(geosite:adguard, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:fastly, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> opendns
     qname(geosite:cn) -> cnnicdns
     fallback: googledns
   }
