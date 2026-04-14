@@ -104,6 +104,7 @@ DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
 DOMAIN-SUFFIX,beizi.biz,REJECT
 DOMAIN-SUFFIX,bestfunnyads.com,REJECT
 DOMAIN-SUFFIX,bg4nxu2u5t.com,REJECT
+DOMAIN-SUFFIX,bjimp.voiceads.cn,REJECT
 DOMAIN-SUFFIX,boot.biz.weibo.com,REJECT-DROP
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT-DROP
 DOMAIN-SUFFIX,bootrealtime.uve.weibo.com,REJECT-DROP
@@ -296,6 +297,7 @@ DOMAIN-SUFFIX,saawsedge.com,REJECT
 DOMAIN-SUFFIX,sacdnssedge.com,REJECT
 DOMAIN-SUFFIX,sdk.1rtb.net,REJECT
 DOMAIN-SUFFIX,sdk.e.qq.com,REJECT
+DOMAIN-SUFFIX,sdkquic.e.qq.com,REJECT
 DOMAIN-SUFFIX,s.pemsrv.com,REJECT
 DOMAIN-SUFFIX,s.bs.twlxxl.cn,REJECT
 DOMAIN-SUFFIX,s.go.sohu.com,REJECT
@@ -329,6 +331,7 @@ DOMAIN-SUFFIX,img.strpst.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,tianshu.gtimg.cn,REJECT
 DOMAIN-SUFFIX,tiktok.adsmeasurement.com,REJECT
+DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN-SUFFIX,tortoisesun.com,REJECT
 DOMAIN-SUFFIX,toponad.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
