@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,adui.tg.pix-int.com,REJECT
 DOMAIN-SUFFIX,adv.ccb.com,REJECT
 DOMAIN-SUFFIX,adwangmai.com,REJECT
 DOMAIN-SUFFIX,adxvip.com,REJECT
+DOMAIN-SUFFIX,adx.journeyads.cn,REJECT
 DOMAIN-SUFFIX,ae.bdstatic.com,REJECT
 DOMAIN-SUFFIX,bb.bdstatic.com,REJECT
 DOMAIN-SUFFIX,msite.baidu.com,REJECT
@@ -265,6 +266,7 @@ DOMAIN-SUFFIX,optvz.com,REJECT
 DOMAIN-SUFFIX,oqxsu.ajscdn.com,REJECT
 DOMAIN-SUFFIX,orbsrv.com,REJECT
 DOMAIN-SUFFIX,ossgw.alicdn.com,REJECT
+DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT-DROP
@@ -367,6 +369,7 @@ DOMAIN-SUFFIX,v2.reachmax.cn,REJECT
 DOMAIN-SUFFIX,v5-gzb-hl-ali-cn-coldy.douyinvod.com,REJECT-DROP
 DOMAIN-SUFFIX,vmonitor.ws.netease.com,REJECT
 DOMAIN-SUFFIX,vrmedia-nss.xhcdn.com,REJECT
+DOMAIN-SUFFIX,vt.bidex.cn,REJECT
 DOMAIN-SUFFIX,w.cnzz.com,REJECT
 DOMAIN-SUFFIX,w.irs03.com,REJECT
 DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
