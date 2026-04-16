@@ -56,7 +56,7 @@ DOMAIN-SUFFIX,ae.bdstatic.com,REJECT
 DOMAIN-SUFFIX,bb.bdstatic.com,REJECT
 DOMAIN-SUFFIX,msite.baidu.com,REJECT
 DOMAIN-SUFFIX,agkn.com,REJECT
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-DROP
 DOMAIN-SUFFIX,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,analytics.adjust.io,REJECT
@@ -314,7 +314,7 @@ DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT
 DOMAIN-SUFFIX,sdk-track.66mobi.com,REJECT
 DOMAIN-SUFFIX,sensors.cloud.tencent.com,REJECT
 DOMAIN-SUFFIX,show.partners-show.com,REJECT
-DOMAIN-SUFFIX,smartad.10010.com,REJECT
+DOMAIN-SUFFIX,smartad.10010.com,REJECT-IMG
 DOMAIN-SUFFIX,s22.cnzz.com,REJECT
 DOMAIN-SUFFIX,splash.yy.com,REJECT
 DOMAIN-SUFFIX,sq.bls.mdt.qq.com,REJECT
@@ -390,23 +390,23 @@ DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 DOMAIN-SUFFIX,fri4esianewheywr90itrage.com,REJECT
 URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
 URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
-URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
+URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT-IMG
 URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT
 URL-REGEX,m\.biquxs\.com\/js\/detail\.js,REJECT
 URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT
 URL-REGEX,m\.ppxs\.net\/static\/88ds\/gdxx\_js\.js,REJECT
-IP-CIDR,47.246.103.10/32,REJECT
-IP-CIDR,47.246.103.9/32,REJECT
-IP-CIDR,59.82.34.148/32,REJECT
-IP-CIDR,59.82.34.255/32,REJECT
-IP-CIDR,59.82.14.161/32,REJECT
-IP-CIDR,59.82.113.39/32,REJECT
-IP-CIDR,59.82.113.252/32,REJECT
-IP-CIDR,203.119.206.64/32,REJECT
-IP-CIDR,59.82.113.10/32,REJECT
-IP-CIDR,203.119.211.219/32,REJECT
-IP-CIDR,59.82.113.219/32,REJECT
-IP-CIDR,203.119.206.8/32,REJECT
+IP-CIDR,47.246.103.10/32,REJECT-DROP
+IP-CIDR,47.246.103.9/32,REJECT-DROP
+IP-CIDR,59.82.34.148/32,REJECT-DROP
+IP-CIDR,59.82.34.255/32,REJECT-DROP
+IP-CIDR,59.82.14.161/32,REJECT-DROP
+IP-CIDR,59.82.113.39/32,REJECT-DROP
+IP-CIDR,59.82.113.252/32,REJECT-DROP
+IP-CIDR,203.119.206.64/32,REJECT-DROP
+IP-CIDR,59.82.113.10/32,REJECT-DROP
+IP-CIDR,203.119.211.219/32,REJECT-DROP
+IP-CIDR,59.82.113.219/32,REJECT-DROP
+IP-CIDR,203.119.206.8/32,REJECT-DROP
 DOMAIN-SUFFIX,addons.mozilla.org,PROXY
 DOMAIN-SUFFIX,microsoftedge.microsoft.com,PROXY
 DOMAIN-SUFFIX,radio.itunes.apple.com,PROXY
@@ -1404,14 +1404,14 @@ FINAL,PROXY
 ^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?ent=\d+&csid=[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12} _ REJECT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
-^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
-^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT
-^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT
-^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT
-^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
+^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT-IMG
+^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT-IMG
+^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-IMG
+^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-VIDEO
+^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT-VIDEO
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads _ REJECT
-^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
-^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-|1350|-1602|-1950|-2339|-2436|590-724|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
+^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-IMG
+^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-|1350|-1602|-1950|-2339|-2436|590-724|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-IMG
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
 
