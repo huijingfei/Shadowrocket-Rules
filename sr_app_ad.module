@@ -239,6 +239,7 @@ DOMAIN-SUFFIX,m.ctrmi.cn,REJECT
 DOMAIN-SUFFIX,magsrv.com,REJECT
 DOMAIN-SUFFIX,mbid.marfeelrev.com,REJECT
 DOMAIN-SUFFIX,mc.tencentmusic.com,REJECT
+DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN-SUFFIX,media.trafficjunky.net,REJECT
 DOMAIN-SUFFIX,media.trafficjunky.com,REJECT
 DOMAIN-SUFFIX,mediav.com,REJECT
@@ -265,7 +266,7 @@ DOMAIN-SUFFIX,opoxv.com,REJECT
 DOMAIN-SUFFIX,optvz.com,REJECT
 DOMAIN-SUFFIX,oqxsu.ajscdn.com,REJECT
 DOMAIN-SUFFIX,orbsrv.com,REJECT
-DOMAIN-SUFFIX,ossgw.alicdn.com,REJECT
+DOMAIN-SUFFIX,ossgw.alicdn.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT-DROP
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT-DROP
@@ -317,7 +318,6 @@ DOMAIN-SUFFIX,show.partners-show.com,REJECT
 DOMAIN-SUFFIX,smartad.10010.com,REJECT-IMG
 DOMAIN-SUFFIX,s22.cnzz.com,REJECT
 DOMAIN-SUFFIX,splash.yy.com,REJECT
-DOMAIN-SUFFIX,sq.bls.mdt.qq.com,REJECT
 DOMAIN-SUFFIX,sslwidget.criteo.com,REJECT
 DOMAIN-SUFFIX,statcounter.com,REJECT
 DOMAIN-SUFFIX,static.adsafeprotected.com,REJECT
@@ -331,6 +331,7 @@ DOMAIN-SUFFIX,static-cdn.strpst.com,REJECT
 DOMAIN-SUFFIX,swag.live,REJECT
 DOMAIN-SUFFIX,img.strpst.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,tangram.e.qq.com,REJECT
 DOMAIN-SUFFIX,tianshu.gtimg.cn,REJECT
 DOMAIN-SUFFIX,tiktok.adsmeasurement.com,REJECT
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
