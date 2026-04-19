@@ -391,7 +391,7 @@ DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 DOMAIN-SUFFIX,fri4esianewheywr90itrage.com,REJECT
 URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
 URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
-URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT-IMG
+URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
 URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT
 URL-REGEX,m\.biquxs\.com\/js\/detail\.js,REJECT
 URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT
@@ -1405,14 +1405,14 @@ FINAL,PROXY
 ^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?ent=\d+&csid=[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12} _ REJECT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
-^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT-IMG
-^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT-IMG
-^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-IMG
-^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-VIDEO
-^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT-VIDEO
+^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
+^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT
+^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT
+^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT
+^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads _ REJECT
-^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-IMG
-^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-|1350|-1602|-1950|-2339|-2436|590-724|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-IMG
+^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
+^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-|1350|-1602|-1950|-2339|-2436|590-724|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
 
