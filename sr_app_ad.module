@@ -389,13 +389,13 @@ DOMAIN-SUFFIX,zhangyuyidong.cn,REJECT
 DOMAIN-SUFFIX,zxgghn.25ku.com,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 DOMAIN-SUFFIX,fri4esianewheywr90itrage.com,REJECT
-URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
-URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT
+URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
+URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
 URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
 URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT
-URL-REGEX,m\.biquxs\.com\/js\/detail\.js,REJECT
-URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT
-URL-REGEX,m\.ppxs\.net\/static\/88ds\/gdxx\_js\.js,REJECT
+URL-REGEX,m\.biquxs\.com\/js\/detail\.js,REJECT-200
+URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT-200
+URL-REGEX,m\.ppxs\.net\/static\/88ds\/gdxx\_js\.js,REJECT-200
 IP-CIDR,47.246.103.10/32,REJECT-DROP
 IP-CIDR,47.246.103.9/32,REJECT-DROP
 IP-CIDR,59.82.34.148/32,REJECT-DROP
@@ -1392,11 +1392,11 @@ GEOIP,SG,DIRECT
 FINAL,PROXY
 
 [URL Rewrite]
-^https?://(www.)?(g|google).cn https://www.google.com 302
-^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT
-^https?:\/\/([\w\W]*)\.jinnanyq\.com\/js\/backbone\.js _ REJECT
-^https?:\/\/m\.feisxs\.com\/style\/(w|t)\.js _ REJECT
-^https?:\/\/m\.feibzw\.com\/style\/(w|t)\.js _ REJECT
+^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 302
+^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-200
+^https?:\/\/([\w\W]*)\.jinnanyq\.com\/js\/backbone\.js _ REJECT-200
+^https?:\/\/m\.feisxs\.com\/style\/(w|t)\.js _ REJECT-200
+^https?:\/\/m\.feibzw\.com\/style\/(w|t)\.js _ REJECT-200
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
