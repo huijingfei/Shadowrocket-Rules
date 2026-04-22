@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,adstrategy.biz.weibo.com,REJECT
 DOMAIN-SUFFIX,adtag.sphdigital.com,REJECT
 DOMAIN-SUFFIX,adtng.com,REJECT
 DOMAIN-SUFFIX,adtrace.online,REJECT
+DOMAIN-SUFFIX,adukwai.com,REJECT
 DOMAIN-SUFFIX,adui.tg.meitu.com,REJECT
 DOMAIN-SUFFIX,adui.tg.pix-int.com,REJECT
 DOMAIN-SUFFIX,adv.ccb.com,REJECT
@@ -1316,7 +1317,7 @@ FINAL,PROXY
 ^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads _ REJECT
 ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
-^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-|1350|-1602|-1950|-2339|-2436|590-724|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
+^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
 
