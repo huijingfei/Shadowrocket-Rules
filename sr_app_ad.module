@@ -1286,6 +1286,7 @@ FINAL,PROXY
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
 ^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT
+^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\ _ REJECT-DICT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
 ^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
