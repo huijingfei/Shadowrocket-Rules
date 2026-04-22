@@ -5,10 +5,7 @@
 
 [Rule]
 DOMAIN-SUFFIX,1sapp.com,REJECT
-DOMAIN-SUFFIX,222schweinshaxe.com,REJECT
-DOMAIN-SUFFIX,3pkf5m0gd.com,REJECT
 DOMAIN-SUFFIX,510015.best,REJECT
-DOMAIN-SUFFIX,66308888.com,REJECT
 DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,aa.online-metrix.net,REJECT
 DOMAIN-SUFFIX,abjectionirresponsibility.com,REJECT
@@ -99,21 +96,17 @@ DOMAIN-SUFFIX,vip.kugou.com,REJECT
 DOMAIN-SUFFIX,vipuser.kugou.com,REJECT
 DOMAIN-SUFFIX,welfare.kugou.com,REJECT
 DOMAIN-SUFFIX,baichuan-sdk.alicdn.com,REJECT
-DOMAIN-SUFFIX,bba9603w.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
 DOMAIN-SUFFIX,beizi.biz,REJECT
 DOMAIN-SUFFIX,bestfunnyads.com,REJECT
-DOMAIN-SUFFIX,bg4nxu2u5t.com,REJECT
 DOMAIN-SUFFIX,bjimp.voiceads.cn,REJECT
 DOMAIN-SUFFIX,boot.biz.weibo.com,REJECT-DROP
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT-DROP
 DOMAIN-SUFFIX,bootrealtime.uve.weibo.com,REJECT-DROP
 DOMAIN-SUFFIX,brandvideo.biz.weibo.com,REJECT-DROP
-DOMAIN-SUFFIX,bullionglidingscuttle.com,REJECT
 DOMAIN-SUFFIX,bv.lnk0.com,REJECT
-DOMAIN-SUFFIX,bvtpk.com,REJECT
 DOMAIN-SUFFIX,bz-ipdx.baidu.com,REJECT
 DOMAIN-SUFFIX,cdn.aimtell.com,REJECT
 DOMAIN-SUFFIX,cdn.bncloudfl.com,REJECT
@@ -128,7 +121,6 @@ DOMAIN-SUFFIX,cdn.optmn.cloud,REJECT
 DOMAIN-SUFFIX,cdn.sekio.top,REJECT
 DOMAIN-SUFFIX,cdn.viglink.com,REJECT
 DOMAIN-SUFFIX,cdnimg.3g.qq.com,REJECT
-DOMAIN-SUFFIX,chaseherbalpasty.com,REJECT
 DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT
 DOMAIN-SUFFIX,clue.oceanengine.com,REJECT
 DOMAIN-SUFFIX,cluster.xhamster.com,REJECT
@@ -160,7 +152,6 @@ DOMAIN-SUFFIX,eg-cdn.trafficjunky.net,REJECT
 DOMAIN-SUFFIX,em.baidu.com,REJECT
 DOMAIN-SUFFIX,ems.youku.com,REJECT
 DOMAIN-SUFFIX,sealine.youku.com,REJECT
-DOMAIN-SUFFIX,endowmentoverhangutmost.com,REJECT
 DOMAIN-SUFFIX,etahub.com,REJECT
 DOMAIN-SUFFIX,evtubescms.phncdn.com,REJECT
 DOMAIN-SUFFIX,fancyapi.com,REJECT
@@ -196,7 +187,6 @@ DOMAIN-SUFFIX,ht-cdn.trafficjunky.net,REJECT
 DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
 DOMAIN-SUFFIX,hubt.pornhub.com,REJECT
 DOMAIN-SUFFIX,i.go.sohu.com,REJECT
-DOMAIN-SUFFIX,iadmusicmat.music.com,REJECT
 DOMAIN-SUFFIX,idouyinvod.com,REJECT
 DOMAIN-SUFFIX,img2.360buyimg.com,REJECT
 DOMAIN-SUFFIX,images.pagechoice.net,REJECT
@@ -217,12 +207,8 @@ DOMAIN-SUFFIX,j.bs.twlxxl.cn,REJECT
 DOMAIN-SUFFIX,j.s.dhsz.cn,REJECT
 DOMAIN-SUFFIX,js.bd.dhsz.cn,REJECT
 DOMAIN-SUFFIX,js.sohu.com,REJECT
-DOMAIN-SUFFIX,juxin8888.com,REJECT
-DOMAIN-SUFFIX,k9gj.site,REJECT
 DOMAIN-SUFFIX,kadmimage.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,kopushalather.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,lby2kd27c.com,REJECT
 DOMAIN-SUFFIX,legitimatewandermeek.com,REJECT
 DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com,REJECT
 DOMAIN-SUFFIX,lf1-cdn-tos.bytescm.com,REJECT
@@ -234,7 +220,6 @@ DOMAIN-SUFFIX,logs.amap.com,REJECT
 DOMAIN-SUFFIX,dualstack-logs.amap.com,REJECT
 DOMAIN-SUFFIX,lupic.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,luimg.baidu.com,REJECT
-DOMAIN-SUFFIX,m28458.top,REJECT
 DOMAIN-SUFFIX,m.ads.8le8le.com,REJECT
 DOMAIN-SUFFIX,m.ctrmi.cn,REJECT
 DOMAIN-SUFFIX,magsrv.com,REJECT
@@ -252,10 +237,9 @@ DOMAIN-SUFFIX,mk.dingtalk.com,REJECT
 DOMAIN-SUFFIX,mmjs.adutp.com,REJECT
 DOMAIN-SUFFIX,mm1.365dmp.com,REJECT
 DOMAIN-SUFFIX,mm3.365dmp.com,REJECT
-DOMAIN-SUFFIX,mmn811.top,REJECT
-DOMAIN-SUFFIX,mmo2350.top,REJECT
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT
 DOMAIN-SUFFIX,mon.ad.xelements.cn,REJECT
+DOMAIN-SUFFIX,mssdk.volces.com,REJECT
 DOMAIN-SUFFIX,mssdk3-normal-hl.zijieapi.com,REJECT
 DOMAIN-SUFFIX,myapp.com,REJECT
 DOMAIN-SUFFIX,negxkj5ca.com,REJECT
@@ -304,7 +288,6 @@ DOMAIN-SUFFIX,sdkquic.e.qq.com,REJECT
 DOMAIN-SUFFIX,s.pemsrv.com,REJECT
 DOMAIN-SUFFIX,s.bs.twlxxl.cn,REJECT
 DOMAIN-SUFFIX,s.go.sohu.com,REJECT
-DOMAIN-SUFFIX,s.ma3ion.com,REJECT
 DOMAIN-SUFFIX,s2s.singular.net,REJECT
 DOMAIN-SUFFIX,s3t3d2y8.afcdn.net,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
@@ -348,10 +331,8 @@ DOMAIN-SUFFIX,tsdq8.com,REJECT
 DOMAIN-SUFFIX,tsyndicate.com,REJECT
 DOMAIN-SUFFIX,tx-cfg-u1.ubixioe.com,REJECT
 DOMAIN-SUFFIX,txt.go.sohu.com,REJECT
-DOMAIN-SUFFIX,tyzfoej.cn,REJECT
 DOMAIN-SUFFIX,ugsdk.com,REJECT
 DOMAIN-SUFFIX,ugsdk.cn,REJECT
-DOMAIN-SUFFIX,ujovcb.cn,REJECT
 DOMAIN-SUFFIX,ulogs.umeng.com,REJECT-DROP
 DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,umini.shujupie.com,REJECT
@@ -385,9 +366,7 @@ DOMAIN-SUFFIX,yuanpinghengkangfuyouxiangongsi.top,REJECT
 DOMAIN-SUFFIX,yunxish.com,REJECT
 DOMAIN-SUFFIX,zhanzhang.toutiao.com,REJECT
 DOMAIN-SUFFIX,zhangyuyidong.cn,REJECT
-DOMAIN-SUFFIX,zxgghn.25ku.com,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
-DOMAIN-SUFFIX,fri4esianewheywr90itrage.com,REJECT
 URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
 URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
 URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
@@ -1299,7 +1278,7 @@ GEOIP,SG,DIRECT
 FINAL,PROXY
 
 [URL Rewrite]
-^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 302
+^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
 ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-200
 ^https?:\/\/([\w\W]*)\.jinnanyq\.com\/js\/backbone\.js _ REJECT-200
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
@@ -1307,18 +1286,17 @@ FINAL,PROXY
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
 ^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT
-^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?ent=\d+&csid=[0-9A-Fa-f]{8}-([0-9A-Fa-f]{4}-){3}[0-9A-Fa-f]{12} _ REJECT
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\ _ REJECT-DICT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
 ^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
 ^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT
 ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT
 ^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT
 ^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads _ REJECT
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
 ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
 ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
-^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT
+^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT-DICT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
 
 [Host]
