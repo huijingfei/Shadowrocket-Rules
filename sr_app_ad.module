@@ -5,18 +5,16 @@
 
 [Rule]
 DOMAIN-SUFFIX,1sapp.com,REJECT
-DOMAIN-SUFFIX,510015.best,REJECT
 DOMAIN-SUFFIX,ad.10010.com,REJECT
 DOMAIN-SUFFIX,aa.online-metrix.net,REJECT
-DOMAIN-SUFFIX,abjectionirresponsibility.com,REJECT
 DOMAIN-SUFFIX,ad.gt,REJECT
 DOMAIN-SUFFIX,ada.baidu.com,REJECT
 DOMAIN-SUFFIX,als.baidu.com,REJECT
 DOMAIN-SUFFIX,afd.baidu.com,REJECT
-DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT
-DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT
+DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT-DROP
+DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT-DROP
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adlightning.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
@@ -41,7 +39,6 @@ DOMAIN-SUFFIX,adservice.google.co.uk,REJECT
 DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-SUFFIX,adstrategy.biz.weibo.com,REJECT
 DOMAIN-SUFFIX,adtag.sphdigital.com,REJECT
-DOMAIN-SUFFIX,adtng.com,REJECT
 DOMAIN-SUFFIX,adtrace.online,REJECT
 DOMAIN-SUFFIX,adukwai.com,REJECT
 DOMAIN-SUFFIX,adui.tg.meitu.com,REJECT
@@ -53,7 +50,6 @@ DOMAIN-SUFFIX,adx.journeyads.cn,REJECT
 DOMAIN-SUFFIX,ae.bdstatic.com,REJECT
 DOMAIN-SUFFIX,bb.bdstatic.com,REJECT
 DOMAIN-SUFFIX,msite.baidu.com,REJECT
-DOMAIN-SUFFIX,agkn.com,REJECT
 DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-DROP
 DOMAIN-SUFFIX,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
@@ -63,11 +59,9 @@ DOMAIN-SUFFIX,analytics.oceanengine.com,REJECT
 DOMAIN-SUFFIX,analytics.yahoo.com,REJECT
 DOMAIN-SUFFIX,animezilla.com,REJECT
 DOMAIN-SUFFIX,aiclk.com,REJECT
-DOMAIN-SUFFIX,adtng.com,REJECT
 DOMAIN-SUFFIX,api.cloudmobi.net,REJECT
 DOMAIN-SUFFIX,api16-access-ttp.tiktokpangle.us,REJECT
 DOMAIN-SUFFIX,api2.amplitude.com,REJECT
-DOMAIN-SUFFIX,api.popin.cc,REJECT
 DOMAIN-SUFFIX,api.tdp.u7u9.com,REJECT
 DOMAIN-SUFFIX,api.tongjiniao.com,REJECT
 DOMAIN-SUFFIX,app.adjust.com,REJECT
@@ -75,7 +69,7 @@ DOMAIN-SUFFIX,app.adjust.world,REJECT
 DOMAIN-SUFFIX,app.adjust.net.in,REJECT
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
-DOMAIN-SUFFIX,appsflyersdk.com,REJECT
+DOMAIN-SUFFIX,appsflyersdk.com,REJECT-DICT
 DOMAIN-SUFFIX,applog.uc.cn,REJECT-DROP
 DOMAIN-SUFFIX,aspect-upush.umeng.com,REJECT
 # kugou
@@ -89,13 +83,12 @@ DOMAIN-SUFFIX,kmrcdnretry.service.kugou.com,REJECT
 DOMAIN-SUFFIX,kugouvip.kugou.com,REJECT
 DOMAIN-SUFFIX,mobilelog.kugou.com,REJECT
 DOMAIN-SUFFIX,report.tencentmusic.com,REJECT
-DOMAIN-SUFFIX,sdkreport.e.qq.com,REJECT
+DOMAIN-SUFFIX,sdkreport.e.qq.com,REJECT-DICT
 DOMAIN-SUFFIX,tmead.y.qq.com,REJECT
 DOMAIN-SUFFIX,tmeadcomm.y.qq.com,REJECT
 DOMAIN-SUFFIX,vip.kugou.com,REJECT
 DOMAIN-SUFFIX,vipuser.kugou.com,REJECT
 DOMAIN-SUFFIX,welfare.kugou.com,REJECT
-DOMAIN-SUFFIX,baichuan-sdk.alicdn.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
@@ -130,16 +123,13 @@ DOMAIN-SUFFIX,configure.rayjump.com,REJECT
 DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,creative.xlviirdr.com,REJECT
 DOMAIN-SUFFIX,creative.xlivrdr.com,REJECT
-DOMAIN-SUFFIX,ctobsnssdk.com,REJECT-DROP
+DOMAIN-SUFFIX,ctobsnssdk.com,REJECT-DICT
 DOMAIN-SUFFIX,ctrack.trafficjunky.net,REJECT
 DOMAIN-SUFFIX,static.kueezrtb.com,REJECT
-DOMAIN-SUFFIX,dakawm.cc,REJECT
-DOMAIN-SUFFIX,dashisx.com,REJECT
 DOMAIN-SUFFIX,deliver.ptgncdn.com,REJECT
 DOMAIN-SUFFIX,et.tanx.com,REJECT
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT
 DOMAIN-SUFFIX,df.tanx.com,REJECT
-DOMAIN-SUFFIX,djc888.cn,REJECT
 DOMAIN-SUFFIX,doppiocdn.com,REJECT
 DOMAIN-SUFFIX,doppiocdn.net,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
@@ -177,8 +167,8 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,gridsumdissector.com,REJECT
 DOMAIN-SUFFIX,guangtuikeji.com,REJECT
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT-DROP
 DOMAIN-SUFFIX,h5.analytics.126.net,REJECT
 DOMAIN-SUFFIX,histats.com,REJECT
 DOMAIN-SUFFIX,hm.baidu.com,REJECT
@@ -192,7 +182,7 @@ DOMAIN-SUFFIX,img2.360buyimg.com,REJECT
 DOMAIN-SUFFIX,images.pagechoice.net,REJECT
 DOMAIN-SUFFIX,imgsrc.baidu.com,REJECT
 DOMAIN-SUFFIX,img.whhnkj.com,REJECT
-DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT
+DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT-DICT
 DOMAIN-SUFFIX,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,in-neo.cn,REJECT
 DOMAIN-SUFFIX,insight.adsrvr.org,REJECT
@@ -215,7 +205,7 @@ DOMAIN-SUFFIX,lf1-cdn-tos.bytescm.com,REJECT
 DOMAIN-SUFFIX,lf-leads-fe-scm.bytecdn.com,REJECT
 DOMAIN-SUFFIX,lf-reward-video.bytedcdn.com,REJECT
 DOMAIN-SUFFIX,lf-static.tiktokpangle-cdn-us.com,REJECT
-DOMAIN-SUFFIX,log.snssdk.com,REJECT
+DOMAIN-SUFFIX,log.snssdk.com,REJECT-DICT
 DOMAIN-SUFFIX,logs.amap.com,REJECT
 DOMAIN-SUFFIX,dualstack-logs.amap.com,REJECT
 DOMAIN-SUFFIX,lupic.cdn.bcebos.com,REJECT
@@ -238,11 +228,9 @@ DOMAIN-SUFFIX,mmjs.adutp.com,REJECT
 DOMAIN-SUFFIX,mm1.365dmp.com,REJECT
 DOMAIN-SUFFIX,mm3.365dmp.com,REJECT
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT
-DOMAIN-SUFFIX,mon.ad.xelements.cn,REJECT
-DOMAIN-SUFFIX,mssdk.volces.com,REJECT
-DOMAIN-SUFFIX,mssdk3-normal-hl.zijieapi.com,REJECT
+DOMAIN-SUFFIX,mssdk.volces.com,REJECT-DICT
+DOMAIN-SUFFIX,mssdk3-normal-hl.zijieapi.com,REJECT-DICT
 DOMAIN-SUFFIX,myapp.com,REJECT
-DOMAIN-SUFFIX,negxkj5ca.com,REJECT
 DOMAIN-SUFFIX,nex.163.com,REJECT
 DOMAIN-SUFFIX,nsclick.baidu.com,REJECT
 DOMAIN-SUFFIX,observe-tcp.mintegral.net,REJECT
@@ -251,12 +239,13 @@ DOMAIN-SUFFIX,opoxv.com,REJECT
 DOMAIN-SUFFIX,optvz.com,REJECT
 DOMAIN-SUFFIX,oqxsu.ajscdn.com,REJECT
 DOMAIN-SUFFIX,orbsrv.com,REJECT
-DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT-DROP
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT-DROP
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT-DROP
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT-DROP
+DOMAIN-KEYWORD,pangolin,REJECT-DICT
+DOMAIN-SUFFIX,pangolin-dsp-toutiao.com,REJECT-DICT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT-DICT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT-DICT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT-DICT
 DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT-DROP
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT-DICT
 DOMAIN-SUFFIX,ping.chartbeat.net,REJECT
 DOMAIN-SUFFIX,pingfore.qq.com,REJECT
 DOMAIN-SUFFIX,pmpmonitor.365dmp.com,REJECT
@@ -282,20 +271,20 @@ DOMAIN-SUFFIX,render-server.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,rlcdn.com,REJECT
 DOMAIN-SUFFIX,saawsedge.com,REJECT
 DOMAIN-SUFFIX,sacdnssedge.com,REJECT
-DOMAIN-SUFFIX,sdk.1rtb.net,REJECT
-DOMAIN-SUFFIX,sdk.e.qq.com,REJECT
-DOMAIN-SUFFIX,sdkquic.e.qq.com,REJECT
+DOMAIN-SUFFIX,sdk.1rtb.net,REJECT-DICT
+DOMAIN-SUFFIX,sdk.e.qq.com,REJECT-DICT
+DOMAIN-SUFFIX,sdkquic.e.qq.com,REJECT-DICT
 DOMAIN-SUFFIX,s.pemsrv.com,REJECT
 DOMAIN-SUFFIX,s.bs.twlxxl.cn,REJECT
 DOMAIN-SUFFIX,s.go.sohu.com,REJECT
 DOMAIN-SUFFIX,s2s.singular.net,REJECT
 DOMAIN-SUFFIX,s3t3d2y8.afcdn.net,REJECT
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT
-DOMAIN-SUFFIX,sdk.51.la,REJECT
-DOMAIN-SUFFIX,sdk.api.appwheel.com,REJECT
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,sdk-track.66mobi.com,REJECT
+DOMAIN-SUFFIX,sdk.51.la,REJECT-DICT
+DOMAIN-SUFFIX,sdk.api.appwheel.com,REJECT-DICT
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT-DICT
+DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT-DICT
+DOMAIN-SUFFIX,sdk-track.66mobi.com,REJECT-DICT
 DOMAIN-SUFFIX,sensors.cloud.tencent.com,REJECT
 DOMAIN-SUFFIX,show.partners-show.com,REJECT
 DOMAIN-SUFFIX,smartad.10010.com,REJECT-IMG
@@ -318,7 +307,6 @@ DOMAIN-SUFFIX,tangram.e.qq.com,REJECT
 DOMAIN-SUFFIX,tianshu.gtimg.cn,REJECT
 DOMAIN-SUFFIX,tiktok.adsmeasurement.com,REJECT
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
-DOMAIN-SUFFIX,tortoisesun.com,REJECT
 DOMAIN-SUFFIX,toponad.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
 DOMAIN-SUFFIX,tpstelemetry.tencent.com,REJECT
@@ -327,9 +315,7 @@ DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN-SUFFIX,trafficfactory.biz,REJECT
 DOMAIN-SUFFIX,inpp-ssp-trk.trknext.com,REJECT
 DOMAIN-SUFFIX,tscprts.com,REJECT
-DOMAIN-SUFFIX,tsdq8.com,REJECT
 DOMAIN-SUFFIX,tsyndicate.com,REJECT
-DOMAIN-SUFFIX,tx-cfg-u1.ubixioe.com,REJECT
 DOMAIN-SUFFIX,txt.go.sohu.com,REJECT
 DOMAIN-SUFFIX,ugsdk.com,REJECT
 DOMAIN-SUFFIX,ugsdk.cn,REJECT
@@ -362,16 +348,14 @@ DOMAIN-SUFFIX,wxs.qq.com,REJECT
 DOMAIN-SUFFIX,xcultur.com,REJECT
 DOMAIN-SUFFIX,xhvideo.sacdnssedge.com,REJECT
 DOMAIN-SUFFIX,xpis-xcdn.youku.com,REJECT
-DOMAIN-SUFFIX,yuanpinghengkangfuyouxiangongsi.top,REJECT
 DOMAIN-SUFFIX,yunxish.com,REJECT
 DOMAIN-SUFFIX,zhanzhang.toutiao.com,REJECT
-DOMAIN-SUFFIX,zhangyuyidong.cn,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
-URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
-URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-200
+URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-DICT
+URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-DICT
 URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
 URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT
-URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT-200
+URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT-DICT
 IP-CIDR,47.246.103.10/32,REJECT-DROP
 IP-CIDR,47.246.103.9/32,REJECT-DROP
 IP-CIDR,59.82.34.148/32,REJECT-DROP
@@ -421,7 +405,6 @@ DOMAIN-SUFFIX,adguard-dns.io,DIRECT
 DOMAIN-SUFFIX,adobe.com,DIRECT
 DOMAIN-SUFFIX,adobedtm.com,DIRECT
 DOMAIN-SUFFIX,advlion.com,DIRECT
-DOMAIN-SUFFIX,agkn.com,DIRECT
 DOMAIN-SUFFIX,ahcdn.com,DIRECT
 DOMAIN-SUFFIX,airbnb.com,DIRECT
 DOMAIN-SUFFIX,airdroid.com,DIRECT
@@ -1279,7 +1262,7 @@ FINAL,PROXY
 
 [URL Rewrite]
 ^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
-^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-200
+^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
 ^https?:\/\/([\w\W]*)\.jinnanyq\.com\/js\/backbone\.js _ REJECT-200
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT
