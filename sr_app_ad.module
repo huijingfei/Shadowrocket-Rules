@@ -50,7 +50,7 @@ DOMAIN-SUFFIX,adx.journeyads.cn,REJECT
 DOMAIN-SUFFIX,ae.bdstatic.com,REJECT
 DOMAIN-SUFFIX,bb.bdstatic.com,REJECT
 DOMAIN-SUFFIX,msite.baidu.com,REJECT
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,analytics.adjust.io,REJECT
@@ -189,7 +189,7 @@ DOMAIN-SUFFIX,insight.adsrvr.org,REJECT
 DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
 DOMAIN-SUFFIX,ipm.atm.youku.com,REJECT
 DOMAIN-SUFFIX,ipv6.shuzilm.cn,REJECT
-DOMAIN-SUFFIX,idfa2.shuzilm.cn,REJECT-DROP
+DOMAIN-SUFFIX,idfa2.shuzilm.cn,REJECT-200
 DOMAIN-SUFFIX,iyes.youku.com,REJECT
 DOMAIN-SUFFIX,jiongnet.cn,REJECT
 DOMAIN-SUFFIX,j.bs.twlxxl.cn,REJECT
@@ -259,6 +259,7 @@ DOMAIN-SUFFIX,prvc.io,REJECT
 DOMAIN-SUFFIX,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,px.effirst.com,REJECT-DROP
 DOMAIN-SUFFIX,px.ucweb.com,REJECT
+DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,qchannel03.cn,REJECT
 DOMAIN-SUFFIX,qiniuyun10.xyz,REJECT
 DOMAIN-SUFFIX,qnp16tstw.com,REJECT
@@ -286,7 +287,7 @@ DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT-DICT
 DOMAIN-SUFFIX,sdk-track.66mobi.com,REJECT-DICT
 DOMAIN-SUFFIX,sensors.cloud.tencent.com,REJECT
 DOMAIN-SUFFIX,show.partners-show.com,REJECT
-DOMAIN-SUFFIX,smartad.10010.com,REJECT-IMG
+DOMAIN-SUFFIX,smartad.10010.com,REJECT-200
 DOMAIN-SUFFIX,s22.cnzz.com,REJECT
 DOMAIN-SUFFIX,splash.yy.com,REJECT
 DOMAIN-SUFFIX,sslwidget.criteo.com,REJECT
@@ -316,20 +317,20 @@ DOMAIN-SUFFIX,inpp-ssp-trk.trknext.com,REJECT
 DOMAIN-SUFFIX,tscprts.com,REJECT
 DOMAIN-SUFFIX,tsyndicate.com,REJECT
 DOMAIN-SUFFIX,txt.go.sohu.com,REJECT
-DOMAIN-SUFFIX,ugsdk.com,REJECT
-DOMAIN-SUFFIX,ugsdk.cn,REJECT
-DOMAIN-SUFFIX,ulogs.umeng.com,REJECT-DROP
-DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT-DROP
+DOMAIN-SUFFIX,ugsdk.com,REJECT-DICT
+DOMAIN-SUFFIX,ugsdk.cn,REJECT-DICT
+DOMAIN-SUFFIX,ulogs.umeng.com,REJECT-DICT
+DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT-DICT
 DOMAIN-SUFFIX,umini.shujupie.com,REJECT
 DOMAIN-SUFFIX,unseenreport.com,REJECT
 DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com,REJECT
 DOMAIN-SUFFIX,upos-sz-static.bilivideo.com,REJECT
-DOMAIN-SUFFIX,utoken.umeng.com,REJECT
+DOMAIN-SUFFIX,utoken.umeng.com,REJECT-DICT
 DOMAIN-SUFFIX,uyunad.com,REJECT
-DOMAIN-SUFFIX,cnlogs.umeng.com,REJECT
-DOMAIN-SUFFIX,cnlogs.umengcloud.com,REJECT
-DOMAIN-SUFFIX,resolve.umeng.com,REJECT
-DOMAIN-SUFFIX,script-center.bad.news,REJECT
+DOMAIN-SUFFIX,cnlogs.umeng.com,REJECT-DICT
+DOMAIN-SUFFIX,cnlogs.umengcloud.com,REJECT-DICT
+DOMAIN-SUFFIX,resolve.umeng.com,REJECT-DICT
+DOMAIN-SUFFIX,script-center.bad.news,REJECT-IMG
 DOMAIN-SUFFIX,ubixioe.com,REJECT
 DOMAIN-SUFFIX,v.adintl.cn,REJECT
 DOMAIN-SUFFIX,v2.reachmax.cn,REJECT
@@ -340,33 +341,32 @@ DOMAIN-SUFFIX,w.cnzz.com,REJECT
 DOMAIN-SUFFIX,w.irs03.com,REJECT
 DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,wpadmngr.com,REJECT
-DOMAIN-SUFFIX,www.qchannel01.cn,REJECT
 DOMAIN-SUFFIX,www.sgfsdvc.com,REJECT
 DOMAIN-SUFFIX,wxcjgg.cn,REJECT
 DOMAIN-SUFFIX,wxs.qq.com,REJECT
 DOMAIN-SUFFIX,xcultur.com,REJECT
 DOMAIN-SUFFIX,xhvideo.sacdnssedge.com,REJECT
-DOMAIN-SUFFIX,xpis-xcdn.youku.com,REJECT
+DOMAIN-SUFFIX,xpis-xcdn.youku.com,REJECT-200
 DOMAIN-SUFFIX,yunxish.com,REJECT
 DOMAIN-SUFFIX,zhanzhang.toutiao.com,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-DICT
 URL-REGEX,^http:\/\/m\.chensiwx\.com\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js,REJECT-DICT
-URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT
-URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT
+URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT-200
+URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT-200
 URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT-DICT
-IP-CIDR,47.246.103.10/32,REJECT-DROP
-IP-CIDR,47.246.103.9/32,REJECT-DROP
-IP-CIDR,59.82.34.148/32,REJECT-DROP
-IP-CIDR,59.82.34.255/32,REJECT-DROP
-IP-CIDR,59.82.14.161/32,REJECT-DROP
-IP-CIDR,59.82.113.39/32,REJECT-DROP
-IP-CIDR,59.82.113.252/32,REJECT-DROP
-IP-CIDR,203.119.206.64/32,REJECT-DROP
-IP-CIDR,59.82.113.10/32,REJECT-DROP
-IP-CIDR,203.119.211.219/32,REJECT-DROP
-IP-CIDR,59.82.113.219/32,REJECT-DROP
-IP-CIDR,203.119.206.8/32,REJECT-DROP
+IP-CIDR,47.246.103.10/32,REJECT-200
+IP-CIDR,47.246.103.9/32,REJECT-200
+IP-CIDR,59.82.34.148/32,REJECT-200
+IP-CIDR,59.82.34.255/32,REJECT-200
+IP-CIDR,59.82.14.161/32,REJECT-200
+IP-CIDR,59.82.113.39/32,REJECT-200
+IP-CIDR,59.82.113.252/32,REJECT-200
+IP-CIDR,203.119.206.64/32,REJECT-200
+IP-CIDR,59.82.113.10/32,REJECT-200
+IP-CIDR,203.119.211.219/32,REJECT-200
+IP-CIDR,59.82.113.219/32,REJECT-200
+IP-CIDR,203.119.206.8/32,REJECT-200
 DOMAIN-SUFFIX,addons.mozilla.org,PROXY
 DOMAIN-SUFFIX,microsoftedge.microsoft.com,PROXY
 DOMAIN-SUFFIX,radio.itunes.apple.com,PROXY
@@ -445,8 +445,6 @@ DOMAIN-SUFFIX,apprcn.com,DIRECT
 DOMAIN-SUFFIX,appinn.com,DIRECT
 DOMAIN-SUFFIX,apple.cn,DIRECT
 DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,archlinux.org,DIRECT
 DOMAIN-SUFFIX,askzycdn.com,DIRECT
 DOMAIN-SUFFIX,asos.com,DIRECT
 DOMAIN-SUFFIX,aspnetcdn.com,DIRECT
@@ -1263,7 +1261,7 @@ FINAL,PROXY
 ^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
 ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT-200
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
 ^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT
@@ -1271,14 +1269,14 @@ FINAL,PROXY
 ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init$ _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen _ REJECT-DICT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
-^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
-^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT
-^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT
-^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT
+^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT-200
+^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT-200
+^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-200
+^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-200
 ^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
-^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
-^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT
+^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
+^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT-DICT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
 
