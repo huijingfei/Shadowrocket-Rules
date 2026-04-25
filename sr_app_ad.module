@@ -186,7 +186,6 @@ DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT-DICT
 DOMAIN-SUFFIX,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,in-neo.cn,REJECT
 DOMAIN-SUFFIX,insight.adsrvr.org,REJECT
-DOMAIN-SUFFIX,int.jstatic.xyz,REJECT
 DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
 DOMAIN-SUFFIX,ipm.atm.youku.com,REJECT
 DOMAIN-SUFFIX,ipv6.shuzilm.cn,REJECT
@@ -1263,14 +1262,14 @@ FINAL,PROXY
 [URL Rewrite]
 ^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
 ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
-^https?:\/\/([\w\W]*)\.jinnanyq\.com\/js\/backbone\.js _ REJECT-200
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
 ^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT
 ^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT-DICT
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\ _ REJECT-DICT
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init$ _ REJECT-DICT
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen _ REJECT-DICT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
 ^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT
 ^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT
