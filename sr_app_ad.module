@@ -11,10 +11,10 @@ DOMAIN-SUFFIX,ad.gt,REJECT
 DOMAIN-SUFFIX,ada.baidu.com,REJECT
 DOMAIN-SUFFIX,als.baidu.com,REJECT
 DOMAIN-SUFFIX,afd.baidu.com,REJECT
-DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT-DROP
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT-DROP
-DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT-DROP
-DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT-DROP
+DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT-200
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT-200
+DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT-200
+DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT-200
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adlightning.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
@@ -70,7 +70,7 @@ DOMAIN-SUFFIX,app.adjust.net.in,REJECT
 DOMAIN-SUFFIX,app-analytics-services.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,appsflyersdk.com,REJECT-DICT
-DOMAIN-SUFFIX,applog.uc.cn,REJECT-DROP
+DOMAIN-SUFFIX,applog.uc.cn,REJECT-200
 DOMAIN-SUFFIX,aspect-upush.umeng.com,REJECT
 # kugou
 DOMAIN-SUFFIX,activity.kugou.com,REJECT
@@ -95,10 +95,10 @@ DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
 DOMAIN-SUFFIX,beizi.biz,REJECT
 DOMAIN-SUFFIX,bestfunnyads.com,REJECT
 DOMAIN-SUFFIX,bjimp.voiceads.cn,REJECT
-DOMAIN-SUFFIX,boot.biz.weibo.com,REJECT-DROP
-DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT-DROP
-DOMAIN-SUFFIX,bootrealtime.uve.weibo.com,REJECT-DROP
-DOMAIN-SUFFIX,brandvideo.biz.weibo.com,REJECT-DROP
+DOMAIN-SUFFIX,boot.biz.weibo.com,REJECT-200
+DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT-200
+DOMAIN-SUFFIX,bootrealtime.uve.weibo.com,REJECT-200
+DOMAIN-SUFFIX,brandvideo.biz.weibo.com,REJECT-200
 DOMAIN-SUFFIX,bv.lnk0.com,REJECT
 DOMAIN-SUFFIX,bz-ipdx.baidu.com,REJECT
 DOMAIN-SUFFIX,cdn.aimtell.com,REJECT
@@ -167,8 +167,8 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,gridsumdissector.com,REJECT
 DOMAIN-SUFFIX,guangtuikeji.com,REJECT
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT-DROP
-DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT-200
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,h5.analytics.126.net,REJECT
 DOMAIN-SUFFIX,histats.com,REJECT
 DOMAIN-SUFFIX,hm.baidu.com,REJECT
@@ -257,7 +257,7 @@ DOMAIN-SUFFIX,push.zhanzhang.baidu.com,REJECT
 DOMAIN-SUFFIX,preferencenail.com,REJECT
 DOMAIN-SUFFIX,prvc.io,REJECT
 DOMAIN-SUFFIX,pv.sohu.com,REJECT
-DOMAIN-SUFFIX,px.effirst.com,REJECT-DROP
+DOMAIN-SUFFIX,px.effirst.com,REJECT-200
 DOMAIN-SUFFIX,px.ucweb.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,qchannel03.cn,REJECT
@@ -432,10 +432,6 @@ DOMAIN-SUFFIX,aliyuncs.com,DIRECT
 DOMAIN-SUFFIX,aliyundrive.com,DIRECT
 DOMAIN-SUFFIX,alternativeto.net,DIRECT
 DOMAIN-SUFFIX,amap.com,DIRECT
-DOMAIN-SUFFIX,amazon.com,DIRECT
-DOMAIN-SUFFIX,amazonaws.com,DIRECT
-DOMAIN-SUFFIX,amazontrust.com,DIRECT
-DOMAIN-SUFFIX,amazon-adsystem.com,DIRECT
 DOMAIN-SUFFIX,americanexpress.com,DIRECT
 DOMAIN-SUFFIX,amemv.com,DIRECT
 DOMAIN-SUFFIX,ampproject.org,DIRECT
@@ -448,7 +444,6 @@ DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
 DOMAIN-SUFFIX,askzycdn.com,DIRECT
 DOMAIN-SUFFIX,asos.com,DIRECT
 DOMAIN-SUFFIX,aspnetcdn.com,DIRECT
-DOMAIN-SUFFIX,associates-amazon.com,DIRECT
 DOMAIN-SUFFIX,atlassian.net,DIRECT
 DOMAIN-SUFFIX,auth0.com,DIRECT
 DOMAIN-SUFFIX,autodesk.com,DIRECT
@@ -831,7 +826,6 @@ DOMAIN-SUFFIX,mail.ru,DIRECT
 DOMAIN-SUFFIX,mailchimp.com,DIRECT
 DOMAIN-SUFFIX,maimai.cn,DIRECT
 DOMAIN-SUFFIX,mathjax.org,DIRECT
-DOMAIN-SUFFIX,media-amazon.com,DIRECT
 DOMAIN-SUFFIX,mega.co.nz,DIRECT
 DOMAIN-SUFFIX,meipai.com,DIRECT
 DOMAIN-SUFFIX,meitu.com,DIRECT
@@ -946,7 +940,6 @@ DOMAIN-SUFFIX,roblox.com,DIRECT
 DOMAIN-SUFFIX,ruanmei.com,DIRECT
 DOMAIN-SUFFIX,ruby-lang.org.cn,DIRECT
 DOMAIN-SUFFIX,sankuai.com,DIRECT
-DOMAIN-SUFFIX,siege-amazon.com,DIRECT
 DOMAIN-KEYWORD,safebrowsing,DIRECT
 DOMAIN-SUFFIX,salesforce.com,DIRECT
 DOMAIN-SUFFIX,sanity.io,DIRECT
@@ -1002,8 +995,6 @@ DOMAIN-SUFFIX,speedtest.net,DIRECT
 DOMAIN-SUFFIX,spot.im,DIRECT
 DOMAIN-SUFFIX,spotify.com,DIRECT
 DOMAIN-SUFFIX,springer.com,DIRECT
-DOMAIN-SUFFIX,ssl.gstatic.com,DIRECT
-DOMAIN-SUFFIX,ssl-images-amazon.com,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
 DOMAIN-SUFFIX,stackexchange.com,DIRECT
 DOMAIN-SUFFIX,stackoverflow.com,DIRECT
@@ -1264,7 +1255,7 @@ FINAL,PROXY
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT-200
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
-^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT
+^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT-DICT
 ^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init$ _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen _ REJECT-DICT
