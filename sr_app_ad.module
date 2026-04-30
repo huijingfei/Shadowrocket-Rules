@@ -114,7 +114,7 @@ DOMAIN-SUFFIX,cdn.optmn.cloud,REJECT
 DOMAIN-SUFFIX,cdn.sekio.top,REJECT
 DOMAIN-SUFFIX,cdn.viglink.com,REJECT
 DOMAIN-SUFFIX,cdnimg.3g.qq.com,REJECT
-DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT
+DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT-VIDEO
 DOMAIN-SUFFIX,clue.oceanengine.com,REJECT
 DOMAIN-SUFFIX,cluster.xhamster.com,REJECT
 DOMAIN-SUFFIX,cnzz.trafficmanager.net,REJECT
@@ -397,12 +397,6 @@ DOMAIN-SUFFIX,acast.cloud,DIRECT
 DOMAIN-SUFFIX,acast.com,DIRECT
 DOMAIN-SUFFIX,accuweather.com,DIRECT
 DOMAIN-SUFFIX,acgvideo.com,DIRECT
-DOMAIN-SUFFIX,adguard.com,DIRECT
-DOMAIN-SUFFIX,adguard-dns.com,DIRECT
-DOMAIN-SUFFIX,adguardcdn.com,DIRECT
-DOMAIN-SUFFIX,adguard-dns.io,DIRECT
-DOMAIN-SUFFIX,adobe.com,DIRECT
-DOMAIN-SUFFIX,adobedtm.com,DIRECT
 DOMAIN-SUFFIX,advlion.com,DIRECT
 DOMAIN-SUFFIX,ahcdn.com,DIRECT
 DOMAIN-SUFFIX,airbnb.com,DIRECT
@@ -446,21 +440,11 @@ DOMAIN-SUFFIX,asos.com,DIRECT
 DOMAIN-SUFFIX,aspnetcdn.com,DIRECT
 DOMAIN-SUFFIX,atlassian.net,DIRECT
 DOMAIN-SUFFIX,auth0.com,DIRECT
-DOMAIN-SUFFIX,autodesk.com,DIRECT
-DOMAIN-SUFFIX,autodesk.com.sg,DIRECT
-DOMAIN-SUFFIX,autodesk.net,DIRECT
 DOMAIN-SUFFIX,autohome.com.cn,DIRECT
 DOMAIN-SUFFIX,autoimg.cn,DIRECT
 DOMAIN-SUFFIX,autonavi.com,DIRECT
 DOMAIN-SUFFIX,aviationweather.gov,DIRECT
 DOMAIN-SUFFIX,awemeughun.com,DIRECT
-DOMAIN-SUFFIX,aws.dev,DIRECT
-DOMAIN-SUFFIX,awsstatic.com,DIRECT
-DOMAIN-SUFFIX,awswaf.com,DIRECT
-DOMAIN-SUFFIX,azlyrics.com,DIRECT
-DOMAIN-SUFFIX,azure.com,DIRECT
-DOMAIN-SUFFIX,azureedge.net,DIRECT
-DOMAIN-SUFFIX,azurefd.net,DIRECT
 DOMAIN-SUFFIX,babytree.com,DIRECT
 DOMAIN-SUFFIX,bac-assets.com,DIRECT
 DOMAIN-SUFFIX,baidu.com,DIRECT
@@ -625,11 +609,6 @@ DOMAIN-SUFFIX,dzen.ru,DIRECT
 DOMAIN-SUFFIX,dzeninfra.ru,DIRECT
 DOMAIN-SUFFIX,eastday.com,DIRECT
 DOMAIN-SUFFIX,eastmoney.com,DIRECT
-DOMAIN-SUFFIX,ebay.com,DIRECT
-DOMAIN-SUFFIX,ebayimg.com,DIRECT
-DOMAIN-SUFFIX,ebayrtm.com,DIRECT
-DOMAIN-SUFFIX,ebaystatic.cn,DIRECT
-DOMAIN-SUFFIX,ebaystatic.com,DIRECT
 DOMAIN-SUFFIX,eccdnx.com,DIRECT
 DOMAIN-SUFFIX,ecombdapi.com,DIRECT
 DOMAIN-SUFFIX,ecombdimg.com,DIRECT
@@ -966,14 +945,6 @@ DOMAIN-SUFFIX,stackoverflow.com,DIRECT
 DOMAIN-SUFFIX,state.gov,DIRECT
 DOMAIN-SUFFIX,staticfile.org,DIRECT
 DOMAIN-SUFFIX,stcn.com,DIRECT
-DOMAIN-SUFFIX,steam-chat.com,DIRECT
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
-DOMAIN-SUFFIX,steamcontent.com,DIRECT
-DOMAIN-SUFFIX,steamgames.com,DIRECT
-DOMAIN-SUFFIX,steampowered.com,DIRECT
-DOMAIN-SUFFIX,steamstat.us,DIRECT
-DOMAIN-SUFFIX,steamstatic.com,DIRECT
-DOMAIN-SUFFIX,steamusercontent.com,DIRECT
 DOMAIN-SUFFIX,stripe.network,DIRECT
 DOMAIN-SUFFIX,stripe.com,DIRECT
 DOMAIN-SUFFIX,stripecdn.com,DIRECT
@@ -1206,11 +1177,6 @@ IP-CIDR,157.148.62.239/24,DIRECT
 # Jingdong
 IP-CIDR,120.52.30.130/32,DIRECT
 IP-CIDR,101.124.19.122/32,DIRECT
-
-GEOIP,CN,DIRECT
-GEOIP,HK,DIRECT
-GEOIP,SG,DIRECT
-FINAL,PROXY
 
 [URL Rewrite]
 ^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
