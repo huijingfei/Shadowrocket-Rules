@@ -6,4 +6,4 @@
 
 [❗](https://feegle.me/)：如果是老司机，直接扫描二维码即可。
 
-v2ray 规则文件 [Loyalsoldier v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
+[手动维护的 iOS 小火箭 Shadowrocket Rules 屏蔽规则 / 去开屏广告模块](https://tigress.cc/2026/05/01/shadowrocket-module/)
