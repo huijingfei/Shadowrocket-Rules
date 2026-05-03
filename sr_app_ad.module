@@ -1179,13 +1179,13 @@ IP-CIDR,120.52.30.130/32,DIRECT
 IP-CIDR,101.124.19.122/32,DIRECT
 
 [URL Rewrite]
-^https?://(www\.)?g(oogle)?\.cn($|/.*) https://www.google.com 307
+^https?:\/\/(www\.)?g(oogle)?\.cn(\/.*)?$ https://www.google.com 307
 ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT-200
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
-^https://app\.bilibili\.com/x/v2/splash/(event/list|brand/list|show|list) _ REJECT-DICT
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(event\/list|brand\/list|show|list) _ REJECT-DICT
 ^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init$ _ REJECT-DICT
 ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen _ REJECT-DICT
