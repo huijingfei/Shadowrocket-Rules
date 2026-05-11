@@ -337,7 +337,6 @@ DOMAIN-SUFFIX,script-center.bad.news,REJECT-IMG
 DOMAIN-SUFFIX,ubixioe.com,REJECT
 DOMAIN-SUFFIX,v.adintl.cn,REJECT
 DOMAIN-SUFFIX,v2.reachmax.cn,REJECT
-DOMAIN-SUFFIX,video.goofish.com,REJECT-200
 DOMAIN-SUFFIX,vmonitor.ws.netease.com,REJECT
 DOMAIN-SUFFIX,vrmedia-nss.xhcdn.com,REJECT
 DOMAIN-SUFFIX,vt.bidex.cn,REJECT
@@ -373,6 +372,7 @@ IP-CIDR,59.82.113.219/32,REJECT-200
 IP-CIDR,203.119.206.8/32,REJECT-200
 DOMAIN-SUFFIX,addons.mozilla.org,PROXY
 DOMAIN-SUFFIX,microsoftedge.microsoft.com,PROXY
+DOMAIN-SUFFIX,linux.do,PROXY
 DOMAIN-SUFFIX,liveradio.music.apple.com,PROXY
 DOMAIN-SUFFIX,itsliveradio.apple.com,PROXY
 DOMAIN-SUFFIX,liveradiobackup.music.apple.com,PROXY
@@ -678,9 +678,6 @@ DOMAIN-SUFFIX,hp.com,DIRECT
 DOMAIN-SUFFIX,hsappstatic.net,DIRECT
 DOMAIN-SUFFIX,hstv.pro,DIRECT
 DOMAIN-SUFFIX,httpdns.pro,DIRECT
-DOMAIN-SUFFIX,hubspot.com,DIRECT
-DOMAIN-SUFFIX,hubspotusercontent-na1.net,DIRECT
-DOMAIN-SUFFIX,hubspotusercontent40.net,DIRECT
 DOMAIN-SUFFIX,haoduofangs.com,DIRECT
 DOMAIN-SUFFIX,huxiu.com,DIRECT
 DOMAIN-SUFFIX,hypebeast.cn,DIRECT
@@ -749,8 +746,6 @@ DOMAIN-SUFFIX,kwcdn.com,DIRECT
 DOMAIN-SUFFIX,kxcdn.com,DIRECT
 DOMAIN-SUFFIX,lajiao-bo.com,DIRECT
 DOMAIN-SUFFIX,lancdn.com,DIRECT
-DOMAIN-SUFFIX,larksuite.com,DIRECT
-DOMAIN-SUFFIX,larkoffice.com,DIRECT
 DOMAIN-SUFFIX,lpsnmedia.net,DIRECT
 DOMAIN-KEYWORD,ltao.com,DIRECT
 DOMAIN-KEYWORD,litetaobao-app,DIRECT
