@@ -2,7 +2,6 @@
 #!desc=屏蔽国内 APP 开屏广告
 #!category=Rules
 
-
 [Rule]
 DOMAIN-SUFFIX,1sapp.com,REJECT
 DOMAIN-SUFFIX,ad.10010.com,REJECT
@@ -92,7 +91,6 @@ DOMAIN-SUFFIX,welfare.kugou.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
-DOMAIN-SUFFIX,beizi.biz,REJECT
 DOMAIN-SUFFIX,bestfunnyads.com,REJECT
 DOMAIN-SUFFIX,bjimp.voiceads.cn,REJECT
 DOMAIN-SUFFIX,boot.biz.weibo.com,REJECT-200
@@ -114,7 +112,6 @@ DOMAIN-SUFFIX,cdn.optmn.cloud,REJECT
 DOMAIN-SUFFIX,cdn.sekio.top,REJECT
 DOMAIN-SUFFIX,cdn.viglink.com,REJECT
 DOMAIN-SUFFIX,cdnimg.3g.qq.com,REJECT
-DOMAIN-SUFFIX,cloud.video.taobao.com,REJECT-VIDEO
 DOMAIN-SUFFIX,clue.oceanengine.com,REJECT
 DOMAIN-SUFFIX,cluster.xhamster.com,REJECT
 DOMAIN-SUFFIX,cnzz.trafficmanager.net,REJECT
@@ -225,7 +222,6 @@ DOMAIN-SUFFIX,miao.baidu.com,REJECT
 DOMAIN-SUFFIX,miniapp-ad.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,mixer.sina.cn,REJECT
 DOMAIN-SUFFIX,mk.dingtalk.com,REJECT
-DOMAIN-SUFFIX,mmbiz.qpic.cn,REJECT
 DOMAIN-SUFFIX,mmjs.adutp.com,REJECT
 DOMAIN-SUFFIX,mm1.365dmp.com,REJECT
 DOMAIN-SUFFIX,mm3.365dmp.com,REJECT
@@ -275,6 +271,7 @@ DOMAIN-SUFFIX,rlcdn.com,REJECT
 DOMAIN-SUFFIX,saawsedge.com,REJECT
 DOMAIN-SUFFIX,sacdnssedge.com,REJECT
 DOMAIN-SUFFIX,sdk.1rtb.net,REJECT-DICT
+DOMAIN-SUFFIX,sdk.beizi.biz,REJECT-DICT
 DOMAIN-SUFFIX,sdk.e.qq.com,REJECT-DICT
 DOMAIN-SUFFIX,sdkquic.e.qq.com,REJECT-DICT
 DOMAIN-SUFFIX,s.pemsrv.com,REJECT
@@ -1143,8 +1140,9 @@ IP-CIDR,101.124.19.122/32,DIRECT
 ^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT-200
 ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-200
-^https?:\/\/cloud\.video\.taobao\.com\/play\/u\/null([\w\W]*).mp4 _ REJECT
+^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4 _ REJECT-VIDEO
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.idleadv\.(.*) _ REJECT-DICT
 ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT-DICT
