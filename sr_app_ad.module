@@ -399,7 +399,6 @@ DOMAIN-SUFFIX,abowman.com,DIRECT
 DOMAIN-SUFFIX,abs-cbn.com,DIRECT
 DOMAIN-SUFFIX,acast.cloud,DIRECT
 DOMAIN-SUFFIX,acast.com,DIRECT
-DOMAIN-SUFFIX,accuweather.com,DIRECT
 DOMAIN-SUFFIX,acgvideo.com,DIRECT
 DOMAIN-SUFFIX,advlion.com,DIRECT
 DOMAIN-SUFFIX,ahcdn.com,DIRECT
@@ -411,7 +410,6 @@ DOMAIN-SUFFIX,aljazeera.net,DIRECT
 DOMAIN-SUFFIX,alibtrip.com,DIRECT
 DOMAIN-SUFFIX,alternativeto.net,DIRECT
 DOMAIN-SUFFIX,amap.com,DIRECT
-DOMAIN-SUFFIX,americanexpress.com,DIRECT
 DOMAIN-SUFFIX,amemv.com,DIRECT
 DOMAIN-SUFFIX,ampproject.org,DIRECT
 DOMAIN-SUFFIX,aolcdn.com,DIRECT
@@ -446,10 +444,6 @@ DOMAIN-SUFFIX,betanews.com,DIRECT
 DOMAIN-SUFFIX,bf155bf.com,DIRECT
 DOMAIN-SUFFIX,bqg.gg,DIRECT
 DOMAIN-SUFFIX,billdesk.com,DIRECT
-DOMAIN-SUFFIX,blizzard.com,DIRECT
-DOMAIN-SUFFIX,blz-contentstack.com,DIRECT
-DOMAIN-SUFFIX,bigcloud.click,DIRECT
-DOMAIN-SUFFIX,bigcommerce.com,DIRECT
 DOMAIN-SUFFIX,biliapi.com,DIRECT
 DOMAIN-SUFFIX,biliapi.net,DIRECT
 DOMAIN-SUFFIX,bilibili.com,DIRECT
@@ -524,11 +518,6 @@ DOMAIN-SUFFIX,chinaunicom.cn,DIRECT
 DOMAIN-SUFFIX,cifnews.com,DIRECT
 DOMAIN-SUFFIX,cl9987.com,DIRECT
 DOMAIN-SUFFIX,clarity.ms,DIRECT
-DOMAIN-SUFFIX,cloudflare.com,DIRECT
-DOMAIN-SUFFIX,cloudflareinsights.com,DIRECT
-DOMAIN-SUFFIX,cloudflarestorage.com,DIRECT
-DOMAIN-SUFFIX,cloudfront.net,DIRECT
-DOMAIN-SUFFIX,cloudstatic.cn,DIRECT
 DOMAIN-SUFFIX,clubsim.com.hk,DIRECT
 DOMAIN-SUFFIX,cmbchina.com,DIRECT
 DOMAIN-SUFFIX,cmbimg.com,DIRECT
@@ -1129,15 +1118,11 @@ IP-CIDR,101.124.19.122/32,DIRECT
 ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT-200
-^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? _ REJECT
-^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? _ REJECT
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(real_time_)?launch_v2\? _ REJECT-DICT
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(event\/list|brand\/list|show|list) _ REJECT-DICT
-^https?:\/\/m5\.amap\.com\/ws\/feature\/preheat\/bootevent _ REJECT-DICT
-^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init$ _ REJECT-DICT
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen _ REJECT-DICT
+^https?:\/\/m5\.amap\.com\/ws\/(feature\/preheat\/bootevent|shield\/dsp\/app\/startup\/init|valueadded\/alimama\/splash_screen) _ REJECT-DICT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
-^https?:\/\/img\w\.360buyimg\.com\/pop\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif) _ REJECT-200
-^https?:\/\/kjimg10\.360buyimg\.com\/mcmktresadmin\/jfs\/([\w\W]*).(jpg|png|heic|webp|avif)?width=1125&height=2436 _ REJECT-200
+^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif) _ REJECT-200
 ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-200
 ^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4 _ REJECT-VIDEO
