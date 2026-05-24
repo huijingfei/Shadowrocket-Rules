@@ -7,14 +7,17 @@ domain(suffix: edu.kg, suffix: ip.sb, suffix: open-meteo.com, suffix: whatismybr
 domain(suffix: beacondb.net, suffix: dmcdn.net, suffix: edu.kg, suffix: fuckcloudnative.io, suffix: oceansaver.in, suffix: rustdesk.com, suffix: skk.moe) -> direct
 domain(suffix: 91lol.im, suffix: cobalt.tools, suffix:dynadot.com, suffix: gnome.org, suffix: gwdg.de, suffix: sysgeek.cn) -> direct
 domain(suffix: aviationweather.gov, suffix: hdcdn.online, suffix: met.no, suffix: openweathermap.org, suffix: qweather.com, suffix: weatherapi.com, suffix: xzmgo.com) -> direct
-domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: cloudflare-dns.com, suffix: tpc.googlesyndication.com, suffix: onedrive.live.com) -> proxy
-domain(suffix: addons.mozilla.org, suffix: ads.tiktok.com, suffix: primevideo.com, suffix: steamcommunity.com) -> proxy
-domain(suffix: ml0987.com, suffix: opensuse.org) -> proxy
+domain(suffix: analytics.google.com, suffix: ads.google.com, suffix: tpc.googlesyndication.com) -> proxy
+domain(suffix: addons.mozilla.org, suffix: cloudflare-dns.com, suffix: onedrive.live.com, suffix: primevideo.com) -> proxy
+domain(suffix: ml0987.com, suffix: steamcommunity.com) -> proxy
 domain(geosite:category-ads) -> block
 domain(geosite: doubao, geosite:lark, geosite: paypal) -> direct
 dip(geoip:cn, geoip:hk, geoip:tw, geoip:private, 8.219.1.15, 47.245.124.74) -> direct
-domain(geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:tiktok) -> proxy
-domain(geosite:cn, geosite:adobe, geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:bytedance, geosite:cloudflare, geosite:vk, geosite:yandex) -> direct
-domain(geosite:adguard, geosite:akamai, geosite:amazon, geosite:apple, geosite:cloudflare, geosite:fastly, geosite:microsoft, geosite:mozilla) -> direct
-domain(geosite:category-games, geosite: category-dev) -> direct
+dip(91.108.4.0/22, 91.108.8.0/22, 91.108.12.0/22, 91.108.16.0/22, 91.108.20.0/22, 91.108.36.0/23, 91.108.38.0/23, 91.108.56.0/22) -> proxy
+dip(149.154.160.0/20, 149.154.164.0/22, 149.154.168.0/22, 149.154.172.0/22, 185.76.192.0/22) -> proxy
+dip('2001:b28:f23c::/47', '2001:b28:f23f::/48', '2001:67c:4e8::/48') -> proxy
+domain(geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:telegram, geosite:tiktok) -> proxy
+domain(geosite:cn, geosite:adobe, geosite:bilibili, geosite:sina, geosite:vk, geosite:yandex) -> direct
+domain(geosite:adguard, geosite:amazon, geosite:apple, geosite:microsoft, geosite:mozilla) -> direct
+domain(geosite:category-games, geosite: category-dev, geosite: category-cdn-!cn) -> direct
 fallback: proxy
