@@ -3,7 +3,7 @@ upstream {
   onedns: 'tcp+udp://52.80.66.66:53'
   localdns: 'tcp+udp://192.168.1.1:53'
   googledns: 'https://8.8.8.8/dns-query'
-  alidns: 'https://223.5.5.5/dns-query'
+  HebeiUnicomDNS: 'tcp+udp://202.99.160.68:53'
   securedns: 'https://doh.360.cn/dns-query'
   cloudflare-dns: 'https://1.1.1.1/dns-query'
   umbrella: 'https://208.67.222.222/dns-query'
@@ -13,9 +13,9 @@ upstream {
 routing {
   request {
     qname(geosite:adobe, geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:twitter) -> cloudflare-dns
-    qname(geosite:alibaba, geosite:baidu, geosite:bilibili, geosite:category-games, geosite:debian, geosite:doubao, geosite:douyin, geosite:netease, geosite:sina, geosite:tencent, geosite:vk, geosite:yandex, geosite:yy) -> localdns
-    qname(geosite:adguard, geosite:akamai, geosite:amazon, geosite:apple, geosite:bytedance, geosite:cloudflare, geosite:fastly, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> securedns
-    qname(geosite:cn) -> cnnicdns
+    qname(geosite:bilibili, geosite:cn, geosite:debian, geosite:sina, geosite:vk, geosite:yandex, geosite:yy) -> localdns
+    qname(geosite:adguard, geosite:amazon, geosite:apple, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> securedns
+    qname(geosite:lark, geosite:category-games, geosite: category-dev, geosite: category-cdn-!cn) -> cnnicdns
     fallback: googledns
   }
 }
