@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,gdtimg.cn,REJECT
 DOMAIN-SUFFIX,gdtimg.com,REJECT
 DOMAIN-SUFFIX,get.s-onetag.com,REJECT
 DOMAIN-SUFFIX,go.ezodn.com,REJECT
+DOMAIN-SUFFIX,go.mayzaent.com,REJECT
 DOMAIN-SUFFIX,go.mnaspm.com,REJECT
 DOMAIN-SUFFIX,go.xlivesex.com,REJECT
 DOMAIN-SUFFIX,go.xxxvjmp.com,REJECT
@@ -213,6 +214,7 @@ DOMAIN-SUFFIX,magsrv.com,REJECT
 DOMAIN-SUFFIX,mazu.m.qq.com,REJECT
 DOMAIN-SUFFIX,mbid.marfeelrev.com,REJECT
 DOMAIN-SUFFIX,mc.tencentmusic.com,REJECT
+DOMAIN-SUFFIX,mc.yandex.ru,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN-SUFFIX,media.trafficjunky.net,REJECT
 DOMAIN-SUFFIX,media.trafficjunky.com,REJECT
