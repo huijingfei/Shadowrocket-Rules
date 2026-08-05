@@ -10,10 +10,9 @@ upstream {
 routing {
   request {
     qname(geosite:adobe, geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:x) -> cloudflare-dns
-    qname(geosite:bilibili, geosite:cn, geosite:debian, geosite:sina, geosite:vk, geosite:yandex, geosite:yy) -> localdns
-    qname(geosite:adguard, geosite:amazon, geosite:apple, geosite:jsdelivr, geosite:microsoft, geosite:mozilla) -> securedns
+    qname(geosite:cn, geosite:debian, geosite:category-ru) -> localdns
+    qname(geosite:adguard, geosite:amazon, geosite:apple, geosite:microsoft, geosite:mozilla) -> securedns
     qname(geosite:lark, geosite:category-games, geosite: category-dev, geosite: category-cdn-!cn) -> cnnicdns
     qname(suffix: bjxuejing.cn, suffix: tuyoo.com, suffix: wanyiwan.top) -> onedns
     fallback: googledns
   }
-}
