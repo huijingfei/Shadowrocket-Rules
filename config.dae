@@ -1,0 +1,111 @@
+# You can split the configuration into multiple files with `include { ... }`.
+# include {}
+
+global {
+    ##### Software options.
+    tproxy_port: 12345
+    tproxy_port_protect: true
+    pprof_port: 0
+    so_mark_from_dae: 0
+    log_level: info
+    disable_waiting_network: false
+
+    ##### Interface and kernel options.
+    # lan_interface: wlo1
+    wan_interface: auto
+    auto_config_kernel_parameter: true
+
+    ##### Node connectivity check.
+    tcp_check_url: 'http://www.google.com/gen_204,216.58.200.36,2404:6800:4005:809::2004'
+    tcp_check_http_method: GET
+    udp_check_dns: 'dns.google:53,8.8.8.8,2001:4860:4860::8888'
+    check_interval: 30s
+    check_tolerance: 0ms
+
+    ##### Connecting options.
+    dial_mode: domain
+    allow_insecure: true
+    sniffing_timeout: 100ms
+
+    # TLS & uTLS 客户端特征伪装
+    tls_implementation: utls
+    utls_imitate: chrome_auto
+    tls_fragment: false
+
+    # 带宽塑形
+    bandwidth_max_tx: '200 mbps'
+    bandwidth_max_rx: '1 gbps'
+}
+
+subscription {
+    my_sub: 'file://ssrsub.sub'
+}
+
+# 节点配置
+node {
+    local_socks5: 'socks5://127.0.0.1:1080'
+    my_anytls: 'anytls://uuid@ip:端口/?sni=域名&insecure=1#[anytls]us Any 01'
+}
+
+# 分组配置
+group {
+    proxy {
+        # 🇺🇸 美国 AnyTLS 专属低倍率组
+        policy: min_moving_avg
+
+        # 指定 my_anytls 节点
+        filter: name('my_anytls')
+    }
+}
+
+# DNS 配置：upstream 与 DNS 分流规则必须嵌套在 dns{} 内，
+dns {
+    upstream {
+        cnnicdns: 'tcp+udp://1.8.8.8:53'
+        onedns: 'tcp+udp://180.184.1.1:53'
+        localdns: 'tcp+udp://192.168.1.1:53'
+        googledns: 'h3://8.8.8.8/dns-query'
+        securedns: 'https://doh.360.cn/dns-query'
+        cloudflare-dns: 'h3://1.1.1.1/dns-query'
+    }
+
+    routing {
+        request {
+            qname(geosite:adobe, geosite:linkedin, geosite:meta, geosite:github, geosite:google, geosite:x) -> cloudflare-dns
+            qname(geosite:cn, geosite:alibaba, geosite:debian, geosite:category-ru) -> localdns
+            qname(geosite:adguard, geosite:amazon, geosite:apple, geosite:microsoft, geosite:mozilla) -> securedns
+            qname(geosite:lark, geosite:category-games, geosite:category-dev, geosite:category-cdn-!cn) -> cnnicdns
+            qname(suffix:bjxuejing.cn, suffix: meixi-mgo.com, suffix: xzmgo.com, suffix:tuyoo.com, suffix:wanyiwan.top) -> onedns
+        fallback: googledns
+        }
+    }
+}
+
+# 路由匹配核心
+routing {
+    ### Preset rules.
+    pname(NetworkManager, systemd-resolved, dnsmasq, gnome-weather, sing-box) -> must_direct
+    dip(224.0.0.0/3, 'ff00::/8') -> direct
+    dip(geoip:private) -> direct
+
+    ### 自定义规则
+    domain(suffix:cfysoft.cc, suffix:cndhl.com, suffix:huohua.icu, suffix:jisuimage.com, suffix:mytvapp.cc, suffix:scdn.co, suffix:xmfyy.com) -> direct
+    domain(suffix:cdnbuild.net, suffix:cdngslb.com, suffix:ibytedapm.com, suffix:icoa.cn, suffix:icoa.vip, suffix:tigress.cc) -> direct
+    domain(suffix:bjxuejing.cn, suffix:edu.kg, suffix:ip.sb, suffix:open-meteo.com, suffix:wanyiwan.top, suffix:whatismybrowser.com) -> direct
+    domain(suffix:beacondb.net, suffix:dmcdn.net, suffix:fuckcloudnative.io, suffix:localsend.org, suffix:oceansaver.in, suffix:rustdesk.com) -> direct
+    domain(suffix:dynadot.com, suffix: frantech.ca, suffix: gnome.org, suffix: gwdg.de, suffix: meixi-mgo.com, suffix: xzmgo.com) -> direct
+    domain(suffix: accuweather.com, suffix:aviationweather.gov, suffix:hdcdn.online, suffix:met.no, suffix:openweathermap.org, suffix:qweather.com, suffix:weatherapi.com) -> direct
+    domain(suffix:analytics.google.com, suffix:ads.google.com, suffix:tpc.googlesyndication.com) -> proxy
+    domain(suffix:addons.mozilla.org, suffix:onedrive.live.com, suffix:primevideo.com) -> proxy
+    domain(suffix:flathub.org, suffix:ml0987.com, suffix:openwrt.org, suffix:steamcommunity.com) -> proxy
+    domain(geosite:category-ads) -> block
+    dip(geoip:cn, geoip:private, 8.219.1.15, 47.245.124.74) -> direct
+    dip(91.108.4.0/22, 91.108.8.0/22, 91.108.12.0/22, 91.108.16.0/22, 91.108.20.0/22, 91.108.36.0/23, 91.108.38.0/23, 91.108.56.0/22) -> proxy
+    dip(149.154.160.0/20, 149.154.164.0/22, 149.154.168.0/22, 149.154.172.0/22, 185.76.192.0/22) -> proxy
+    dip('2001:b28:f23c::/47', '2001:b28:f23f::/48', '2001:67c:4e8::/48') -> proxy
+    domain(geosite:github, geosite:google, geosite:linkedin, geosite:meta, geosite:paypal, geosite:telegram, geosite:tiktok, geosite:x) -> proxy
+    domain(geosite:alibaba, geosite:cn, geosite:adobe, geosite:category-ru) -> direct
+    domain(geosite:amazon, geosite:apple, geosite:microsoft, geosite:mozilla) -> direct
+    domain(geosite:category-games, geosite:category-dev, geosite:category-browser-!cn) -> direct
+    fallback: proxy
+}
