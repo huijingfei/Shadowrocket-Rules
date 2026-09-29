@@ -373,6 +373,7 @@ DOMAIN-SUFFIX,liveradio.music.apple.com,PROXY
 DOMAIN-SUFFIX,itsliveradio.apple.com,PROXY
 DOMAIN-SUFFIX,liveradiobackup.music.apple.com,PROXY
 DOMAIN-SUFFIX,radio.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,teams.live.com,PROXY
 DOMAIN-SUFFIX,000714.xyz,DIRECT
 DOMAIN-SUFFIX,03hao.top,DIRECT
 DOMAIN-SUFFIX,10010.cn,DIRECT
