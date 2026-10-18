@@ -946,7 +946,6 @@ DOMAIN,yk-ssp.ad.youku.com,REJECT
 DOMAIN,ykad-data.cp31.ott.cibntv.net,REJECT
 DOMAIN,ykad-data.youku.com,REJECT
 DOMAIN,ykad-gateway.youku.com,REJECT
-DOMAIN,ysad.yy.com,REJECT
 DOMAIN,ytx-file.110route.cn,REJECT
 DOMAIN,yumao.puata.info,REJECT
 DOMAIN,zeus.ad.xiaomi.com,REJECT
