@@ -2116,7 +2116,7 @@ IP-CIDR,61.182.131.252/24,DIRECT
 
 [URL Rewrite]
 ^https?:\/\/(www\.)?(g\.cn|google\.cn)\/?$ https://www.google.com 307
-^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
+^https?:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$ _ REJECT-DICT
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ REJECT
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125 _ REJECT-200
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/(real_time_)?launch_v2\? _ REJECT-DICT
@@ -2125,9 +2125,9 @@ IP-CIDR,61.182.131.252/24,DIRECT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop) _ REJECT
 ^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif) _ REJECT-200
 ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp) _ REJECT-200
-^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4 _ REJECT-200
-^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4 _ REJECT-VIDEO
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
+^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*)\.mp4 _ REJECT-200
+^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4 _ REJECT-200
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.idleadv\.(.*) _ REJECT-DICT
 ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
