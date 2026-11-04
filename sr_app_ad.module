@@ -363,6 +363,7 @@ DOMAIN,de.ad.gameley.com,REJECT
 DOMAIN,de.tynt.com,REJECT
 DOMAIN,diagnosis.ad.xiaomi.com,REJECT
 DOMAIN,dlogs.bwton.com,REJECT
+DOMAIN-SUFFIX,dm.wo.com.cn,REJECT-DROP
 DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,domain.aishengji.com,REJECT
 DOMAIN,doubleclick-cn.net,REJECT
@@ -392,6 +393,8 @@ DOMAIN,fclog.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,file.daihuo.qq.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,fraud-detection.engine.miui.com,REJECT-DROP
+DOMAIN-SUFFIX,flash.sec.miui.com,REJECT-DROP
 DOMAIN,flurry.com,REJECT
 DOMAIN,frontend-perf-service.e.kuaishou.com,REJECT
 DOMAIN,fxgate.baidu.com,REJECT
