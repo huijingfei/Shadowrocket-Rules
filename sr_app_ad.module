@@ -361,6 +361,7 @@ DOMAIN,datacollection.uve.weibo.com,REJECT
 DOMAIN,dc.sigmob.cn,REJECT
 DOMAIN,de.ad.gameley.com,REJECT
 DOMAIN,de.tynt.com,REJECT
+DOMAIN-SUFFIX,detection-aigc.engine.miui.com,REJECT-DROP
 DOMAIN,diagnosis.ad.xiaomi.com,REJECT
 DOMAIN,dlogs.bwton.com,REJECT
 DOMAIN-SUFFIX,dm.wo.com.cn,REJECT-DROP
@@ -393,8 +394,6 @@ DOMAIN,fclog.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,file.daihuo.qq.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
-DOMAIN-SUFFIX,fraud-detection.engine.miui.com,REJECT-DROP
-DOMAIN-SUFFIX,flash.sec.miui.com,REJECT-DROP
 DOMAIN,flurry.com,REJECT
 DOMAIN,frontend-perf-service.e.kuaishou.com,REJECT
 DOMAIN,fxgate.baidu.com,REJECT
@@ -752,6 +751,7 @@ DOMAIN,search.ixigua.com,REJECT
 DOMAIN,search3-search.ixigua.com,REJECT
 DOMAIN,search5-search-hl.ixigua.com,REJECT
 DOMAIN,search5-search.ixigua.com,REJECT
+DOMAIN-SUFFIX,sec.miui.com,REJECT-DROP
 DOMAIN,securemetrics.apple.com,REJECT
 DOMAIN,securepubads.g.doubleclick.net,REJECT
 DOMAIN,sensors-log.dongqiudi.com,REJECT
