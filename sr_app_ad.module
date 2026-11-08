@@ -187,6 +187,7 @@ DOMAIN,adx-strategy-api-cn.statisticslinks.com,REJECT
 DOMAIN,adx.ads.heytapmobi.com,REJECT
 DOMAIN,adx.ads.oppomobile.com,REJECT
 DOMAIN,adx.appsdk.com.cn,REJECT
+DOMAIN-SUFFIX,adx.halomobi.com,REJECT
 DOMAIN,adx.sogaha.cn,REJECT
 DOMAIN,adx.tuia.cn,REJECT
 DOMAIN,adxlog-adnet.vivo.com.cn,REJECT
@@ -293,6 +294,7 @@ DOMAIN,bj-td-menta-01-callback.advlion.com,REJECT
 DOMAIN,bj.ad.track.66mobi.com,REJECT
 DOMAIN,books-analytics-events.apple.com,REJECT
 DOMAIN,bootpreload.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,bridgeads.massx.com,REJECT
 DOMAIN,brandadsstatic.vivo.com.cn,REJECT
 DOMAIN,browser.events.data.msn.cn,REJECT
 DOMAIN,browser.events.data.msn.com,REJECT
@@ -808,6 +810,7 @@ DOMAIN,target.ads.jihuoniao.com,REJECT
 DOMAIN,tdc.qq.com,REJECT
 DOMAIN,tdsdk.cpatrk.net,REJECT
 DOMAIN,tdsdk.xdrig.com,REJECT
+DOMAIN-SUFFIX,tencent-ssp.66mobi.com,REJECT
 DOMAIN,telecome.cn,REJECT
 DOMAIN,telemetry.sdk.inmobi.com,REJECT
 DOMAIN,tencent-dtv.m.cn.miaozhen.com,REJECT
