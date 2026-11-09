@@ -2123,6 +2123,7 @@ IP-CIDR,61.182.131.252/24,DIRECT
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash _ REJECT-DICT
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.idleadv\.(.*) _ REJECT-DICT
 ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
+^https?:\/\/img\.alicdn\.com\/imgextra\/i\d\/.*fleamarket\.(jpg|jpeg|png|webp) _ REJECT-200
 ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp) _ REJECT-200
 ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv _ REJECT-DICT
 ^https?:\/\/open\.taou\.com\/maimai\/adshow _ REJECT
