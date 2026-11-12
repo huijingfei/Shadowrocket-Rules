@@ -905,6 +905,7 @@ DOMAIN,vipauth.hpplay.cn,REJECT
 DOMAIN,vipgslb.hpplay.cn,REJECT
 DOMAIN,virusinfo-cloudscan-cn.heytapmobi.com,REJECT
 DOMAIN,vlive.qqvideo.tc.qq.com,REJECT
+DOMAIN,vod.cn-shanghai.aliyuncs.com,REJECT
 DOMAIN,volc.bj.ad.track.66mobi.com,REJECT
 DOMAIN,vungle.com,REJECT
 DOMAIN,w.l.qq.com,REJECT
