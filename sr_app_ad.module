@@ -1349,6 +1349,7 @@ URL-REGEX,https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.j
 URL-REGEX,m\.xsbiquge\.la\/js\/detail\.js,REJECT-DICT
 URL-REGEX,p([\w]*)\-ad\-sign\.byteimg\.com\/web\.business\.image,REJECT-200
 URL-REGEX,p([\w]*)\-sign\.douyinpic\.com\/large\/tos,REJECT-200
+DOMAIN-SUFFIX,accounts.firefox.com,PROXY
 DOMAIN-SUFFIX,addons.mozilla.org,PROXY
 DOMAIN-SUFFIX,itsliveradio.apple.com,PROXY
 DOMAIN-SUFFIX,linux.do,PROXY
